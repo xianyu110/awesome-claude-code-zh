@@ -28,6 +28,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 
 <table>
 <tr><th align="left">Name<td><code>/say-hello</code></td></tr>
+<tr><th align="left">Author<td>@hesreallyhim</td></tr>
 <tr><th align="left">Source<td><a href="https://github.com/hesreallyhim/claude-code-workflows/blob/main/commands/say-hello.md" target="_blank">GitHub</a></td></tr>
 </table>
 
@@ -37,10 +38,11 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 
 <table>
 <tr><th align="left">Name<td><code>/say-goodbye</code></td></tr>
+<tr><th align="left">Author<td>@hesreallyhim</td></tr>
 <tr><th align="left">Source<td><a href="https://github.com/hesreallyhim/claude-code-workflows/blob/main/commands/say-goodbye.md" target="_blank">GitHub</a></td></tr>
 </table>
 
-**Description:** A simple goodybe-world command that prints "Hello, Goodbye!" to the console.
+**Description:** A simple goodybe-world command that prints "Goodbye, World!" to the console.
 
 ## [`CLAUDE.md` Files](#claudemd-files)
 - TODO
