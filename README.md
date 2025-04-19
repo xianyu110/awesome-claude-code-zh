@@ -47,3 +47,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 
 ## [CLI Workflows](#cli-workflows)
 - TODO 
+
+## Contributing
+
+I'm still working out the best way to structure this repository, but if you have anything you'd like to add to the list, feel free to make a pull request or open an issue.
