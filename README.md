@@ -43,7 +43,35 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 
 ## [`CLAUDE.md` Files](#claudemd-files)
 
-- TODO
+### Repository Name
+
+<table>
+<tr><th align="left">Repository<td><a href="https://github.com/owner/repo" target="_blank">owner/repo</a></td></tr>
+<tr><th align="left">Stars<td>⭐ 1.2k</td></tr>
+<tr><th align="left">Source<td><a href="https://github.com/owner/repo/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
+<tr><th align="left">Category<td>Web Development, TypeScript</td></tr>
+</table>
+
+**Highlights:**
+- Build/lint/test commands for Claude to use
+- Repository structure explanation
+- Code style guidelines for contributing
+- Custom error handling instructions
+
+### Another Repository
+
+<table>
+<tr><th align="left">Repository<td><a href="https://github.com/another/repo" target="_blank">another/repo</a></td></tr>
+<tr><th align="left">Stars<td>⭐ 5.6k</td></tr>
+<tr><th align="left">Source<td><a href="https://github.com/another/repo/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
+<tr><th align="left">Category<td>Machine Learning, Python</td></tr>
+</table>
+
+**Highlights:**
+- Model training workflow instructions
+- Dataset processing guidelines
+- Documentation patterns
+- Testing framework integration
 
 ## [CLI Workflows](#cli-workflows)
 
