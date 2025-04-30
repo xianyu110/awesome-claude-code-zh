@@ -37,6 +37,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 
 <table>
 <tr><th align="left">Name<td><code>/say-goodbye</code></td></tr>
+<tr><th align="left">Author<td>@hesreallyhim</td></tr>
 <tr><th align="left">Source<td><a href="https://github.com/hesreallyhim/claude-code-workflows/blob/main/commands/say-goodbye.md" target="_blank">GitHub</a></td></tr>
 </table>
 
@@ -263,6 +264,146 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 - Layered library architecture with four key system components
 - Monorepo structure using yarn workspaces for organized package management
 - Strict code quality requirements with formatting rules and testing standards
+
+### AWS MCP Server
+
+<table>
+<tr><th align="left">Repository<td><a href="https://github.com/alexei-led/aws-mcp-server" target="_blank">alexei-led/aws-mcp-server</a></td></tr>
+<tr><th align="left">Source<td><a href="https://github.com/alexei-led/aws-mcp-server/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
+<tr><th align="left">Category<td>Python, AWS, Development Guide, Best Practices</td></tr>
+</table>
+
+**Highlights:**
+- Multiple environment setup options using modern Python tools
+- Detailed code style guidelines and best practices
+- Comprehensive error handling and logging recommendations
+- Security considerations for AWS CLI interactions
+
+### AI IntelliJ Plugin
+
+<table>
+<tr><th align="left">Repository<td><a href="https://github.com/didalgolab/ai-intellij-plugin" target="_blank">didalgolab/ai-intellij-plugin</a></td></tr>
+<tr><th align="left">Source<td><a href="https://github.com/didalgolab/ai-intellij-plugin/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
+<tr><th align="left">Category<td>IntelliJ Plugin, Gradle, Testing, Code Standards</td></tr>
+</table>
+
+**Highlights:**
+- Comprehensive Gradle commands for plugin development
+- IntelliJ Platform-specific coding patterns and guidelines
+- Detailed package structure and naming conventions
+- Clear guidelines for internationalization using bundles
+
+### DroidconKotlin
+
+<table>
+<tr><th align="left">Repository<td><a href="https://github.com/touchlab/DroidconKotlin" target="_blank">touchlab/DroidconKotlin</a></td></tr>
+<tr><th align="left">Source<td><a href="https://github.com/touchlab/DroidconKotlin/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
+<tr><th align="left">Category<td>Kotlin Multiplatform, Android, iOS, Compose</td></tr>
+</table>
+
+**Highlights:**
+- Comprehensive Gradle commands for cross-platform development
+- Clear module structure for multiplatform architecture
+- Specific coding standards for Kotlin Multiplatform projects
+- Practical guidance for dependency injection and UI patterns
+
+### MCP Engine
+
+<table>
+<tr><th align="left">Repository<td><a href="https://github.com/featureform/mcp-engine" target="_blank">featureform/mcp-engine</a></td></tr>
+<tr><th align="left">Source<td><a href="https://github.com/featureform/mcp-engine/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
+<tr><th align="left">Category<td>Python, Code Quality, Pull Requests, Type Checking</td></tr>
+</table>
+
+**Highlights:**
+- Strict package management and tooling requirements
+- Comprehensive type checking and code formatting rules
+- Explicit PR description and reviewer guidelines
+- Systematic approach to resolving CI failures
+
+### Network Chronicles
+
+<table>
+<tr><th align="left">Repository<td><a href="https://github.com/Fimeg/NetworkChronicles" target="_blank">Fimeg/NetworkChronicles</a></td></tr>
+<tr><th align="left">Source<td><a href="https://github.com/Fimeg/NetworkChronicles/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
+<tr><th align="left">Category<td>Game Design, LLM Integration, Character Design, Narrative</td></tr>
+</table>
+
+**Highlights:**
+- Detailed implementation plan for an AI-driven game character
+- Technical specifications for LLM integration in games
+- Character guidelines and conversational constraints
+- Service discovery mechanics implementation details
+
+### Note Companion
+
+<table>
+<tr><th align="left">Repository<td><a href="https://github.com/different-ai/note-companion" target="_blank">different-ai/note-companion</a></td></tr>
+<tr><th align="left">Source<td><a href="https://github.com/different-ai/note-companion/blob/master/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
+<tr><th align="left">Category<td>Obsidian Plugin, Styling Guide, Tailwind, UI Components</td></tr>
+</table>
+
+**Highlights:**
+- Provides detailed styling isolation techniques for Obsidian plugins
+- Uses Tailwind with custom prefix (`fo-`) to prevent style conflicts
+- Includes practical troubleshooting steps for common styling issues
+- Offers concrete code examples for component implementation
+
+### Perplexity MCP
+
+<table>
+<tr><th align="left">Repository<td><a href="https://github.com/Family-IT-Guy/perplexity-mcp" target="_blank">Family-IT-Guy/perplexity-mcp</a></td></tr>
+<tr><th align="left">Source<td><a href="https://github.com/Family-IT-Guy/perplexity-mcp/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
+<tr><th align="left">Category<td>Perplexity API, Node.js, MCP Protocol, Installation</td></tr>
+</table>
+
+**Highlights:**
+- Clear step-by-step installation instructions
+- Multiple configuration options for different environments
+- Detailed troubleshooting guidance with diagnostic steps
+- Concise architecture overview of the MCP protocol implementation
+
+### SG Cars Trends Backend
+
+<table>
+<tr><th align="left">Repository<td><a href="https://github.com/sgcarstrends/backend" target="_blank">sgcarstrends/backend</a></td></tr>
+<tr><th align="left">Source<td><a href="https://github.com/sgcarstrends/backend/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
+<tr><th align="left">Category<td>TypeScript, Monorepo, AWS, Testing</td></tr>
+</table>
+
+**Highlights:**
+- Comprehensive structure for TypeScript monorepo projects
+- Detailed commands for development, testing, and deployment
+- Clear environment variable documentation and usage
+- AWS and Cloudflare deployment specifications
+
+### TPL
+
+<table>
+<tr><th align="left">Repository<td><a href="https://github.com/KarpelesLab/tpl" target="_blank">KarpelesLab/tpl</a></td></tr>
+<tr><th align="left">Source<td><a href="https://github.com/KarpelesLab/tpl/blob/master/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
+<tr><th align="left">Category<td>Golang, Error Handling, Testing, Code Standards</td></tr>
+</table>
+
+**Highlights:**
+- Detailed Go project conventions and build commands
+- Comprehensive error handling recommendations
+- Table-driven testing approach guidelines
+- Modernization suggestions for adopting latest Go features
+
+### AVS Vibe Developer Guide
+
+<table>
+<tr><th align="left">Repository<td><a href="https://github.com/Layr-Labs/avs-vibe-developer-guide" target="_blank">Layr-Labs/avs-vibe-developer-guide</a></td></tr>
+<tr><th align="left">Source<td><a href="https://github.com/Layr-Labs/avs-vibe-developer-guide/blob/master/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
+<tr><th align="left">Category<td>EigenLayer, Prompt Engineering, Documentation, Blockchain</td></tr>
+</table>
+
+**Highlights:**
+- Structures AI-assisted EigenLayer AVS development workflow
+- Provides consistent naming conventions for prompt files
+- Outlines progression from idea to implementation
+- Establishes terminology standards for blockchain concepts
 
 
 ## [CLI Workflows](#cli-workflows)
