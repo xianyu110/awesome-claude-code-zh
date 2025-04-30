@@ -43,35 +43,146 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 
 ## [`CLAUDE.md` Files](#claudemd-files)
 
-### Repository Name
+### Guitar
 
 <table>
-<tr><th align="left">Repository<td><a href="https://github.com/owner/repo" target="_blank">owner/repo</a></td></tr>
-<tr><th align="left">Stars<td>⭐ 1.2k</td></tr>
-<tr><th align="left">Source<td><a href="https://github.com/owner/repo/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
-<tr><th align="left">Category<td>Web Development, TypeScript</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/soramimi/Guitar" target="_blank">soramimi/Guitar</a></td></tr>
+<tr><th align="left">Source<td><a href="https://github.com/soramimi/Guitar/blob/master/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
+<tr><th align="left">Category<td>Development, C++, Qt</td></tr>
 </table>
 
 **Highlights:**
-- Build/lint/test commands for Claude to use
-- Repository structure explanation
+- Development guide for Guitar Git GUI Client
+- Build commands for various platforms
 - Code style guidelines for contributing
-- Custom error handling instructions
+- Project structure explanation
 
-### Another Repository
+### Inkline
 
 <table>
-<tr><th align="left">Repository<td><a href="https://github.com/another/repo" target="_blank">another/repo</a></td></tr>
-<tr><th align="left">Stars<td>⭐ 5.6k</td></tr>
-<tr><th align="left">Source<td><a href="https://github.com/another/repo/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
-<tr><th align="left">Category<td>Machine Learning, Python</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/inkline/inkline" target="_blank">inkline/inkline</a></td></tr>
+<tr><th align="left">Source<td><a href="https://github.com/inkline/inkline/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
+<tr><th align="left">Category<td>UI Framework, Vue.js, TypeScript</td></tr>
 </table>
 
 **Highlights:**
-- Model training workflow instructions
-- Dataset processing guidelines
-- Documentation patterns
-- Testing framework integration
+- Development guide for Vue.js 3 UI Components library
+- Build and test commands
+- Component development guidelines
+- Contribution workflow
+
+### HASH
+
+<table>
+<tr><th align="left">Repository<td><a href="https://github.com/hashintel/hash" target="_blank">hashintel/hash</a></td></tr>
+<tr><th align="left">Source<td><a href="https://github.com/hashintel/hash/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
+<tr><th align="left">Category<td>Knowledge Graph, Rust, TypeScript</td></tr>
+</table>
+
+**Highlights:**
+- Comprehensive development guide for HASH knowledge graph
+- Repository structure explanation
+- Coding standards and best practices
+- Testing and deployment workflows
+
+### Course Builder
+
+<table>
+<tr><th align="left">Repository<td><a href="https://github.com/badass-courses/course-builder" target="_blank">badass-courses/course-builder</a></td></tr>
+<tr><th align="left">Source<td><a href="https://github.com/badass-courses/course-builder/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
+<tr><th align="left">Category<td>Education, Web Development, TypeScript</td></tr>
+</table>
+
+**Highlights:**
+- Development guidance for course-builder platform
+- Framework for building online courses
+- Project organization and structure
+- Contribution guidelines
+
+### Pareto Mac
+
+<table>
+<tr><th align="left">Repository<td><a href="https://github.com/ParetoSecurity/pareto-mac" target="_blank">ParetoSecurity/pareto-mac</a></td></tr>
+<tr><th align="left">Source<td><a href="https://github.com/ParetoSecurity/pareto-mac/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
+<tr><th align="left">Category<td>Security, Swift, macOS</td></tr>
+</table>
+
+**Highlights:**
+- Development guide for Mac security audit tool
+- Build instructions and workflows
+- Contribution guidelines
+- Testing procedures
+
+### EDSL
+
+<table>
+<tr><th align="left">Repository<td><a href="https://github.com/expectedparrot/edsl" target="_blank">expectedparrot/edsl</a></td></tr>
+<tr><th align="left">Source<td><a href="https://github.com/expectedparrot/edsl/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
+<tr><th align="left">Category<td>AI/ML, Python, Research</td></tr>
+</table>
+
+**Highlights:**
+- Codebase reference for AI-powered surveys and experiments
+- Framework organization
+- Implementation details
+- Usage patterns
+
+### JSBeeb
+
+<table>
+<tr><th align="left">Repository<td><a href="https://github.com/mattgodbolt/jsbeeb" target="_blank">mattgodbolt/jsbeeb</a></td></tr>
+<tr><th align="left">Source<td><a href="https://github.com/mattgodbolt/jsbeeb/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
+<tr><th align="left">Category<td>Emulation, JavaScript</td></tr>
+</table>
+
+**Highlights:**
+- Development guide for JavaScript BBC Micro emulator
+- Build and testing instructions
+- Architecture documentation
+- Debugging workflows
+
+### Comm
+
+<table>
+<tr><th align="left">Repository<td><a href="https://github.com/CommE2E/comm" target="_blank">CommE2E/comm</a></td></tr>
+<tr><th align="left">Source<td><a href="https://github.com/CommE2E/comm/blob/master/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
+<tr><th align="left">Category<td>Messaging, Security, JavaScript/Rust</td></tr>
+</table>
+
+**Highlights:**
+- Development reference for E2E-encrypted messaging app
+- Code organization and architecture
+- Security implementation details
+- Testing and deployment procedures
+
+### SPy
+
+<table>
+<tr><th align="left">Repository<td><a href="https://github.com/spylang/spy" target="_blank">spylang/spy</a></td></tr>
+<tr><th align="left">Source<td><a href="https://github.com/spylang/spy/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
+<tr><th align="left">Category<td>Programming Language, Python</td></tr>
+</table>
+
+**Highlights:**
+- Development guide for SPy programming language
+- Build and contribution workflows
+- Language design principles
+- Testing framework
+
+### Lamoom Python
+
+<table>
+<tr><th align="left">Repository<td><a href="https://github.com/LamoomAI/lamoom-python" target="_blank">LamoomAI/lamoom-python</a></td></tr>
+<tr><th align="left">Source<td><a href="https://github.com/LamoomAI/lamoom-python/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
+<tr><th align="left">Category<td>AI/ML, Python</td></tr>
+</table>
+
+**Highlights:**
+- Reference for production prompt engineering library
+- Load balancing of AI Models
+- API documentation
+- Usage patterns and examples
+
 
 ## [CLI Workflows](#cli-workflows)
 
