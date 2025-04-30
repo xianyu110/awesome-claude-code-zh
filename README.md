@@ -27,6 +27,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 
 <table>
 <tr><th align="left">Name<td><code>/say-hello</code></td></tr>
+<tr><th align="left">Author<td>@hesreallyhim</td></tr>
 <tr><th align="left">Source<td><a href="https://github.com/hesreallyhim/claude-code-workflows/blob/main/commands/say-hello.md" target="_blank">GitHub</a></td></tr>
 </table>
 
@@ -39,7 +40,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 <tr><th align="left">Source<td><a href="https://github.com/hesreallyhim/claude-code-workflows/blob/main/commands/say-goodbye.md" target="_blank">GitHub</a></td></tr>
 </table>
 
-**Description:** A simple goodybe-world command that prints "Hello, Goodbye!" to the console.
+**Description:** A simple goodbye-world command that prints "Goodbye, World!" to the console.
 
 ## [`CLAUDE.md` Files](#claudemd-files)
 
@@ -66,10 +67,11 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 </table>
 
 **Highlights:**
-- Development guide for Vue.js 3 UI Components library
-- Build and test commands
-- Component development guidelines
-- Contribution workflow
+- Structured development workflow using pnpm for project management
+- Emphasis on TypeScript and Vue 3 Composition API
+- Detailed component creation process with folder structure guidelines
+- Note on auto-generated stylesheets and component manifests
+- Comprehensive testing recommendations for components and utilities
 
 ### HASH
 
@@ -80,24 +82,26 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 </table>
 
 **Highlights:**
-- Comprehensive development guide for HASH knowledge graph
-- Repository structure explanation
-- Coding standards and best practices
-- Testing and deployment workflows
+- Comprehensive repository structure breakdown into `/apps`, `/blocks`, `/libs`, and `/infra`
+- Strong emphasis on reading full coding standards before development
+- Detailed Rust documentation guidelines for functions, types, and examples
+- Extensive command reference for both TypeScript and Rust workflows
+- Systematic PR review guide with structured approach to code review
 
 ### Course Builder
 
 <table>
 <tr><th align="left">Repository<td><a href="https://github.com/badass-courses/course-builder" target="_blank">badass-courses/course-builder</a></td></tr>
-<tr><th align="left">Source<td><a href="https://github.com/badass-courses/course-builder/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
+<tr><th align="left">Source<td><a href="https://github.com/badass-courses/course-builder/blob/master/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
 <tr><th align="left">Category<td>Education, Web Development, TypeScript</td></tr>
 </table>
 
 **Highlights:**
-- Development guidance for course-builder platform
-- Framework for building online courses
-- Project organization and structure
-- Contribution guidelines
+- Real-time multiplayer capabilities for collaborative course creation
+- Diverse tech stack including Next.js, TypeScript, Drizzle ORM, and AI
+- Monorepo architecture with Turborepo and PNPM workspaces
+- Advanced features for video processing and AI-assisted content
+- Detailed development patterns for code generation and utility packages
 
 ### Pareto Mac
 
@@ -122,10 +126,11 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 </table>
 
 **Highlights:**
-- Codebase reference for AI-powered surveys and experiments
-- Framework organization
-- Implementation details
-- Usage patterns
+- Detailed build and test commands for installation and documentation
+- Strict code style enforcing formatting, naming, and type hinting
+- Comprehensive testing requirements for type checking and coverage
+- Clear permissions framework defining allowed and prohibited actions
+- Standardized development workflow with tools like Black and mypy
 
 ### JSBeeb
 
@@ -164,10 +169,11 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 </table>
 
 **Highlights:**
-- Development guide for SPy programming language
-- Build and contribution workflows
-- Language design principles
-- Testing framework
+- Strict coding conventions with specific naming standards
+- Comprehensive testing guidelines with backend-specific execution
+- Multiple code compilation options with clear examples
+- Best practices for meaningful comments explaining "why" not just "what"
+- Backend-specific test decorators for targeted test filtering
 
 ### Lamoom Python
 
@@ -182,6 +188,81 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 - Load balancing of AI Models
 - API documentation
 - Usage patterns and examples
+
+### Anthropic Quickstarts
+
+<table>
+<tr><th align="left">Repository<td><a href="https://github.com/anthropics/anthropic-quickstarts" target="_blank">anthropics/anthropic-quickstarts</a></td></tr>
+<tr><th align="left">Source<td><a href="https://github.com/anthropics/anthropic-quickstarts/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
+<tr><th align="left">Category<td>AI/ML, Developer Tools, Tutorials</td></tr>
+</table>
+
+**Highlights:**
+- Comprehensive development guides for three distinct AI-powered demo projects
+- Standardized development workflow across different project types
+- Strict code style guidelines for Python and TypeScript
+- Docker and environment setup instructions for containerization
+- Testing and quality assurance procedures for each project type
+
+### Basic Memory
+
+<table>
+<tr><th align="left">Repository<td><a href="https://github.com/basicmachines-co/basic-memory" target="_blank">basicmachines-co/basic-memory</a></td></tr>
+<tr><th align="left">Source<td><a href="https://github.com/basicmachines-co/basic-memory/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
+<tr><th align="left">Category<td>Knowledge Management, AI, Markdown</td></tr>
+</table>
+
+**Highlights:**
+- Innovative AI-human collaboration framework for seamless development
+- Model Context Protocol (MCP) for bidirectional LLM-markdown communication
+- Unique GitHub integration with AI as a full team member
+- Flexible knowledge structure with entities, observations, and relations
+- Advanced MCP tools for content management and knowledge graph navigation
+
+### Cursor Tools
+
+<table>
+<tr><th align="left">Repository<td><a href="https://github.com/eastlondoner/cursor-tools" target="_blank">eastlondoner/cursor-tools</a></td></tr>
+<tr><th align="left">Source<td><a href="https://github.com/eastlondoner/cursor-tools/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
+<tr><th align="left">Category<td>CLI, AI Tools, Developer Tools</td></tr>
+</table>
+
+**Highlights:**
+- Versatile AI command interface supporting multiple AI providers and models
+- Flexible command options with extensive customization through provider selection
+- Advanced AI collaboration with built-in commands for planning and research
+- Browser automation through "Stagehand" feature for complex web interactions
+- User-friendly nicknames for commands making the tool more approachable
+
+### Giselle
+
+<table>
+<tr><th align="left">Repository<td><a href="https://github.com/giselles-ai/giselle" target="_blank">giselles-ai/giselle</a></td></tr>
+<tr><th align="left">Source<td><a href="https://github.com/giselles-ai/giselle/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
+<tr><th align="left">Category<td>TypeScript, React, Next.js</td></tr>
+</table>
+
+**Highlights:**
+- Detailed build and test commands using pnpm and Vitest
+- Strict code formatting requirements with mandatory Biome checks
+- Comprehensive naming conventions ensuring code consistency
+- Language inclusivity guidelines for documentation
+- Clear technical stack preferences with TypeScript and React hooks
+
+### LangGraphJS
+
+<table>
+<tr><th align="left">Repository<td><a href="https://github.com/langchain-ai/langgraphjs" target="_blank">langchain-ai/langgraphjs</a></td></tr>
+<tr><th align="left">Source<td><a href="https://github.com/langchain-ai/langgraphjs/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
+<tr><th align="left">Category<td>AI/ML, TypeScript, JavaScript</td></tr>
+</table>
+
+**Highlights:**
+- Comprehensive build and test commands with specific linting instructions
+- Detailed TypeScript code style guidelines emphasizing ES2021 standards
+- Layered library architecture with four key system components
+- Monorepo structure using yarn workspaces for organized package management
+- Strict code quality requirements with formatting rules and testing standards
 
 
 ## [CLI Workflows](#cli-workflows)
