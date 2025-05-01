@@ -51,6 +51,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 <tr><th align="left">Repository<td><a href="https://github.com/didalgolab/ai-intellij-plugin" target="_blank">didalgolab/ai-intellij-plugin</a></td></tr>
 <tr><th align="left">Source<td><a href="https://github.com/didalgolab/ai-intellij-plugin/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
 <tr><th align="left">Category<td>IntelliJ Plugin, Gradle, Testing, Code Standards</td></tr>
+<tr><th align="left">License<td>Apache-2.0</td></tr>
 </table>
 
 **Highlights:**
@@ -65,6 +66,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 <tr><th align="left">Repository<td><a href="https://github.com/anthropics/anthropic-quickstarts" target="_blank">anthropics/anthropic-quickstarts</a></td></tr>
 <tr><th align="left">Source<td><a href="https://github.com/anthropics/anthropic-quickstarts/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
 <tr><th align="left">Category<td>AI/ML, Developer Tools, Tutorials</td></tr>
+<tr><th align="left">License<td>MIT</td></tr>
 </table>
 
 **Highlights:**
@@ -80,6 +82,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 <tr><th align="left">Repository<td><a href="https://github.com/Layr-Labs/avs-vibe-developer-guide" target="_blank">Layr-Labs/avs-vibe-developer-guide</a></td></tr>
 <tr><th align="left">Source<td><a href="https://github.com/Layr-Labs/avs-vibe-developer-guide/blob/master/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
 <tr><th align="left">Category<td>EigenLayer, Prompt Engineering, Documentation, Blockchain</td></tr>
+<tr><th align="left">License<td>MIT</td></tr>
 </table>
 
 **Highlights:**
@@ -94,6 +97,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 <tr><th align="left">Repository<td><a href="https://github.com/alexei-led/aws-mcp-server" target="_blank">alexei-led/aws-mcp-server</a></td></tr>
 <tr><th align="left">Source<td><a href="https://github.com/alexei-led/aws-mcp-server/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
 <tr><th align="left">Category<td>Python, AWS, Development Guide, Best Practices</td></tr>
+<tr><th align="left">License<td>MIT</td></tr>
 </table>
 
 **Highlights:**
@@ -108,6 +112,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 <tr><th align="left">Repository<td><a href="https://github.com/basicmachines-co/basic-memory" target="_blank">basicmachines-co/basic-memory</a></td></tr>
 <tr><th align="left">Source<td><a href="https://github.com/basicmachines-co/basic-memory/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
 <tr><th align="left">Category<td>Knowledge Management, AI, Markdown</td></tr>
+<tr><th align="left">License<td>AGPL-3.0</td></tr>
 </table>
 
 **Highlights:**
@@ -123,6 +128,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 <tr><th align="left">Repository<td><a href="https://github.com/CommE2E/comm" target="_blank">CommE2E/comm</a></td></tr>
 <tr><th align="left">Source<td><a href="https://github.com/CommE2E/comm/blob/master/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
 <tr><th align="left">Category<td>Messaging, Security, JavaScript/Rust</td></tr>
+<tr><th align="left">License<td>BSD-3-Clause</td></tr>
 </table>
 
 **Highlights:**
@@ -137,6 +143,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 <tr><th align="left">Repository<td><a href="https://github.com/badass-courses/course-builder" target="_blank">badass-courses/course-builder</a></td></tr>
 <tr><th align="left">Source<td><a href="https://github.com/badass-courses/course-builder/blob/master/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
 <tr><th align="left">Category<td>Education, Web Development, TypeScript</td></tr>
+<tr><th align="left">License<td>MIT</td></tr>
 </table>
 
 **Highlights:**
@@ -152,6 +159,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 <tr><th align="left">Repository<td><a href="https://github.com/eastlondoner/cursor-tools" target="_blank">eastlondoner/cursor-tools</a></td></tr>
 <tr><th align="left">Source<td><a href="https://github.com/eastlondoner/cursor-tools/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
 <tr><th align="left">Category<td>CLI, AI Tools, Developer Tools</td></tr>
+<tr><th align="left">License<td>MIT</td></tr>
 </table>
 
 **Highlights:**
@@ -167,6 +175,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 <tr><th align="left">Repository<td><a href="https://github.com/touchlab/DroidconKotlin" target="_blank">touchlab/DroidconKotlin</a></td></tr>
 <tr><th align="left">Source<td><a href="https://github.com/touchlab/DroidconKotlin/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
 <tr><th align="left">Category<td>Kotlin Multiplatform, Android, iOS, Compose</td></tr>
+<tr><th align="left">License<td>Apache-2.0</td></tr>
 </table>
 
 **Highlights:**
@@ -181,6 +190,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 <tr><th align="left">Repository<td><a href="https://github.com/expectedparrot/edsl" target="_blank">expectedparrot/edsl</a></td></tr>
 <tr><th align="left">Source<td><a href="https://github.com/expectedparrot/edsl/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
 <tr><th align="left">Category<td>AI/ML, Python, Research</td></tr>
+<tr><th align="left">License<td>MIT</td></tr>
 </table>
 
 **Highlights:**
@@ -196,6 +206,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 <tr><th align="left">Repository<td><a href="https://github.com/giselles-ai/giselle" target="_blank">giselles-ai/giselle</a></td></tr>
 <tr><th align="left">Source<td><a href="https://github.com/giselles-ai/giselle/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
 <tr><th align="left">Category<td>TypeScript, React, Next.js</td></tr>
+<tr><th align="left">License<td>Apache-2.0</td></tr>
 </table>
 
 **Highlights:**
@@ -211,6 +222,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 <tr><th align="left">Repository<td><a href="https://github.com/soramimi/Guitar" target="_blank">soramimi/Guitar</a></td></tr>
 <tr><th align="left">Source<td><a href="https://github.com/soramimi/Guitar/blob/master/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
 <tr><th align="left">Category<td>Development, C++, Qt</td></tr>
+<tr><th align="left">License<td>GPL-2.0</td></tr>
 </table>
 
 **Highlights:**
@@ -225,6 +237,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 <tr><th align="left">Repository<td><a href="https://github.com/hashintel/hash" target="_blank">hashintel/hash</a></td></tr>
 <tr><th align="left">Source<td><a href="https://github.com/hashintel/hash/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
 <tr><th align="left">Category<td>Knowledge Graph, Rust, TypeScript</td></tr>
+<tr><th align="left">License<td>Multiple (MIT, Apache-2.0, AGPL-3.0, and proprietary)</td></tr>
 </table>
 
 **Highlights:**
@@ -240,6 +253,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 <tr><th align="left">Repository<td><a href="https://github.com/inkline/inkline" target="_blank">inkline/inkline</a></td></tr>
 <tr><th align="left">Source<td><a href="https://github.com/inkline/inkline/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
 <tr><th align="left">Category<td>UI Framework, Vue.js, TypeScript</td></tr>
+<tr><th align="left">License<td>MIT</td></tr>
 </table>
 
 **Highlights:**
@@ -255,6 +269,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 <tr><th align="left">Repository<td><a href="https://github.com/mattgodbolt/jsbeeb" target="_blank">mattgodbolt/jsbeeb</a></td></tr>
 <tr><th align="left">Source<td><a href="https://github.com/mattgodbolt/jsbeeb/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
 <tr><th align="left">Category<td>Emulation, JavaScript</td></tr>
+<tr><th align="left">License<td>MIT</td></tr>
 </table>
 
 **Highlights:**
@@ -269,6 +284,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 <tr><th align="left">Repository<td><a href="https://github.com/LamoomAI/lamoom-python" target="_blank">LamoomAI/lamoom-python</a></td></tr>
 <tr><th align="left">Source<td><a href="https://github.com/LamoomAI/lamoom-python/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
 <tr><th align="left">Category<td>AI/ML, Python</td></tr>
+<tr><th align="left">License<td>Apache-2.0</td></tr>
 </table>
 
 **Highlights:**
@@ -283,6 +299,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 <tr><th align="left">Repository<td><a href="https://github.com/langchain-ai/langgraphjs" target="_blank">langchain-ai/langgraphjs</a></td></tr>
 <tr><th align="left">Source<td><a href="https://github.com/langchain-ai/langgraphjs/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
 <tr><th align="left">Category<td>AI/ML, TypeScript, JavaScript</td></tr>
+<tr><th align="left">License<td>MIT</td></tr>
 </table>
 
 **Highlights:**
@@ -298,6 +315,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 <tr><th align="left">Repository<td><a href="https://github.com/metabase/metabase" target="_blank">metabase/metabase</a></td></tr>
 <tr><th align="left">Source<td><a href="https://github.com/metabase/metabase/blob/master/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
 <tr><th align="left">Category<td>Clojure, ClojureScript, JavaScript, REPL-Driven Development</td></tr>
+<tr><th align="left">License<td>AGPL-3.0 and Metabase Commercial</td></tr>
 </table>
 
 **Highlights:**
@@ -313,6 +331,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 <tr><th align="left">Repository<td><a href="https://github.com/featureform/mcp-engine" target="_blank">featureform/mcp-engine</a></td></tr>
 <tr><th align="left">Source<td><a href="https://github.com/featureform/mcp-engine/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
 <tr><th align="left">Category<td>Python, Code Quality, Pull Requests, Type Checking</td></tr>
+<tr><th align="left">License<td>MIT</td></tr>
 </table>
 
 **Highlights:**
@@ -327,6 +346,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 <tr><th align="left">Repository<td><a href="https://github.com/Fimeg/NetworkChronicles" target="_blank">Fimeg/NetworkChronicles</a></td></tr>
 <tr><th align="left">Source<td><a href="https://github.com/Fimeg/NetworkChronicles/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
 <tr><th align="left">Category<td>Game Design, LLM Integration, Character Design, Narrative</td></tr>
+<tr><th align="left">License<td>MIT</td></tr>
 </table>
 
 **Highlights:**
@@ -341,6 +361,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 <tr><th align="left">Repository<td><a href="https://github.com/different-ai/note-companion" target="_blank">different-ai/note-companion</a></td></tr>
 <tr><th align="left">Source<td><a href="https://github.com/different-ai/note-companion/blob/master/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
 <tr><th align="left">Category<td>Obsidian Plugin, Styling Guide, Tailwind, UI Components</td></tr>
+<tr><th align="left">License<td>MIT</td></tr>
 </table>
 
 **Highlights:**
@@ -355,6 +376,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 <tr><th align="left">Repository<td><a href="https://github.com/ParetoSecurity/pareto-mac" target="_blank">ParetoSecurity/pareto-mac</a></td></tr>
 <tr><th align="left">Source<td><a href="https://github.com/ParetoSecurity/pareto-mac/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
 <tr><th align="left">Category<td>Security, Swift, macOS</td></tr>
+<tr><th align="left">License<td>GPL-3.0</td></tr>
 </table>
 
 **Highlights:**
@@ -369,6 +391,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 <tr><th align="left">Repository<td><a href="https://github.com/Family-IT-Guy/perplexity-mcp" target="_blank">Family-IT-Guy/perplexity-mcp</a></td></tr>
 <tr><th align="left">Source<td><a href="https://github.com/Family-IT-Guy/perplexity-mcp/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
 <tr><th align="left">Category<td>Perplexity API, Node.js, MCP Protocol, Installation</td></tr>
+<tr><th align="left">License<td>ISC</td></tr>
 </table>
 
 **Highlights:**
@@ -383,6 +406,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 <tr><th align="left">Repository<td><a href="https://github.com/sgcarstrends/backend" target="_blank">sgcarstrends/backend</a></td></tr>
 <tr><th align="left">Source<td><a href="https://github.com/sgcarstrends/backend/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
 <tr><th align="left">Category<td>TypeScript, Monorepo, AWS, Testing</td></tr>
+<tr><th align="left">License<td>MIT</td></tr>
 </table>
 
 **Highlights:**
@@ -397,6 +421,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 <tr><th align="left">Repository<td><a href="https://github.com/spylang/spy" target="_blank">spylang/spy</a></td></tr>
 <tr><th align="left">Source<td><a href="https://github.com/spylang/spy/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
 <tr><th align="left">Category<td>Programming Language, Python</td></tr>
+<tr><th align="left">License<td>MIT</td></tr>
 </table>
 
 **Highlights:**
@@ -412,6 +437,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 <tr><th align="left">Repository<td><a href="https://github.com/KarpelesLab/tpl" target="_blank">KarpelesLab/tpl</a></td></tr>
 <tr><th align="left">Source<td><a href="https://github.com/KarpelesLab/tpl/blob/master/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
 <tr><th align="left">Category<td>Golang, Error Handling, Testing, Code Standards</td></tr>
+<tr><th align="left">License<td>MIT</td></tr>
 </table>
 
 **Highlights:**
