@@ -292,6 +292,21 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 - Monorepo structure using yarn workspaces for organized package management
 - Strict code quality requirements with formatting rules and testing standards
 
+### Metabase (metabase)
+
+<table>
+<tr><th align="left">Repository<td><a href="https://github.com/metabase/metabase" target="_blank">metabase/metabase</a></td></tr>
+<tr><th align="left">Source<td><a href="https://github.com/metabase/metabase/blob/master/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
+<tr><th align="left">Category<td>Clojure, ClojureScript, JavaScript, REPL-Driven Development</td></tr>
+</table>
+
+**Highlights:**
+- Detailed workflow for REPL-driven development in Clojure/ClojureScript
+- Emphasis on incremental development and testing
+- Guidelines for working with Metabase's JavaScript/TypeScript codebase
+- Best practices for understanding existing code patterns
+- Step-by-step approach for feature implementation using the REPL
+
 ### MCP Engine (featureform)
 
 <table>
