@@ -45,152 +45,21 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 
 ## [`CLAUDE.md` Files](#claudemd-files)
 
-### Guitar
+### AI IntelliJ Plugin (didalgolab)
 
 <table>
-<tr><th align="left">Repository<td><a href="https://github.com/soramimi/Guitar" target="_blank">soramimi/Guitar</a></td></tr>
-<tr><th align="left">Source<td><a href="https://github.com/soramimi/Guitar/blob/master/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
-<tr><th align="left">Category<td>Development, C++, Qt</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/didalgolab/ai-intellij-plugin" target="_blank">didalgolab/ai-intellij-plugin</a></td></tr>
+<tr><th align="left">Source<td><a href="https://github.com/didalgolab/ai-intellij-plugin/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
+<tr><th align="left">Category<td>IntelliJ Plugin, Gradle, Testing, Code Standards</td></tr>
 </table>
 
 **Highlights:**
-- Development guide for Guitar Git GUI Client
-- Build commands for various platforms
-- Code style guidelines for contributing
-- Project structure explanation
+- Comprehensive Gradle commands for plugin development
+- IntelliJ Platform-specific coding patterns and guidelines
+- Detailed package structure and naming conventions
+- Clear guidelines for internationalization using bundles
 
-### Inkline
-
-<table>
-<tr><th align="left">Repository<td><a href="https://github.com/inkline/inkline" target="_blank">inkline/inkline</a></td></tr>
-<tr><th align="left">Source<td><a href="https://github.com/inkline/inkline/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
-<tr><th align="left">Category<td>UI Framework, Vue.js, TypeScript</td></tr>
-</table>
-
-**Highlights:**
-- Structured development workflow using pnpm for project management
-- Emphasis on TypeScript and Vue 3 Composition API
-- Detailed component creation process with folder structure guidelines
-- Note on auto-generated stylesheets and component manifests
-- Comprehensive testing recommendations for components and utilities
-
-### HASH
-
-<table>
-<tr><th align="left">Repository<td><a href="https://github.com/hashintel/hash" target="_blank">hashintel/hash</a></td></tr>
-<tr><th align="left">Source<td><a href="https://github.com/hashintel/hash/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
-<tr><th align="left">Category<td>Knowledge Graph, Rust, TypeScript</td></tr>
-</table>
-
-**Highlights:**
-- Comprehensive repository structure breakdown into `/apps`, `/blocks`, `/libs`, and `/infra`
-- Strong emphasis on reading full coding standards before development
-- Detailed Rust documentation guidelines for functions, types, and examples
-- Extensive command reference for both TypeScript and Rust workflows
-- Systematic PR review guide with structured approach to code review
-
-### Course Builder
-
-<table>
-<tr><th align="left">Repository<td><a href="https://github.com/badass-courses/course-builder" target="_blank">badass-courses/course-builder</a></td></tr>
-<tr><th align="left">Source<td><a href="https://github.com/badass-courses/course-builder/blob/master/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
-<tr><th align="left">Category<td>Education, Web Development, TypeScript</td></tr>
-</table>
-
-**Highlights:**
-- Real-time multiplayer capabilities for collaborative course creation
-- Diverse tech stack including Next.js, TypeScript, Drizzle ORM, and AI
-- Monorepo architecture with Turborepo and PNPM workspaces
-- Advanced features for video processing and AI-assisted content
-- Detailed development patterns for code generation and utility packages
-
-### Pareto Mac
-
-<table>
-<tr><th align="left">Repository<td><a href="https://github.com/ParetoSecurity/pareto-mac" target="_blank">ParetoSecurity/pareto-mac</a></td></tr>
-<tr><th align="left">Source<td><a href="https://github.com/ParetoSecurity/pareto-mac/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
-<tr><th align="left">Category<td>Security, Swift, macOS</td></tr>
-</table>
-
-**Highlights:**
-- Development guide for Mac security audit tool
-- Build instructions and workflows
-- Contribution guidelines
-- Testing procedures
-
-### EDSL
-
-<table>
-<tr><th align="left">Repository<td><a href="https://github.com/expectedparrot/edsl" target="_blank">expectedparrot/edsl</a></td></tr>
-<tr><th align="left">Source<td><a href="https://github.com/expectedparrot/edsl/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
-<tr><th align="left">Category<td>AI/ML, Python, Research</td></tr>
-</table>
-
-**Highlights:**
-- Detailed build and test commands for installation and documentation
-- Strict code style enforcing formatting, naming, and type hinting
-- Comprehensive testing requirements for type checking and coverage
-- Clear permissions framework defining allowed and prohibited actions
-- Standardized development workflow with tools like Black and mypy
-
-### JSBeeb
-
-<table>
-<tr><th align="left">Repository<td><a href="https://github.com/mattgodbolt/jsbeeb" target="_blank">mattgodbolt/jsbeeb</a></td></tr>
-<tr><th align="left">Source<td><a href="https://github.com/mattgodbolt/jsbeeb/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
-<tr><th align="left">Category<td>Emulation, JavaScript</td></tr>
-</table>
-
-**Highlights:**
-- Development guide for JavaScript BBC Micro emulator
-- Build and testing instructions
-- Architecture documentation
-- Debugging workflows
-
-### Comm
-
-<table>
-<tr><th align="left">Repository<td><a href="https://github.com/CommE2E/comm" target="_blank">CommE2E/comm</a></td></tr>
-<tr><th align="left">Source<td><a href="https://github.com/CommE2E/comm/blob/master/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
-<tr><th align="left">Category<td>Messaging, Security, JavaScript/Rust</td></tr>
-</table>
-
-**Highlights:**
-- Development reference for E2E-encrypted messaging app
-- Code organization and architecture
-- Security implementation details
-- Testing and deployment procedures
-
-### SPy
-
-<table>
-<tr><th align="left">Repository<td><a href="https://github.com/spylang/spy" target="_blank">spylang/spy</a></td></tr>
-<tr><th align="left">Source<td><a href="https://github.com/spylang/spy/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
-<tr><th align="left">Category<td>Programming Language, Python</td></tr>
-</table>
-
-**Highlights:**
-- Strict coding conventions with specific naming standards
-- Comprehensive testing guidelines with backend-specific execution
-- Multiple code compilation options with clear examples
-- Best practices for meaningful comments explaining "why" not just "what"
-- Backend-specific test decorators for targeted test filtering
-
-### Lamoom Python
-
-<table>
-<tr><th align="left">Repository<td><a href="https://github.com/LamoomAI/lamoom-python" target="_blank">LamoomAI/lamoom-python</a></td></tr>
-<tr><th align="left">Source<td><a href="https://github.com/LamoomAI/lamoom-python/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
-<tr><th align="left">Category<td>AI/ML, Python</td></tr>
-</table>
-
-**Highlights:**
-- Reference for production prompt engineering library
-- Load balancing of AI Models
-- API documentation
-- Usage patterns and examples
-
-### Anthropic Quickstarts
+### Anthropic Quickstarts (anthropics)
 
 <table>
 <tr><th align="left">Repository<td><a href="https://github.com/anthropics/anthropic-quickstarts" target="_blank">anthropics/anthropic-quickstarts</a></td></tr>
@@ -205,7 +74,35 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 - Docker and environment setup instructions for containerization
 - Testing and quality assurance procedures for each project type
 
-### Basic Memory
+### AVS Vibe Developer Guide (Layr-Labs)
+
+<table>
+<tr><th align="left">Repository<td><a href="https://github.com/Layr-Labs/avs-vibe-developer-guide" target="_blank">Layr-Labs/avs-vibe-developer-guide</a></td></tr>
+<tr><th align="left">Source<td><a href="https://github.com/Layr-Labs/avs-vibe-developer-guide/blob/master/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
+<tr><th align="left">Category<td>EigenLayer, Prompt Engineering, Documentation, Blockchain</td></tr>
+</table>
+
+**Highlights:**
+- Structures AI-assisted EigenLayer AVS development workflow
+- Provides consistent naming conventions for prompt files
+- Outlines progression from idea to implementation
+- Establishes terminology standards for blockchain concepts
+
+### AWS MCP Server (alexei-led)
+
+<table>
+<tr><th align="left">Repository<td><a href="https://github.com/alexei-led/aws-mcp-server" target="_blank">alexei-led/aws-mcp-server</a></td></tr>
+<tr><th align="left">Source<td><a href="https://github.com/alexei-led/aws-mcp-server/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
+<tr><th align="left">Category<td>Python, AWS, Development Guide, Best Practices</td></tr>
+</table>
+
+**Highlights:**
+- Multiple environment setup options using modern Python tools
+- Detailed code style guidelines and best practices
+- Comprehensive error handling and logging recommendations
+- Security considerations for AWS CLI interactions
+
+### Basic Memory (basicmachines-co)
 
 <table>
 <tr><th align="left">Repository<td><a href="https://github.com/basicmachines-co/basic-memory" target="_blank">basicmachines-co/basic-memory</a></td></tr>
@@ -220,7 +117,36 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 - Flexible knowledge structure with entities, observations, and relations
 - Advanced MCP tools for content management and knowledge graph navigation
 
-### Cursor Tools
+### Comm (CommE2E)
+
+<table>
+<tr><th align="left">Repository<td><a href="https://github.com/CommE2E/comm" target="_blank">CommE2E/comm</a></td></tr>
+<tr><th align="left">Source<td><a href="https://github.com/CommE2E/comm/blob/master/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
+<tr><th align="left">Category<td>Messaging, Security, JavaScript/Rust</td></tr>
+</table>
+
+**Highlights:**
+- Development reference for E2E-encrypted messaging app
+- Code organization and architecture
+- Security implementation details
+- Testing and deployment procedures
+
+### Course Builder (badass-courses)
+
+<table>
+<tr><th align="left">Repository<td><a href="https://github.com/badass-courses/course-builder" target="_blank">badass-courses/course-builder</a></td></tr>
+<tr><th align="left">Source<td><a href="https://github.com/badass-courses/course-builder/blob/master/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
+<tr><th align="left">Category<td>Education, Web Development, TypeScript</td></tr>
+</table>
+
+**Highlights:**
+- Real-time multiplayer capabilities for collaborative course creation
+- Diverse tech stack including Next.js, TypeScript, Drizzle ORM, and AI
+- Monorepo architecture with Turborepo and PNPM workspaces
+- Advanced features for video processing and AI-assisted content
+- Detailed development patterns for code generation and utility packages
+
+### Cursor Tools (eastlondoner)
 
 <table>
 <tr><th align="left">Repository<td><a href="https://github.com/eastlondoner/cursor-tools" target="_blank">eastlondoner/cursor-tools</a></td></tr>
@@ -235,7 +161,36 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 - Browser automation through "Stagehand" feature for complex web interactions
 - User-friendly nicknames for commands making the tool more approachable
 
-### Giselle
+### DroidconKotlin (touchlab)
+
+<table>
+<tr><th align="left">Repository<td><a href="https://github.com/touchlab/DroidconKotlin" target="_blank">touchlab/DroidconKotlin</a></td></tr>
+<tr><th align="left">Source<td><a href="https://github.com/touchlab/DroidconKotlin/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
+<tr><th align="left">Category<td>Kotlin Multiplatform, Android, iOS, Compose</td></tr>
+</table>
+
+**Highlights:**
+- Comprehensive Gradle commands for cross-platform development
+- Clear module structure for multiplatform architecture
+- Specific coding standards for Kotlin Multiplatform projects
+- Practical guidance for dependency injection and UI patterns
+
+### EDSL (expectedparrot)
+
+<table>
+<tr><th align="left">Repository<td><a href="https://github.com/expectedparrot/edsl" target="_blank">expectedparrot/edsl</a></td></tr>
+<tr><th align="left">Source<td><a href="https://github.com/expectedparrot/edsl/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
+<tr><th align="left">Category<td>AI/ML, Python, Research</td></tr>
+</table>
+
+**Highlights:**
+- Detailed build and test commands for installation and documentation
+- Strict code style enforcing formatting, naming, and type hinting
+- Comprehensive testing requirements for type checking and coverage
+- Clear permissions framework defining allowed and prohibited actions
+- Standardized development workflow with tools like Black and mypy
+
+### Giselle (giselles-ai)
 
 <table>
 <tr><th align="left">Repository<td><a href="https://github.com/giselles-ai/giselle" target="_blank">giselles-ai/giselle</a></td></tr>
@@ -250,7 +205,79 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 - Language inclusivity guidelines for documentation
 - Clear technical stack preferences with TypeScript and React hooks
 
-### LangGraphJS
+### Guitar (soramimi)
+
+<table>
+<tr><th align="left">Repository<td><a href="https://github.com/soramimi/Guitar" target="_blank">soramimi/Guitar</a></td></tr>
+<tr><th align="left">Source<td><a href="https://github.com/soramimi/Guitar/blob/master/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
+<tr><th align="left">Category<td>Development, C++, Qt</td></tr>
+</table>
+
+**Highlights:**
+- Development guide for Guitar Git GUI Client
+- Build commands for various platforms
+- Code style guidelines for contributing
+- Project structure explanation
+
+### HASH (hashintel)
+
+<table>
+<tr><th align="left">Repository<td><a href="https://github.com/hashintel/hash" target="_blank">hashintel/hash</a></td></tr>
+<tr><th align="left">Source<td><a href="https://github.com/hashintel/hash/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
+<tr><th align="left">Category<td>Knowledge Graph, Rust, TypeScript</td></tr>
+</table>
+
+**Highlights:**
+- Comprehensive repository structure breakdown into `/apps`, `/blocks`, `/libs`, and `/infra`
+- Strong emphasis on reading full coding standards before development
+- Detailed Rust documentation guidelines for functions, types, and examples
+- Extensive command reference for both TypeScript and Rust workflows
+- Systematic PR review guide with structured approach to code review
+
+### Inkline (inkline)
+
+<table>
+<tr><th align="left">Repository<td><a href="https://github.com/inkline/inkline" target="_blank">inkline/inkline</a></td></tr>
+<tr><th align="left">Source<td><a href="https://github.com/inkline/inkline/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
+<tr><th align="left">Category<td>UI Framework, Vue.js, TypeScript</td></tr>
+</table>
+
+**Highlights:**
+- Structured development workflow using pnpm for project management
+- Emphasis on TypeScript and Vue 3 Composition API
+- Detailed component creation process with folder structure guidelines
+- Note on auto-generated stylesheets and component manifests
+- Comprehensive testing recommendations for components and utilities
+
+### JSBeeb (mattgodbolt)
+
+<table>
+<tr><th align="left">Repository<td><a href="https://github.com/mattgodbolt/jsbeeb" target="_blank">mattgodbolt/jsbeeb</a></td></tr>
+<tr><th align="left">Source<td><a href="https://github.com/mattgodbolt/jsbeeb/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
+<tr><th align="left">Category<td>Emulation, JavaScript</td></tr>
+</table>
+
+**Highlights:**
+- Development guide for JavaScript BBC Micro emulator
+- Build and testing instructions
+- Architecture documentation
+- Debugging workflows
+
+### Lamoom Python (LamoomAI)
+
+<table>
+<tr><th align="left">Repository<td><a href="https://github.com/LamoomAI/lamoom-python" target="_blank">LamoomAI/lamoom-python</a></td></tr>
+<tr><th align="left">Source<td><a href="https://github.com/LamoomAI/lamoom-python/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
+<tr><th align="left">Category<td>AI/ML, Python</td></tr>
+</table>
+
+**Highlights:**
+- Reference for production prompt engineering library
+- Load balancing of AI Models
+- API documentation
+- Usage patterns and examples
+
+### LangGraphJS (langchain-ai)
 
 <table>
 <tr><th align="left">Repository<td><a href="https://github.com/langchain-ai/langgraphjs" target="_blank">langchain-ai/langgraphjs</a></td></tr>
@@ -265,49 +292,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 - Monorepo structure using yarn workspaces for organized package management
 - Strict code quality requirements with formatting rules and testing standards
 
-### AWS MCP Server
-
-<table>
-<tr><th align="left">Repository<td><a href="https://github.com/alexei-led/aws-mcp-server" target="_blank">alexei-led/aws-mcp-server</a></td></tr>
-<tr><th align="left">Source<td><a href="https://github.com/alexei-led/aws-mcp-server/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
-<tr><th align="left">Category<td>Python, AWS, Development Guide, Best Practices</td></tr>
-</table>
-
-**Highlights:**
-- Multiple environment setup options using modern Python tools
-- Detailed code style guidelines and best practices
-- Comprehensive error handling and logging recommendations
-- Security considerations for AWS CLI interactions
-
-### AI IntelliJ Plugin
-
-<table>
-<tr><th align="left">Repository<td><a href="https://github.com/didalgolab/ai-intellij-plugin" target="_blank">didalgolab/ai-intellij-plugin</a></td></tr>
-<tr><th align="left">Source<td><a href="https://github.com/didalgolab/ai-intellij-plugin/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
-<tr><th align="left">Category<td>IntelliJ Plugin, Gradle, Testing, Code Standards</td></tr>
-</table>
-
-**Highlights:**
-- Comprehensive Gradle commands for plugin development
-- IntelliJ Platform-specific coding patterns and guidelines
-- Detailed package structure and naming conventions
-- Clear guidelines for internationalization using bundles
-
-### DroidconKotlin
-
-<table>
-<tr><th align="left">Repository<td><a href="https://github.com/touchlab/DroidconKotlin" target="_blank">touchlab/DroidconKotlin</a></td></tr>
-<tr><th align="left">Source<td><a href="https://github.com/touchlab/DroidconKotlin/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
-<tr><th align="left">Category<td>Kotlin Multiplatform, Android, iOS, Compose</td></tr>
-</table>
-
-**Highlights:**
-- Comprehensive Gradle commands for cross-platform development
-- Clear module structure for multiplatform architecture
-- Specific coding standards for Kotlin Multiplatform projects
-- Practical guidance for dependency injection and UI patterns
-
-### MCP Engine
+### MCP Engine (featureform)
 
 <table>
 <tr><th align="left">Repository<td><a href="https://github.com/featureform/mcp-engine" target="_blank">featureform/mcp-engine</a></td></tr>
@@ -321,7 +306,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 - Explicit PR description and reviewer guidelines
 - Systematic approach to resolving CI failures
 
-### Network Chronicles
+### Network Chronicles (Fimeg)
 
 <table>
 <tr><th align="left">Repository<td><a href="https://github.com/Fimeg/NetworkChronicles" target="_blank">Fimeg/NetworkChronicles</a></td></tr>
@@ -335,7 +320,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 - Character guidelines and conversational constraints
 - Service discovery mechanics implementation details
 
-### Note Companion
+### Note Companion (different-ai)
 
 <table>
 <tr><th align="left">Repository<td><a href="https://github.com/different-ai/note-companion" target="_blank">different-ai/note-companion</a></td></tr>
@@ -349,7 +334,21 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 - Includes practical troubleshooting steps for common styling issues
 - Offers concrete code examples for component implementation
 
-### Perplexity MCP
+### Pareto Mac (ParetoSecurity)
+
+<table>
+<tr><th align="left">Repository<td><a href="https://github.com/ParetoSecurity/pareto-mac" target="_blank">ParetoSecurity/pareto-mac</a></td></tr>
+<tr><th align="left">Source<td><a href="https://github.com/ParetoSecurity/pareto-mac/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
+<tr><th align="left">Category<td>Security, Swift, macOS</td></tr>
+</table>
+
+**Highlights:**
+- Development guide for Mac security audit tool
+- Build instructions and workflows
+- Contribution guidelines
+- Testing procedures
+
+### Perplexity MCP (Family-IT-Guy)
 
 <table>
 <tr><th align="left">Repository<td><a href="https://github.com/Family-IT-Guy/perplexity-mcp" target="_blank">Family-IT-Guy/perplexity-mcp</a></td></tr>
@@ -363,7 +362,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 - Detailed troubleshooting guidance with diagnostic steps
 - Concise architecture overview of the MCP protocol implementation
 
-### SG Cars Trends Backend
+### SG Cars Trends Backend (sgcarstrends)
 
 <table>
 <tr><th align="left">Repository<td><a href="https://github.com/sgcarstrends/backend" target="_blank">sgcarstrends/backend</a></td></tr>
@@ -377,7 +376,22 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 - Clear environment variable documentation and usage
 - AWS and Cloudflare deployment specifications
 
-### TPL
+### SPy (spylang)
+
+<table>
+<tr><th align="left">Repository<td><a href="https://github.com/spylang/spy" target="_blank">spylang/spy</a></td></tr>
+<tr><th align="left">Source<td><a href="https://github.com/spylang/spy/blob/main/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
+<tr><th align="left">Category<td>Programming Language, Python</td></tr>
+</table>
+
+**Highlights:**
+- Strict coding conventions with specific naming standards
+- Comprehensive testing guidelines with backend-specific execution
+- Multiple code compilation options with clear examples
+- Best practices for meaningful comments explaining "why" not just "what"
+- Backend-specific test decorators for targeted test filtering
+
+### TPL (KarpelesLab)
 
 <table>
 <tr><th align="left">Repository<td><a href="https://github.com/KarpelesLab/tpl" target="_blank">KarpelesLab/tpl</a></td></tr>
@@ -390,20 +404,6 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 - Comprehensive error handling recommendations
 - Table-driven testing approach guidelines
 - Modernization suggestions for adopting latest Go features
-
-### AVS Vibe Developer Guide
-
-<table>
-<tr><th align="left">Repository<td><a href="https://github.com/Layr-Labs/avs-vibe-developer-guide" target="_blank">Layr-Labs/avs-vibe-developer-guide</a></td></tr>
-<tr><th align="left">Source<td><a href="https://github.com/Layr-Labs/avs-vibe-developer-guide/blob/master/CLAUDE.md" target="_blank">CLAUDE.md</a></td></tr>
-<tr><th align="left">Category<td>EigenLayer, Prompt Engineering, Documentation, Blockchain</td></tr>
-</table>
-
-**Highlights:**
-- Structures AI-assisted EigenLayer AVS development workflow
-- Provides consistent naming conventions for prompt files
-- Outlines progression from idea to implementation
-- Establishes terminology standards for blockchain concepts
 
 
 ## [CLI Workflows](#cli-workflows)
