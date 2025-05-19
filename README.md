@@ -23,27 +23,1031 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 
 ## [Slash Commands](#slash-commands)
 
-### say-hello
+### Development Workflow
+
+#### <a href="https://github.com/steadycursor/steadystart" target="_blank">/2-commit-fast</a>
 
 <table>
-<tr><th align="left">Name<td><code>/say-hello</code></td></tr>
-<tr><th align="left">Author<td>@hesreallyhim</td></tr>
-<tr><th align="left">Source<td><a href="https://github.com/hesreallyhim/claude-code-workflows/blob/main/commands/say-hello.md" target="_blank">GitHub</a></td></tr>
+<tr><th align="left">Name<td><code><a href="https://github.com/steadycursor/steadystart" target="_blank">/2-commit-fast</a></code></td></tr>
+<tr><th align="left">Author<td>@steadycursor</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/steadycursor/steadystart" target="_blank">steadycursor/steadystart</a></td></tr>
 </table>
 
-**Description:** A simple hello-world command that prints "Hello, world!" to the console.
+**Highlights:**
 
-### say-goodbye
+- Automates git commit process by selecting first suggested commit message
+- Automatically generates structured commit messages
+- Skips manual confirmation
+- Maintains consistent formatting
+- Removes Claude co-authorship footer
+
+#### <a href="https://github.com/cmxela/thinkube" target="_blank">/implement-issue</a>
 
 <table>
-<tr><th align="left">Name<td><code>/say-goodbye</code></td></tr>
+<tr><th align="left">Name<td><code><a href="https://github.com/cmxela/thinkube" target="_blank">/implement-issue</a></code></td></tr>
+<tr><th align="left">Author<td>@cmxela</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/cmxela/thinkube" target="_blank">cmxela/thinkube</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Implements GitHub issues following strict project guidelines
+- Follows complete implementation checklist
+- Enforces variable naming conventions
+- Includes testing procedures
+- Handles documentation requirements
+
+#### <a href="https://github.com/jeremymailen/kotlinter-gradle" target="_blank">/fix-github-issue</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/jeremymailen/kotlinter-gradle" target="_blank">/fix-github-issue</a></code></td></tr>
+<tr><th align="left">Author<td>@jeremymailen</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/jeremymailen/kotlinter-gradle" target="_blank">jeremymailen/kotlinter-gradle</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Analyzes and fixes GitHub issues with structured approach
+- Uses GitHub CLI for issue details
+- Implements necessary code changes
+- Runs tests and linting checks
+- Creates proper commit messages
+
+#### <a href="https://github.com/wmjones/wyatt-personal-aws" target="_blank">/next-task</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/wmjones/wyatt-personal-aws" target="_blank">/next-task</a></code></td></tr>
+<tr><th align="left">Author<td>@wmjones</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/wmjones/wyatt-personal-aws" target="_blank">wmjones/wyatt-personal-aws</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Gets next task from TaskMaster and creates a branch for it
+- Integrates with task management
+- Automates branch creation
+- Supports custom branch names
+- Enforces branch naming conventions
+
+#### <a href="https://github.com/harperreed/dotfiles" target="_blank">/plan</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/harperreed/dotfiles" target="_blank">/plan</a></code></td></tr>
+<tr><th align="left">Author<td>@harperreed</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/harperreed/dotfiles" target="_blank">harperreed/dotfiles</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Creates a detailed implementation plan for a feature or task
+- Breaks down complex tasks
+- Creates step-by-step approach
+- Identifies potential challenges
+- Plans required resources
+
+#### <a href="https://github.com/wmjones/wyatt-personal-aws" target="_blank">/run-pre-commit</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/wmjones/wyatt-personal-aws" target="_blank">/run-pre-commit</a></code></td></tr>
+<tr><th align="left">Author<td>@wmjones</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/wmjones/wyatt-personal-aws" target="_blank">wmjones/wyatt-personal-aws</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Runs pre-commit checks and handles results intelligently
+- Analyzes pre-commit check outputs
+- Creates tasks for issue fixing
+- Handles successful commits
+- Integrates with task system
+
+#### <a href="https://github.com/zscott/pane" target="_blank">/tdd</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/zscott/pane" target="_blank">/tdd</a></code></td></tr>
+<tr><th align="left">Author<td>@zscott</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/zscott/pane" target="_blank">zscott/pane</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Guides development using Test-Driven Development principles
+- Enforces Red-Green-Refactor discipline
+- Integrates with git workflow
+- Manages PR creation
+- Handles multi-feature development
+
+#### <a href="https://github.com/hackdays-io/toban-contribution-viewer" target="_blank">/run-ci</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/hackdays-io/toban-contribution-viewer" target="_blank">/run-ci</a></code></td></tr>
+<tr><th align="left">Author<td>@hackdays-io</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/hackdays-io/toban-contribution-viewer" target="_blank">hackdays-io/toban-contribution-viewer</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Activates virtual environment
+- Runs CI-compatible check script
+- Iteratively fixes errors
+- Ensures all tests pass
+
+#### <a href="https://github.com/to4iki/ai-project-rules" target="_blank">/optimize</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/to4iki/ai-project-rules" target="_blank">/optimize</a></code></td></tr>
+<tr><th align="left">Author<td>@to4iki</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/to4iki/ai-project-rules" target="_blank">to4iki/ai-project-rules</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Analyzes code performance
+- Proposes concrete optimizations
+- Identifies performance bottlenecks
+- Provides implementation guidance
+
+#### <a href="https://github.com/danielscholl/mvn-mcp-server" target="_blank">/bug-fix</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/danielscholl/mvn-mcp-server" target="_blank">/bug-fix</a></code></td></tr>
+<tr><th align="left">Author<td>@danielscholl</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/danielscholl/mvn-mcp-server" target="_blank">danielscholl/mvn-mcp-server</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Creates GitHub issue first
+- Creates feature branch
+- Implements fix
+- Tests solution
+
+#### <a href="https://github.com/Graphlet-AI/eridu" target="_blank">/clean</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/Graphlet-AI/eridu" target="_blank">/clean</a></code></td></tr>
+<tr><th align="left">Author<td>@Graphlet-AI</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/Graphlet-AI/eridu" target="_blank">Graphlet-AI/eridu</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Fixes black formatting issues
+- Addresses isort import organization
+- Resolves flake8 linting problems
+- Fixes mypy type errors
+
+### Code Analysis
+
+#### <a href="https://github.com/kingler/n8n_agent" target="_blank">/code_analysis</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/kingler/n8n_agent" target="_blank">/code_analysis</a></code></td></tr>
+<tr><th align="left">Author<td>@kingler</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/kingler/n8n_agent" target="_blank">kingler/n8n_agent</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Provides a menu of code analysis commands for deep code inspection
+- Includes deep code analysis capabilities
+- Generates knowledge graphs
+- Offers code optimization suggestions
+- Performs code quality evaluation
+
+#### <a href="https://github.com/rygwdn/slack-tools" target="_blank">/check</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/rygwdn/slack-tools" target="_blank">/check</a></code></td></tr>
+<tr><th align="left">Author<td>@rygwdn</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/rygwdn/slack-tools" target="_blank">rygwdn/slack-tools</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Performs code quality and security checks on codebase
+- Features static analysis integration
+- Scans for security vulnerabilities
+- Enforces code style
+- Provides comprehensive reporting
+
+### Project Management
+
+#### <a href="https://github.com/scopecraft/command" target="_blank">/create-command</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/scopecraft/command" target="_blank">/create-command</a></code></td></tr>
+<tr><th align="left">Author<td>@scopecraft</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/scopecraft/command" target="_blank">scopecraft/command</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Guides Claude through creating new custom commands with proper structure
+- Analyzes command requirements
+- Templates commands by category
+- Enforces command standards
+- Creates supporting documentation
+
+#### <a href="https://github.com/liam-hq/liam" target="_blank">/create-pull-request</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/liam-hq/liam" target="_blank">/create-pull-request</a></code></td></tr>
+<tr><th align="left">Author<td>@liam-hq</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/liam-hq/liam" target="_blank">liam-hq/liam</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Provides comprehensive PR creation guidance with GitHub CLI
+- Enforces PR title conventions
+- Follows template structure
+- Provides complete command examples
+- Offers best practices guidance
+
+#### <a href="https://github.com/Hkgstax/VALUGATOR" target="_blank">/task-breakdown</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/Hkgstax/VALUGATOR" target="_blank">/task-breakdown</a></code></td></tr>
+<tr><th align="left">Author<td>@Hkgstax</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/Hkgstax/VALUGATOR" target="_blank">Hkgstax/VALUGATOR</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Analyzes feature requirements
+- Identifies components/dependencies
+- Creates manageable tasks
+- Sets task priorities
+
+#### <a href="https://github.com/Hkgstax/VALUGATOR" target="_blank">/implement-task</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/Hkgstax/VALUGATOR" target="_blank">/implement-task</a></code></td></tr>
+<tr><th align="left">Author<td>@Hkgstax</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/Hkgstax/VALUGATOR" target="_blank">Hkgstax/VALUGATOR</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Thinks through strategy step-by-step
+- Evaluates different approaches
+- Considers tradeoffs
+- Implements best solution
+
+### Content Management
+
+#### <a href="https://github.com/cloudartisan/cloudartisan.github.io" target="_blank">/posts:new</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/cloudartisan/cloudartisan.github.io" target="_blank">/posts:new</a></code></td></tr>
+<tr><th align="left">Author<td>@cloudartisan</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/cloudartisan/cloudartisan.github.io" target="_blank">cloudartisan/cloudartisan.github.io</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Creates new blog posts with proper front matter
+- Enforces blog post structure
+- Generates standardized front matter
+- Integrates with content workflow
+- Follows site conventions
+
+#### <a href="https://github.com/cloudartisan/cloudartisan.github.io" target="_blank">/view_commands</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/cloudartisan/cloudartisan.github.io" target="_blank">/view_commands</a></code></td></tr>
+<tr><th align="left">Author<td>@cloudartisan</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/cloudartisan/cloudartisan.github.io" target="_blank">cloudartisan/cloudartisan.github.io</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Provides an organized directory of available project commands
+- Categorizes commands by function
+- Details post management commands
+- Includes site management tools
+- Shows content creation commands
+
+#### <a href="https://github.com/zuplo/docs" target="_blank">/use-stepper</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/zuplo/docs" target="_blank">/use-stepper</a></code></td></tr>
+<tr><th align="left">Author<td>@zuplo</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/zuplo/docs" target="_blank">zuplo/docs</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Reformats documentation to use React Stepper component
+- Transforms heading formats
+- Applies proper indentation
+- Ensures markdown compatibility
+- Maintains admonition formatting
+
+### Context Setting
+
+#### <a href="https://github.com/laportagm/NeruroVis-GoDot" target="_blank">/context_prime</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/laportagm/NeruroVis-GoDot" target="_blank">/context_prime</a></code></td></tr>
+<tr><th align="left">Author<td>@laportagm</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/laportagm/NeruroVis-GoDot" target="_blank">laportagm/NeruroVis-GoDot</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Establishes context for Godot Engine development project
+- Sets up AI as Godot development expert
+- Defines project structure
+- References key documentation locations
+- Structures collaboration workflow
+
+#### <a href="https://github.com/yzyydev/AI-Engineering-Structure" target="_blank">/prime</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/yzyydev/AI-Engineering-Structure" target="_blank">/prime</a></code></td></tr>
+<tr><th align="left">Author<td>@yzyydev</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/yzyydev/AI-Engineering-Structure" target="_blank">yzyydev/AI-Engineering-Structure</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Sets up initial project context by viewing directory structure and reading key files
+- Creates standardized project context
+- Uses eza for directory visualization
+- Focuses Claude on key documentation
+- Enables consistent onboarding
+
+#### <a href="https://github.com/cmxela/thinkube" target="_blank">/reminder</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/cmxela/thinkube" target="_blank">/reminder</a></code></td></tr>
+<tr><th align="left">Author<td>@cmxela</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/cmxela/thinkube" target="_blank">cmxela/thinkube</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Re-establishes project context after conversation breaks or compaction
+- Restores context after breaks
+- Handles conversation compaction
+- Fixes guideline inconsistencies
+- Supports complex implementations
+
+#### <a href="https://github.com/ddisisto/si" target="_blank">/rsi</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/ddisisto/si" target="_blank">/rsi</a></code></td></tr>
+<tr><th align="left">Author<td>@ddisisto</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/ddisisto/si" target="_blank">ddisisto/si</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Reads all commands and key project files to optimize AI-assisted development
+- Streamlines AI development process
+- Loads command context
+- Reads project philosophy
+- Sets up for process optimization
+
+### Git Operations
+
+#### <a href="https://github.com/evmts/tevm-monorepo" target="_blank">/create-worktrees</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/evmts/tevm-monorepo" target="_blank">/create-worktrees</a></code></td></tr>
+<tr><th align="left">Author<td>@evmts</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/evmts/tevm-monorepo" target="_blank">evmts/tevm-monorepo</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Creates git worktrees for all open PRs or specific branches
+- Automates worktree setup for PRs
+- Handles branches with slashes
+- Cleans up stale worktrees
+- Supports custom branch creation
+
+#### <a href="https://github.com/evmts/tevm-monorepo" target="_blank">/husky</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/evmts/tevm-monorepo" target="_blank">/husky</a></code></td></tr>
+<tr><th align="left">Author<td>@evmts</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/evmts/tevm-monorepo" target="_blank">evmts/tevm-monorepo</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Sets up and manages Husky Git hooks
+- Configures pre-commit hooks
+- Establishes commit message standards
+- Integrates with linting tools
+- Ensures code quality on commits
+
+#### <a href="https://github.com/giselles-ai/giselle" target="_blank">/update-branch-name</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/giselles-ai/giselle" target="_blank">/update-branch-name</a></code></td></tr>
+<tr><th align="left">Author<td>@giselles-ai</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/giselles-ai/giselle" target="_blank">giselles-ai/giselle</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Updates branch names with proper prefixes and formats
+- Enforces branch naming conventions
+- Supports semantic prefixes
+- Handles existing branches
+- Manages remote branch updates
+
+#### <a href="https://github.com/evmts/tevm-monorepo" target="_blank">/commit</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/evmts/tevm-monorepo" target="_blank">/commit</a></code></td></tr>
+<tr><th align="left">Author<td>@evmts</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/evmts/tevm-monorepo" target="_blank">evmts/tevm-monorepo</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Uses conventional commit format
+- Adds appropriate emoji
+- Follows project standards
+- Creates descriptive messages
+
+#### <a href="https://github.com/toyamarinyon/giselle" target="_blank">/create-pr</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/toyamarinyon/giselle" target="_blank">/create-pr</a></code></td></tr>
+<tr><th align="left">Author<td>@toyamarinyon</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/toyamarinyon/giselle" target="_blank">toyamarinyon/giselle</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Creates new branch
+- Commits changes
+- Formats modified files with Biome
+- Submits pull request
+
+### Documentation
+
+#### <a href="https://github.com/okuvshynov/cubestat" target="_blank">/initref</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/okuvshynov/cubestat" target="_blank">/initref</a></code></td></tr>
+<tr><th align="left">Author<td>@okuvshynov</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/okuvshynov/cubestat" target="_blank">okuvshynov/cubestat</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Initializes reference documentation structure
+- Creates standard doc templates
+- Sets up API reference docs
+- Establishes documentation conventions
+- Generates placeholder content
+
+#### <a href="https://github.com/ethpandaops/xatu-data" target="_blank">/load-llms-txt</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/ethpandaops/xatu-data" target="_blank">/load-llms-txt</a></code></td></tr>
+<tr><th align="left">Author<td>@ethpandaops</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/ethpandaops/xatu-data" target="_blank">ethpandaops/xatu-data</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Loads LLM configuration files to context
+- Imports LLM-specific terminology
+- Loads model configurations
+- Establishes context for AI discussions
+- Sets baseline terminology
+
+#### <a href="https://github.com/jerseycheese/Narraitor" target="_blank">/create-docs</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/jerseycheese/Narraitor" target="_blank">/create-docs</a></code></td></tr>
+<tr><th align="left">Author<td>@jerseycheese</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/jerseycheese/Narraitor" target="_blank">jerseycheese/Narraitor</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Analyzes code structure/purpose
+- Documents inputs/outputs/behavior
+- Details user interaction flows
+- Covers edge cases and error handling
+
+#### <a href="https://github.com/Consiliency/Flutter-Structurizr" target="_blank">/update-docs</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/Consiliency/Flutter-Structurizr" target="_blank">/update-docs</a></code></td></tr>
+<tr><th align="left">Author<td>@Consiliency</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/Consiliency/Flutter-Structurizr" target="_blank">Consiliency/Flutter-Structurizr</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Reviews current documentation status
+- Updates implementation status
+- Reviews phase documents
+- Maintains documentation consistency
+
+#### <a href="https://github.com/slunsford/coffee-analytics" target="_blank">/docs</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/slunsford/coffee-analytics" target="_blank">/docs</a></code></td></tr>
+<tr><th align="left">Author<td>@slunsford</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/slunsford/coffee-analytics" target="_blank">slunsford/coffee-analytics</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Generates comprehensive docs
+- Follows project structure
+- Documents APIs and usage
+- Creates consistent format
+
+### Diagrams and Visualization
+
+#### <a href="https://github.com/GaloyMoney/lana-bank" target="_blank">/mermaid</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/GaloyMoney/lana-bank" target="_blank">/mermaid</a></code></td></tr>
+<tr><th align="left">Author<td>@GaloyMoney</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/GaloyMoney/lana-bank" target="_blank">GaloyMoney/lana-bank</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Generates Mermaid diagrams from SQL schema files
+- Creates entity relationship diagrams
+- Includes table properties
+- Validates diagram compilation
+- Ensures complete entity coverage
+
+### GitHub Integration
+
+#### <a href="https://github.com/metabase/metabase" target="_blank">/fix-pr</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/metabase/metabase" target="_blank">/fix-pr</a></code></td></tr>
+<tr><th align="left">Author<td>@metabase</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/metabase/metabase" target="_blank">metabase/metabase</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Fetches and fixes unresolved PR comments
+- Automatically retrieves PR feedback
+- Addresses reviewer comments
+- Makes targeted code improvements
+- Streamlines PR review process
+
+#### <a href="https://github.com/metabase/metabase" target="_blank">/fix-issue</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/metabase/metabase" target="_blank">/fix-issue</a></code></td></tr>
+<tr><th align="left">Author<td>@metabase</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/metabase/metabase" target="_blank">metabase/metabase</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Analyzes and implements fixes for GitHub issues
+- Researches issue context
+- Proposes targeted solutions
+- Implements code changes
+- Creates test coverage
+
+### UI and Frontend
+
+#### <a href="https://github.com/sotayamashita/dotfiles" target="_blank">/act</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/sotayamashita/dotfiles" target="_blank">/act</a></code></td></tr>
+<tr><th align="left">Author<td>@sotayamashita</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/sotayamashita/dotfiles" target="_blank">sotayamashita/dotfiles</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Generates React components with proper accessibility
+- Creates ARIA-compliant components
+- Tests accessibility features
+- Follows React best practices
+- Ensures keyboard navigation
+
+#### <a href="https://github.com/disler/just-prompt" target="_blank">/project_hello_w_name</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/disler/just-prompt" target="_blank">/project_hello_w_name</a></code></td></tr>
+<tr><th align="left">Author<td>@disler</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/disler/just-prompt" target="_blank">disler/just-prompt</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Creates customizable greeting components with name input
+- Demonstrates argument passing
+- Creates reusable components
+- Shows state management
+- Incorporates user input
+
+### Utilities
+
+#### <a href="https://github.com/wmjones/wyatt-personal-aws" target="_blank">/build-react-app</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/wmjones/wyatt-personal-aws" target="_blank">/build-react-app</a></code></td></tr>
+<tr><th align="left">Author<td>@wmjones</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/wmjones/wyatt-personal-aws" target="_blank">wmjones/wyatt-personal-aws</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Builds React app locally and handles success or failure
+- Intelligently handles build results
+- Creates tasks for build failures
+- Shows local server commands
+- Adapts to error types
+
+#### <a href="https://gist.github.com/fumito-ito/77c308e0382e06a9c16b22619f8a2f83" target="_blank">/dump</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://gist.github.com/fumito-ito/77c308e0382e06a9c16b22619f8a2f83" target="_blank">/dump</a></code></td></tr>
+<tr><th align="left">Author<td>@fumito-ito</td></tr>
+<tr><th align="left">Source<td><a href="https://gist.github.com/fumito-ito/77c308e0382e06a9c16b22619f8a2f83" target="_blank">GitHub Gist</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Dumps the current conversation to a markdown file in `.claude/logs/`
+- Creates timestamped files
+- Includes session details
+- Preserves full conversation history
+
+#### <a href="https://github.com/hesreallyhim/claude-code-workflows/blob/main/commands/say-goodbye.md" target="_blank">/say-goodbye</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/hesreallyhim/claude-code-workflows/blob/main/commands/say-goodbye.md" target="_blank">/say-goodbye</a></code></td></tr>
 <tr><th align="left">Author<td>@hesreallyhim</td></tr>
 <tr><th align="left">Source<td><a href="https://github.com/hesreallyhim/claude-code-workflows/blob/main/commands/say-goodbye.md" target="_blank">GitHub</a></td></tr>
 </table>
 
-**Description:** A simple goodbye-world command that prints "Goodbye, World!" to the console.
+**Highlights:**
+
+- Prints "Goodbye, World!" to the console
+- Demonstrates simple command structure
+- Shows basic output functionality
+
+#### <a href="https://github.com/hesreallyhim/claude-code-workflows/blob/main/commands/say-hello.md" target="_blank">/say-hello</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/hesreallyhim/claude-code-workflows/blob/main/commands/say-hello.md" target="_blank">/say-hello</a></code></td></tr>
+<tr><th align="left">Author<td>@hesreallyhim</td></tr>
+<tr><th align="left">Source<td><a href="https://github.com/hesreallyhim/claude-code-workflows/blob/main/commands/say-hello.md" target="_blank">GitHub</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Prints "Hello, world!" to the console
+- Provides a minimal command example
+- Shows standard output formatting
+
+#### <a href="https://github.com/elizaOS/elizaos.github.io" target="_blank">/context-prime</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/elizaOS/elizaos.github.io" target="_blank">/context-prime</a></code></td></tr>
+<tr><th align="left">Author<td>@elizaOS</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/elizaOS/elizaos.github.io" target="_blank">elizaOS/elizaos.github.io</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Primes Claude with comprehensive project understanding
+- Loads repository structure
+- Sets development context
+- Establishes project goals
+- Defines collaboration parameters
+
+### Testing
+
+#### <a href="https://github.com/buster-so/buster" target="_blank">/testing_plan_units</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/buster-so/buster" target="_blank">/testing_plan_units</a></code></td></tr>
+<tr><th align="left">Author<td>@buster-so</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/buster-so/buster" target="_blank">buster-so/buster</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Creates inline Rust-style tests
+- Suggests refactoring for testability
+- Analyzes code challenges
+- Creates comprehensive test coverage
+
+#### <a href="https://github.com/jerseycheese/Narraitor" target="_blank">/tdd-implement</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/jerseycheese/Narraitor" target="_blank">/tdd-implement</a></code></td></tr>
+<tr><th align="left">Author<td>@jerseycheese</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/jerseycheese/Narraitor" target="_blank">jerseycheese/Narraitor</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Analyzes feature requirements
+- Creates tests first (red)
+- Implements minimal passing code (green)
+- Refactors while maintaining tests
+
+### Issue Management
+
+#### <a href="https://github.com/rzykov/metabase" target="_blank">/fix-issue</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/rzykov/metabase" target="_blank">/fix-issue</a></code></td></tr>
+<tr><th align="left">Author<td>@rzykov</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/rzykov/metabase" target="_blank">rzykov/metabase</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Takes issue number as parameter
+- Analyzes issue context
+- Implements solution
+- Tests and validates fix
+
+#### <a href="https://github.com/rzykov/metabase" target="_blank">/repro-issue</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/rzykov/metabase" target="_blank">/repro-issue</a></code></td></tr>
+<tr><th align="left">Author<td>@rzykov</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/rzykov/metabase" target="_blank">rzykov/metabase</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Takes issue number as parameter
+- Creates reproducible test case
+- Ensures test fails reliably
+- Documents reproduction steps
+
+#### <a href="https://github.com/jerseycheese/Narraitor" target="_blank">/do-issue</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/jerseycheese/Narraitor" target="_blank">/do-issue</a></code></td></tr>
+<tr><th align="left">Author<td>@jerseycheese</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/jerseycheese/Narraitor" target="_blank">jerseycheese/Narraitor</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Includes manual review points
+- Follows structured approach
+- Takes issue number as parameter
+- Offers automated mode alternative
+
+#### <a href="https://github.com/hackdays-io/toban-contribution-viewer" target="_blank">/explain-issue-fix</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/hackdays-io/toban-contribution-viewer" target="_blank">/explain-issue-fix</a></code></td></tr>
+<tr><th align="left">Author<td>@hackdays-io</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/hackdays-io/toban-contribution-viewer" target="_blank">hackdays-io/toban-contribution-viewer</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Documents solution approach
+- Explains technical decisions
+- Details challenges overcome
+- Provides implementation context
+
+#### <a href="https://github.com/jerseycheese/Narraitor" target="_blank">/analyze-issue</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/jerseycheese/Narraitor" target="_blank">/analyze-issue</a></code></td></tr>
+<tr><th align="left">Author<td>@jerseycheese</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/jerseycheese/Narraitor" target="_blank">jerseycheese/Narraitor</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Fetches issue details
+- Creates comprehensive spec
+- Analyzes requirements
+- Plans implementation approach
+
+### Requirements Engineering
+
+#### <a href="https://github.com/Wirasm/claudecode-utils" target="_blank">/create-prp</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/Wirasm/claudecode-utils" target="_blank">/create-prp</a></code></td></tr>
+<tr><th align="left">Author<td>@Wirasm</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/Wirasm/claudecode-utils" target="_blank">Wirasm/claudecode-utils</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Reads PRP methodology
+- Follows template structure
+- Creates comprehensive requirements
+- Structures product definition
+
+#### <a href="https://github.com/taddyorg/inkverse" target="_blank">/create-prd</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/taddyorg/inkverse" target="_blank">/create-prd</a></code></td></tr>
+<tr><th align="left">Author<td>@taddyorg</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/taddyorg/inkverse" target="_blank">taddyorg/inkverse</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Outlines product specifications
+- Details requirements
+- Follows document structure
+- Creates comprehensive PRD
+
+#### <a href="https://github.com/taddyorg/inkverse" target="_blank">/create-jtbd</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/taddyorg/inkverse" target="_blank">/create-jtbd</a></code></td></tr>
+<tr><th align="left">Author<td>@taddyorg</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/taddyorg/inkverse" target="_blank">taddyorg/inkverse</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Outlines user needs
+- Creates JTBD structure
+- Focuses on user problems
+- Organizes by job categories
+
+### Deployment and Operations
+
+#### <a href="https://github.com/kelp/webdown" target="_blank">/release</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/kelp/webdown" target="_blank">/release</a></code></td></tr>
+<tr><th align="left">Author<td>@kelp</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/kelp/webdown" target="_blank">kelp/webdown</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Updates changelog
+- Reviews README changes
+- Evaluates version increment
+- Documents release changes
+
+#### <a href="https://github.com/cloudartisan/cloudartisan.github.io" target="_blank">/site/deploy</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/cloudartisan/cloudartisan.github.io" target="_blank">/site/deploy</a></code></td></tr>
+<tr><th align="left">Author<td>@cloudartisan</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/cloudartisan/cloudartisan.github.io" target="_blank">cloudartisan/cloudartisan.github.io</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Builds with production settings
+- Verifies build success
+- Commits and pushes changes
+- Performs deployment check
+
+#### <a href="https://github.com/berrydev-ai/blockdoc-python" target="_blank">/add-to-changelog</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/berrydev-ai/blockdoc-python" target="_blank">/add-to-changelog</a></code></td></tr>
+<tr><th align="left">Author<td>@berrydev-ai</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/berrydev-ai/blockdoc-python" target="_blank">berrydev-ai/blockdoc-python</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Adds new entries
+- Maintains changelog format
+- Documents changes
+- Follows project standards
+
+### Analysis and Monitoring
+
+#### <a href="https://github.com/Hkgstax/VALUGATOR" target="_blank">/analyze-code</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/Hkgstax/VALUGATOR" target="_blank">/analyze-code</a></code></td></tr>
+<tr><th align="left">Author<td>@Hkgstax</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/Hkgstax/VALUGATOR" target="_blank">Hkgstax/VALUGATOR</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Reviews code structure
+- Identifies key components
+- Maps relationships
+- Suggests improvements
+
+#### <a href="https://github.com/TuckerTucker/tkr-agent-chat" target="_blank">/five</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/TuckerTucker/tkr-agent-chat" target="_blank">/five</a></code></td></tr>
+<tr><th align="left">Author<td>@TuckerTucker</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/TuckerTucker/tkr-agent-chat" target="_blank">TuckerTucker/tkr-agent-chat</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Uses "five whys" methodology
+- Performs root cause analysis
+- Identifies underlying issues
+- Creates solution approach
+
+#### <a href="https://github.com/arkavo-org/opentdf-rs" target="_blank">/pr-review</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/arkavo-org/opentdf-rs" target="_blank">/pr-review</a></code></td></tr>
+<tr><th align="left">Author<td>@arkavo-org</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/arkavo-org/opentdf-rs" target="_blank">arkavo-org/opentdf-rs</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Reviews PR changes
+- Provides feedback
+- Checks for issues
+- Suggests improvements
+
+### Project-Specific Tools
+
+#### <a href="https://github.com/Mjvolk3/torchcell" target="_blank">/load_dango_pipeline</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/Mjvolk3/torchcell" target="_blank">/load_dango_pipeline</a></code></td></tr>
+<tr><th align="left">Author<td>@Mjvolk3</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/Mjvolk3/torchcell" target="_blank">Mjvolk3/torchcell</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Sets context for model training
+- References pipeline files
+- Establishes working context
+- Prepares for pipeline work
+
+#### <a href="https://github.com/Mjvolk3/torchcell" target="_blank">/review_dcell_model</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/Mjvolk3/torchcell" target="_blank">/review_dcell_model</a></code></td></tr>
+<tr><th align="left">Author<td>@Mjvolk3</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/Mjvolk3/torchcell" target="_blank">Mjvolk3/torchcell</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Reviews old Dcell files
+- Compares with Dango model
+- Notes 17-month changes
+- Analyzes refactoring
+
+#### <a href="https://github.com/Mjvolk3/torchcell" target="_blank">/fixing_go_in_graph</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/Mjvolk3/torchcell" target="_blank">/fixing_go_in_graph</a></code></td></tr>
+<tr><th align="left">Author<td>@Mjvolk3</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/Mjvolk3/torchcell" target="_blank">Mjvolk3/torchcell</a></td></tr>
+</table>
+
+**Highlights:**
+
+- Focuses on GO annotation integration
+- Handles multiple data sources
+- Addresses graph representation
+- Ensures correct data incorporation
+
+#### <a href="https://github.com/Mjvolk3/torchcell" target="_blank">/load_coo_context</a>
+
+<table>
+<tr><th align="left">Name<td><code><a href="https://github.com/Mjvolk3/torchcell" target="_blank">/load_coo_context</a></code></td></tr>
+<tr><th align="left">Author<td>@Mjvolk3</td></tr>
+<tr><th align="left">Repository<td><a href="https://github.com/Mjvolk3/torchcell" target="_blank">Mjvolk3/torchcell</a></td></tr>
+</table>
+
+**Highlights:**
+
+- References specific files
+- Explains transform usage
+- Compares with previous approach
+- Sets data formatting context
 
 ## [`CLAUDE.md` Files](#claudemd-files)
+
+- [claude-code-mcp-enhanced](https://github.com/grahama1970/claude-code-mcp-enhanced/blob/66328d6bcc960c81ff24f6213ce5614000858698/CLAUDE.md) - Very detailed and emphatic set of instructions for Claude to follow as a coding agent, with testing, code examples, and compliance checks.
 
 ### AI IntelliJ Plugin (didalgolab)
 
@@ -55,6 +1059,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 </table>
 
 **Highlights:**
+
 - Comprehensive Gradle commands for plugin development
 - IntelliJ Platform-specific coding patterns and guidelines
 - Detailed package structure and naming conventions
@@ -70,6 +1075,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 </table>
 
 **Highlights:**
+
 - Comprehensive development guides for three distinct AI-powered demo projects
 - Standardized development workflow across different project types
 - Strict code style guidelines for Python and TypeScript
@@ -86,6 +1092,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 </table>
 
 **Highlights:**
+
 - Structures AI-assisted EigenLayer AVS development workflow
 - Provides consistent naming conventions for prompt files
 - Outlines progression from idea to implementation
@@ -101,6 +1108,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 </table>
 
 **Highlights:**
+
 - Multiple environment setup options using modern Python tools
 - Detailed code style guidelines and best practices
 - Comprehensive error handling and logging recommendations
@@ -116,6 +1124,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 </table>
 
 **Highlights:**
+
 - Innovative AI-human collaboration framework for seamless development
 - Model Context Protocol (MCP) for bidirectional LLM-markdown communication
 - Unique GitHub integration with AI as a full team member
@@ -132,6 +1141,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 </table>
 
 **Highlights:**
+
 - Development reference for E2E-encrypted messaging app
 - Code organization and architecture
 - Security implementation details
@@ -147,6 +1157,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 </table>
 
 **Highlights:**
+
 - Real-time multiplayer capabilities for collaborative course creation
 - Diverse tech stack including Next.js, TypeScript, Drizzle ORM, and AI
 - Monorepo architecture with Turborepo and PNPM workspaces
@@ -163,6 +1174,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 </table>
 
 **Highlights:**
+
 - Versatile AI command interface supporting multiple AI providers and models
 - Flexible command options with extensive customization through provider selection
 - Advanced AI collaboration with built-in commands for planning and research
@@ -179,6 +1191,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 </table>
 
 **Highlights:**
+
 - Comprehensive Gradle commands for cross-platform development
 - Clear module structure for multiplatform architecture
 - Specific coding standards for Kotlin Multiplatform projects
@@ -194,6 +1207,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 </table>
 
 **Highlights:**
+
 - Detailed build and test commands for installation and documentation
 - Strict code style enforcing formatting, naming, and type hinting
 - Comprehensive testing requirements for type checking and coverage
@@ -210,6 +1224,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 </table>
 
 **Highlights:**
+
 - Detailed build and test commands using pnpm and Vitest
 - Strict code formatting requirements with mandatory Biome checks
 - Comprehensive naming conventions ensuring code consistency
@@ -226,6 +1241,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 </table>
 
 **Highlights:**
+
 - Development guide for Guitar Git GUI Client
 - Build commands for various platforms
 - Code style guidelines for contributing
@@ -241,6 +1257,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 </table>
 
 **Highlights:**
+
 - Comprehensive repository structure breakdown into `/apps`, `/blocks`, `/libs`, and `/infra`
 - Strong emphasis on reading full coding standards before development
 - Detailed Rust documentation guidelines for functions, types, and examples
@@ -257,6 +1274,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 </table>
 
 **Highlights:**
+
 - Structured development workflow using pnpm for project management
 - Emphasis on TypeScript and Vue 3 Composition API
 - Detailed component creation process with folder structure guidelines
@@ -273,6 +1291,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 </table>
 
 **Highlights:**
+
 - Development guide for JavaScript BBC Micro emulator
 - Build and testing instructions
 - Architecture documentation
@@ -288,6 +1307,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 </table>
 
 **Highlights:**
+
 - Reference for production prompt engineering library
 - Load balancing of AI Models
 - API documentation
@@ -303,6 +1323,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 </table>
 
 **Highlights:**
+
 - Comprehensive build and test commands with specific linting instructions
 - Detailed TypeScript code style guidelines emphasizing ES2021 standards
 - Layered library architecture with four key system components
@@ -319,6 +1340,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 </table>
 
 **Highlights:**
+
 - Detailed workflow for REPL-driven development in Clojure/ClojureScript
 - Emphasis on incremental development and testing
 - Guidelines for working with Metabase's JavaScript/TypeScript codebase
@@ -335,6 +1357,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 </table>
 
 **Highlights:**
+
 - Strict package management and tooling requirements
 - Comprehensive type checking and code formatting rules
 - Explicit PR description and reviewer guidelines
@@ -350,6 +1373,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 </table>
 
 **Highlights:**
+
 - Detailed implementation plan for an AI-driven game character
 - Technical specifications for LLM integration in games
 - Character guidelines and conversational constraints
@@ -365,6 +1389,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 </table>
 
 **Highlights:**
+
 - Provides detailed styling isolation techniques for Obsidian plugins
 - Uses Tailwind with custom prefix (`fo-`) to prevent style conflicts
 - Includes practical troubleshooting steps for common styling issues
@@ -380,6 +1405,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 </table>
 
 **Highlights:**
+
 - Development guide for Mac security audit tool
 - Build instructions and workflows
 - Contribution guidelines
@@ -395,6 +1421,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 </table>
 
 **Highlights:**
+
 - Clear step-by-step installation instructions
 - Multiple configuration options for different environments
 - Detailed troubleshooting guidance with diagnostic steps
@@ -410,6 +1437,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 </table>
 
 **Highlights:**
+
 - Comprehensive structure for TypeScript monorepo projects
 - Detailed commands for development, testing, and deployment
 - Clear environment variable documentation and usage
@@ -425,6 +1453,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 </table>
 
 **Highlights:**
+
 - Strict coding conventions with specific naming standards
 - Comprehensive testing guidelines with backend-specific execution
 - Multiple code compilation options with clear examples
@@ -441,15 +1470,16 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 </table>
 
 **Highlights:**
+
 - Detailed Go project conventions and build commands
 - Comprehensive error handling recommendations
 - Table-driven testing approach guidelines
 - Modernization suggestions for adopting latest Go features
 
-
 ## [CLI Workflows](#cli-workflows)
 
-- TODO
+- [Smart TV](https://github.com/vitalets/awesome-smart-tv#readme) - Create apps for different TV platforms.
+- [Claude Task Manager](https://gist.github.com/grahama1970/44a9da6a3da6769132037f06966945c2#file-00_readme-md) - A specialized tool to manage context isolation and focused task execution with Claude Code, solving the critical challenge of context length limitations and task focus when working with Claude on complex, multi-step projects.
 
 ## Contributing
 
