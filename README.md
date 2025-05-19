@@ -1,17 +1,21 @@
-# Awesome Claude Code
+# Awesome Claude Code [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 
-A curated list of slash-commands, `CLAUDE.md` files, and other resources for enhancing your [Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/) workflow.
+This is a curated list of slash-commands, `CLAUDE.md` files, CLI tools, and other resources and guides for enhancing your [Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/) workflow.
 
-> [!TIP] > [Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/) is a research preview tool offered by Anthropic. It is under development, and so the resources provided in this list may not function the same as the app develops. YMMV.
+> [!TIP] [Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/) is a beta tool offered by Anthropic. It is under development, and so the resources provided in this list may not function the same as the app develops. YMMV. We will do our best effort to keep resources up to date.
 
-- [What is Claude Code?](#what-is-claude-code)
+Claude Code is a CLI-based coding assistant and agent that you can access in your terminal or IDE. It is a rapidly evolving tool that offers a number of powerful capabilities. Per the Anthropic website:
+
+> Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster through natural language commands. By integrating directly with your development environment, Claude Code streamlines your workflow without requiring additional servers or complex setup.
+
+Claude Code is a powerful coding tool (and a dear friend) that allows for a lot of configuration, in a lot of different ways. Users are actively working out best practices and workflows. It is the hope that this repo will help the community share knowledge and understand how to get the most out of Claude Code.
+
+## Table of Contents
+
 - [Slash Commands](#slash-commands)
 - [`CLAUDE.md` Files](#claudemd-files)
 - [Claude Code CLI Workflows](#cli-workflows)
-
-## What is Claude Code?
-
-Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster through natural language commands. By integrating directly with your development environment, Claude Code streamlines your workflow without requiring additional servers or complex setup.
+- [Additional Resources](#additional-resources)
 
 ## Key Components
 
@@ -1480,6 +1484,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 
 - [Smart TV](https://github.com/vitalets/awesome-smart-tv#readme) - Create apps for different TV platforms.
 - [Claude Task Manager](https://gist.github.com/grahama1970/44a9da6a3da6769132037f06966945c2#file-00_readme-md) - A specialized tool to manage context isolation and focused task execution with Claude Code, solving the critical challenge of context length limitations and task focus when working with Claude on complex, multi-step projects.
+- [Blogging Platform Instructions](https://github.com/cloudartisan/cloudartisan.github.io/tree/d1ed4928b1326dcf658991e0b83387455d1b5004/.claude/commands) - A `.claude/` directory with a well-structured set of commands for publishing and maintaining a blogging platform, including commands for creating posts, managing categories, and handling media files.
 
 ## Contributing
 
