@@ -23,6 +23,16 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 
 ## [Slash Commands](#slash-commands)
 
+### dump
+
+<table>
+<tr><th align="left">Name<td><code>/dump</code></td></tr>
+<tr><th align="left">Author<td>@fumito-ito</td></tr>
+<tr><th align="left">Source<td><a href="https://gist.github.com/fumito-ito/77c308e0382e06a9c16b22619f8a2f83" target="_blank">GitHub Gist</a></td></tr>
+</table>
+
+**Description:** A command that dumps the current conversation to a markdown file in `.claude/logs/`. Creates timestamped files with session details and the full conversation history.
+
 ### say-hello
 
 <table>
