@@ -1,3 +1,13 @@
 **/.claude/settings.local.json
 
 backups/
+
+.mypy_cache/
+
+.claude/
+.claude/*
+.claude/commands/*
+
+!.claude/
+!.claude/commands/
+!.claude/commands/add-new-resource.md

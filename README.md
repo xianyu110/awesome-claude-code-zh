@@ -2,7 +2,7 @@
 
 This is a curated list of slash-commands, `CLAUDE.md` files, CLI tools, and other resources and guides for enhancing your [Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/) workflow.
 
-> [!TIP] [Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/) is a beta tool offered by Anthropic. It is under development, and so the resources provided in this list may not function the same as the app develops. YMMV. We will do our best effort to keep resources up to date.
+> [!TIP] [Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/) is a beta tool offered by Anthropic. It is under active development, and so the resources provided in this list may not function the same as the app develops. YMMV. We will do our best effort to keep resources up to date. In addition, certain resources may be effective for some use cases and not for others. Try to refrain from being overly critical if you try one of the workflows in this list, and it does not perform well for you.
 
 Claude Code is a CLI-based coding assistant and agent that you can access in your terminal or IDE. It is a rapidly evolving tool that offers a number of powerful capabilities. Per the Anthropic website:
 
@@ -14,7 +14,8 @@ Claude Code is a powerful coding tool (and a dear friend) that allows for a lot 
 
 - [Slash Commands](#slash-commands)
 - [CLAUDE.md Files](#claudemd-files)
-- [CLI Workflows](#cli-workflows)
+- [Workflows](#cli-workflows)
+- [Official Documentation](#official-documentation)
 - [Contributing](#contributing)
 
 ## Key Components
@@ -23,7 +24,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 
 - **Slash Commands**: In an interactive session, you can use "slash-commands" (e.g. `/compact`) to trigger specific actions. Claude Code offers a number of built-in slash commands, but you can also create your own, by declaring instructions in Markdown files inside the `.claude/commands/` directory. A markdown file like `./claude/commands/hello-world.md` will be available as the `/project:hello-world` command in your interactive session.
 - **`CLAUDE.md` Files**: A markdown file that contains instructions for Claude Code. This file is used to provide context and guidance to the agent, helping it understand your codebase and your preferences.
-- **Claude Code CLI Workflows**: Claude Code can also be invoked in non-interactive mode using the `-p` flag. This allows you to run Claude Code commands in a script or as part of a larger workflow, such as a CI/CD pipeline.
+- **Claude Code Workflows**: Workflows are sets of two or more Claude Code resources that are tightly coupled together. They may be a higher-level description of a particular Claude Code integration or usage pattern, or they may be a set of commands that work together to accomplish a specific task.
 
 ## Slash Commands
 
@@ -209,18 +210,37 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 
 - [SPy](https://github.com/spylang/spy/blob/main/CLAUDE.md) - Enforces strict coding conventions with comprehensive testing guidelines, multiple code compilation options, and backend-specific test decorators for targeted filtering.
 
+- [SteadyStart](https://github.com/steadycursor/steadystart/blob/main/CLAUDE.md) - Clear and direct instructives about style, permissions, Claude's "role", communications, and documentation of Claude Code sessions for other team members to stay abreast.
+
 - [TPL](https://github.com/KarpelesLab/tpl/blob/master/CLAUDE.md) - Details Go project conventions with comprehensive error handling recommendations, table-driven testing approach guidelines, and modernization suggestions for latest Go features.
 
-## CLI Workflows
+## Workflows
 
 - [Blogging Platform Instructions](https://github.com/cloudartisan/cloudartisan.github.io/tree/d1ed4928b1326dcf658991e0b83387455d1b5004/.claude/commands) - Provides a well-structured set of commands for publishing and maintaining a blogging platform, including commands for creating posts, managing categories, and handling media files.
 
 - [Claude Task Manager](https://gist.github.com/grahama1970/44a9da6a3da6769132037f06966945c2#file-00_readme-md) - Solves the critical challenge of context length limitations and task focus when working with Claude on complex projects through specialized context isolation and focused task execution.
 
+- [Project Bootstrapping and Task Management](https://github.com/steadycursor/steadystart/tree/main/.claude/commands) - Provides a structured set of commands for bootstrapping and managing a new project, including meta-commands for creating and editing custom slash-commands
+
 - [Smart TV](https://github.com/vitalets/awesome-smart-tv#readme) - Enables creation of applications for different TV platforms with cross-platform compatibility and optimized development workflows.
+
+## Official Documentation
+
+- [Anthropic Documentation](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/) - The official documentation for Claude Code, including installation instructions, usage guidelines, and API references. Like Claude Code, the documentation is frequently updated. Be sure to validate any information against Anthropic's official documentation.
 
 ## Contributing
 
 Please note that this project is released with a [Contributor Code of Conduct](code-of-conduct.md). By participating in this project you agree to abide by its terms.
 
-I'm still working out the best way to structure this repository, but if you have anything you'd like to add to the list, feel free to make a pull request or open an issue.
+Regarding content, we especially welcome:
+
+- Proven, effective resources that follow best practices and may even be in use in production.
+- Innovative, creative, or experimental workflows that perhaps are still being iterated upon, but have high potential value, and push the boundaries of Claude Code's documented capabilities and use cases.
+- Claude Code "magic spells" - commands or workflows that seem to be especially effective.
+- Applications of Claude Code outside of the traditional "coding assistant" context, e.g., CI/CD integration, testing, documentation, dev-ops, etc.
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for more information on how to contribute to this project.
+
+## License
+
+This project is licensed under the [CC0 1.0 Universal License](LICENSE).
