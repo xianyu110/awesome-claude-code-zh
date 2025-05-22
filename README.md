@@ -36,7 +36,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 
 - [/analyze-code](https://github.com/Hkgstax/VALUGATOR/blob/main/.claude/commands/analyze-code.md) - Reviews code structure and identifies key components, mapping relationships between elements and suggesting targeted improvements for better architecture and performance.
 
-- [/analyze-issue](https://github.com/jerseycheese/Narraitor/blob/develop/.claude/commands/analyze-issue.md) - Fetches GitHub issue details to create comprehensive implementation specifications, analyzing requirements and planning structured approach with clear implementation steps.
+- [/analyze-issue](https://github.com/jerseycheese/Narraitor/blob/feature/issue-227-ai-suggestions/.claude/commands/analyze-issue.md) - Fetches GitHub issue details to create comprehensive implementation specifications, analyzing requirements and planning structured approach with clear implementation steps.
 
 - [/bug-fix](https://github.com/danielscholl/mvn-mcp-server/blob/main/.claude/commands/bug-fix.md) - Streamlines bug fixing by creating a GitHub issue first, then a feature branch for implementing and thoroughly testing the solution before merging.
 
@@ -56,7 +56,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 
 - [/create-command](https://github.com/scopecraft/command/blob/main/.claude/commands/create-command.md) - Guides Claude through creating new custom commands with proper structure by analyzing requirements, templating commands by category, enforcing command standards, and creating supporting documentation.
 
-- [/create-docs](https://github.com/jerseycheese/Narraitor/blob/develop/.claude/commands/create-docs.md) - Analyzes code structure and purpose to create comprehensive documentation detailing inputs/outputs, behavior, user interaction flows, and edge cases with error handling.
+- [/create-docs](https://github.com/jerseycheese/Narraitor/tree/feature/issue-227-ai-suggestions/.claude/commands/create-docs.md) - Analyzes code structure and purpose to create comprehensive documentation detailing inputs/outputs, behavior, user interaction flows, and edge cases with error handling.
 
 - [/create-jtbd](https://github.com/taddyorg/inkverse/blob/main/.claude/commands/create-jtbd.md) - Creates Jobs-to-be-Done frameworks that outline user needs with structured format, focusing on specific user problems and organizing by job categories for product development.
 
@@ -70,7 +70,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 
 - [/create-worktrees](https://github.com/evmts/tevm-monorepo/blob/main/.claude/commands/create-worktrees.md) - Creates git worktrees for all open PRs or specific branches, handling branches with slashes, cleaning up stale worktrees, and supporting custom branch creation for development.
 
-- [/do-issue](https://github.com/jerseycheese/Narraitor/blob/develop/.claude/commands/do-issue.md) - Implements GitHub issues with manual review points, following a structured approach with issue number parameter and offering alternative automated mode for efficiency.
+- [/do-issue](https://github.com/jerseycheese/Narraitor/blob/feature/issue-227-ai-suggestions/.claude/commands/do-issue.md) - Implements GitHub issues with manual review points, following a structured approach with issue number parameter and offering alternative automated mode for efficiency.
 
 - [/docs](https://github.com/slunsford/coffee-analytics/blob/main/.claude/commands/docs.md) - Generates comprehensive documentation that follows project structure, documenting APIs and usage patterns with consistent formatting for better user understanding.
 
@@ -82,9 +82,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 
 - [/fix-github-issue](https://github.com/jeremymailen/kotlinter-gradle/blob/master/.claude/commands/fix-github-issue.md) - Analyzes and fixes GitHub issues using a structured approach with GitHub CLI for issue details, implementing necessary code changes, running tests, and creating proper commit messages.
 
-- [/fix-issue](https://github.com/metabase/metabase/blob/master/.claude/commands/fix-issue.md) - Analyzes and implements fixes for GitHub issues by researching context, proposing targeted solutions, implementing code changes, and creating appropriate test coverage.
-
-- [/fix-issue](https://github.com/rzykov/metabase/blob/main/.claude/commands/fix-issue.md) - Addresses GitHub issues by taking issue number as parameter, analyzing context, implementing solution, and testing/validating the fix for proper integration.
+- [/fix-issue](https://github.com/rzykov/metabase/blob/master/.claude/commands/fix-issue.md) - Addresses GitHub issues by taking issue number as parameter, analyzing context, implementing solution, and testing/validating the fix for proper integration.
 
 - [/fix-pr](https://github.com/metabase/metabase/blob/master/.claude/commands/fix-pr.md) - Fetches and fixes unresolved PR comments by automatically retrieving feedback, addressing reviewer concerns, making targeted code improvements, and streamlining the review process.
 
@@ -98,7 +96,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 
 - [/initref](https://github.com/okuvshynov/cubestat/blob/main/.claude/commands/initref.md) - Initializes reference documentation structure with standard doc templates, API reference setup, documentation conventions, and placeholder content generation.
 
-- [/load-llms-txt](https://github.com/ethpandaops/xatu-data/blob/main/.claude/commands/load-llms-txt.md) - Loads LLM configuration files to context, importing specific terminology, model configurations, and establishing baseline terminology for AI discussions.
+- [/load-llms-txt](https://github.com/ethpandaops/xatu-data/blob/master/.claude/commands/load-llms-txt.md) - Loads LLM configuration files to context, importing specific terminology, model configurations, and establishing baseline terminology for AI discussions.
 
 - [/load_coo_context](https://github.com/Mjvolk3/torchcell/blob/main/.claude/commands/load_coo_context.md) - References specific files for sparse matrix operations, explains transform usage, compares with previous approaches, and sets data formatting context for development.
 
@@ -110,9 +108,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 
 - [/optimize](https://github.com/to4iki/ai-project-rules/blob/main/.claude/commands/optimize.md) - Analyzes code performance to identify bottlenecks, proposing concrete optimizations with implementation guidance for improved application performance.
 
-- [/plan](https://github.com/harperreed/dotfiles/blob/main/.claude/commands/plan.md) - Creates detailed implementation plans for features or tasks by breaking down complex requirements, creating step-by-step approaches, identifying potential challenges, and planning required resources.
-
-- [/new](https://github.com/cloudartisan/cloudartisan.github.io/blob/main/.claude/commands/posts/new.mdd) - Creates new blog posts with proper front matter, enforcing structure, generating standardized metadata, and following site conventions for content workflow.
+- [/new](https://github.com/cloudartisan/cloudartisan.github.io/blob/main/.claude/commands/projects/new.md) - Creates new blog posts with proper front matter, enforcing structure, generating standardized metadata, and following site conventions for content workflow.
 
 - [/pr-review](https://github.com/arkavo-org/opentdf-rs/blob/main/.claude/commands/pr-review.md) - Reviews pull request changes to provide feedback, check for issues, and suggest improvements before merging into the main codebase.
 
@@ -124,7 +120,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 
 - [/reminder](https://github.com/cmxela/thinkube/blob/main/.claude/commands/reminder.md) - Re-establishes project context after conversation breaks or compaction, restoring context and fixing guideline inconsistencies for complex implementations.
 
-- [/repro-issue](https://github.com/rzykov/metabase/blob/main/.claude/commands/repro-issue.md) - Creates reproducible test cases for GitHub issues, ensuring tests fail reliably and documenting clear reproduction steps for developers.
+- [/repro-issue](https://github.com/rzykov/metabase/blob/master/.claude/commands/repro-issue.md) - Creates reproducible test cases for GitHub issues, ensuring tests fail reliably and documenting clear reproduction steps for developers.
 
 - [/review_dcell_model](https://github.com/Mjvolk3/torchcell/blob/main/.claude/commands/review_dcell_model.md) - Reviews old Dcell implementation files, comparing with newer Dango model, noting changes over time, and analyzing refactoring approaches for better code organization.
 
@@ -144,9 +140,9 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 
 - [/tdd](https://github.com/zscott/pane/blob/main/.claude/commands/tdd.md) - Guides development using Test-Driven Development principles, enforcing Red-Green-Refactor discipline, integrating with git workflow, and managing PR creation.
 
-- [/tdd-implement](https://github.com/jerseycheese/Narraitor/blob/main/.claude/commands/tdd-implement.md) - Implements Test-Driven Development by analyzing feature requirements, creating tests first (red), implementing minimal passing code (green), and refactoring while maintaining tests.
+- [/tdd-implement](https://github.com/jerseycheese/Narraitor/blob/feature/issue-227-ai-suggestions/.claude/commands/tdd-implement.md) - Implements Test-Driven Development by analyzing feature requirements, creating tests first (red), implementing minimal passing code (green), and refactoring while maintaining tests.
 
-- [/testing_plan_units](https://github.com/buster-so/buster/blob/main/.claude/commands/testing_plan_units.md) - Creates inline Rust-style tests, suggests refactoring for testability, analyzes code challenges, and creates comprehensive test coverage for robust code.
+- [/testing_plan_integration](https://github.com/buster-so/buster/blob/main/api/.claude/commands/testing_plan_integration.md) - Creates inline Rust-style tests, suggests refactoring for testability, analyzes code challenges, and creates comprehensive test coverage for robust code.
 
 - [/update-branch-name](https://github.com/giselles-ai/giselle/blob/main/.claude/commands/update-branch-name.md) - Updates branch names with proper prefixes and formats, enforcing naming conventions, supporting semantic prefixes, and managing remote branch updates.
 
