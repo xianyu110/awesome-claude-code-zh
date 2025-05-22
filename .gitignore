@@ -8,6 +8,7 @@ backups/
 .claude/*
 .claude/commands/*
 
+!CLAUDE.md
 !.claude/
 !.claude/commands/
 !.claude/commands/add-new-resource.md
