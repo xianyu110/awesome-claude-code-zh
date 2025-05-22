@@ -156,8 +156,6 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 
 - [AI IntelliJ Plugin](https://github.com/didalgolab/ai-intellij-plugin/blob/main/CLAUDE.md) - Provides comprehensive Gradle commands for IntelliJ plugin development with platform-specific coding patterns, detailed package structure guidelines, and clear internationalization standards.
 
-- [Anthropic Quickstarts](https://github.com/anthropics/anthropic-quickstarts/blob/main/CLAUDE.md) - Offers comprehensive development guides for three distinct AI-powered demo projects with standardized workflows, strict code style guidelines, and containerization instructions.
-
 - [AVS Vibe Developer Guide](https://github.com/Layr-Labs/avs-vibe-developer-guide/blob/master/CLAUDE.md) - Structures AI-assisted EigenLayer AVS development workflow with consistent naming conventions for prompt files and established terminology standards for blockchain concepts.
 
 - [AWS MCP Server](https://github.com/alexei-led/aws-mcp-server/blob/main/CLAUDE.md) - Features multiple Python environment setup options with detailed code style guidelines, comprehensive error handling recommendations, and security considerations for AWS CLI interactions.
@@ -227,6 +225,8 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 ## Official Documentation
 
 - [Anthropic Documentation](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/) - The official documentation for Claude Code, including installation instructions, usage guidelines, and API references. Like Claude Code, the documentation is frequently updated. Be sure to validate any information against Anthropic's official documentation.
+
+- [Anthropic Quickstarts](https://github.com/anthropics/anthropic-quickstarts/blob/main/CLAUDE.md) - Offers comprehensive development guides for three distinct AI-powered demo projects with standardized workflows, strict code style guidelines, and containerization instructions.
 
 ## Contributing
 
