@@ -70,6 +70,8 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 
 - [/create-worktrees](https://github.com/evmts/tevm-monorepo/blob/main/.claude/commands/create-worktrees.md) - Creates git worktrees for all open PRs or specific branches, handling branches with slashes, cleaning up stale worktrees, and supporting custom branch creation for development.
 
+- [/deploy](https://github.com/cloudartisan/cloudartisan.github.io/blob/main/.claude/commands/site/deploy.md) - Builds site with production settings, verifies build success, commits and pushes changes, and performs deployment checks for website publishing.
+
 - [/do-issue](https://github.com/jerseycheese/Narraitor/blob/feature/issue-227-ai-suggestions/.claude/commands/do-issue.md) - Implements GitHub issues with manual review points, following a structured approach with issue number parameter and offering alternative automated mode for efficiency.
 
 - [/docs](https://github.com/slunsford/coffee-analytics/blob/main/.claude/commands/docs.md) - Generates comprehensive documentation that follows project structure, documenting APIs and usage patterns with consistent formatting for better user understanding.
@@ -104,11 +106,11 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 
 - [/mermaid](https://github.com/GaloyMoney/lana-bank/blob/main/.claude/commands/mermaid.md) - Generates Mermaid diagrams from SQL schema files, creating entity relationship diagrams with table properties, validating diagram compilation, and ensuring complete entity coverage.
 
+- [/new](https://github.com/cloudartisan/cloudartisan.github.io/blob/main/.claude/commands/projects/new.md) - Creates new blog posts with proper front matter, enforcing structure, generating standardized metadata, and following site conventions for content workflow.
+
 - [/next-task](https://github.com/wmjones/wyatt-personal-aws/blob/main/.claude/commands/next-task.md) - Gets the next task from TaskMaster and creates a branch for it, integrating with task management systems, automating branch creation, and enforcing naming conventions.
 
 - [/optimize](https://github.com/to4iki/ai-project-rules/blob/main/.claude/commands/optimize.md) - Analyzes code performance to identify bottlenecks, proposing concrete optimizations with implementation guidance for improved application performance.
-
-- [/new](https://github.com/cloudartisan/cloudartisan.github.io/blob/main/.claude/commands/projects/new.md) - Creates new blog posts with proper front matter, enforcing structure, generating standardized metadata, and following site conventions for content workflow.
 
 - [/pr-review](https://github.com/arkavo-org/opentdf-rs/blob/main/.claude/commands/pr-review.md) - Reviews pull request changes to provide feedback, check for issues, and suggest improvements before merging into the main codebase.
 
@@ -133,8 +135,6 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 - [/say-goodbye](https://github.com/hesreallyhim/claude-code-workflows/blob/main/commands/say-goodbye.md) - Prints "Goodbye, World!" to the console, demonstrating simple command structure and basic output functionality for command development.
 
 - [/say-hello](https://github.com/hesreallyhim/claude-code-workflows/blob/main/commands/say-hello.md) - Prints "Hello, world!" to the console, providing a minimal command example that shows standard output formatting for command development.
-
-- [/deploy](https://github.com/cloudartisan/cloudartisan.github.io/blob/main/.claude/commands/site/deploy.md) - Builds site with production settings, verifies build success, commits and pushes changes, and performs deployment checks for website publishing.
 
 - [/task-breakdown](https://github.com/Hkgstax/VALUGATOR/blob/main/.claude/commands/task-breakdown.md) - Analyzes feature requirements, identifies components and dependencies, creates manageable tasks, and sets priorities for efficient feature implementation.
 
