@@ -36,7 +36,6 @@ Thank you for your interest in contributing to Awesome Claude Code! We welcome a
 - **[Workflows](README.md#workflows)** consist of two or more tightly coupled Claude Code resources that work together, or they may be a higher-level description of a particular Claude Code integration or usage pattern.
 - **[Slash Commands](README.md#slash-commands)** should be named according to the name of the slash-command.
 - **[CLAUDE.md files](README.md#claude-md-files)** should be named according to the repository they are associated with, although the hyperlink should point to the `CLAUDE.md` file itself.
-- You may also add a new category to a section if you believe it is genuinely warranted.
 - Besides GitHub repositories, we welcome blog posts, articles, YouTube videos, Gists, and so on.
 - Please feel free to submit an Issue if: you find that one of the entries on the list is no longer available at the provided link; you believe that one of the entries is particularly unhelpful or contains misinformation, or is no longer relevant to the current version of Claude Code; any other suggestions to improve the repository.
 
