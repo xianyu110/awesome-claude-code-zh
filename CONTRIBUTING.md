@@ -21,7 +21,7 @@ Thank you for your interest in contributing to Awesome Claude Code! We welcome a
 
    - It provides genuine value to Claude Code users
    - It demonstrates innovative or exemplary usage patterns
-   - It follows best practices for `CLAUDE.md` files or slash commands
+   - It follows best practices for `CLAUDE.md` files or slash-commands
    - It comes from a reputable or noteworthy source (high star count is a plus!)
    - It works with the latest, or most current, version of Claude Code
 
@@ -36,7 +36,7 @@ Thank you for your interest in contributing to Awesome Claude Code! We welcome a
 - Include proper attribution and links to original sources (prefer permalinks if linking to Github files).
 - Follow the existing organization structure (add your entry to the appropriate category and in the appropriate alphabetical order).
 - **[Workflows](README.md#workflows)** consist of two or more tightly coupled Claude Code resources that work together, or they may be a higher-level description of a particular Claude Code integration or usage pattern.
-- **[Slash Commands](README.md#slash-commands)** should be named according to the name of the slash-command.
+- **[Slash-Commands](README.md#slash-commands)** should be named according to the name of the slash-command.
 - **[CLAUDE.md files](README.md#claude-md-files)** should be named according to the repository they are associated with, although the hyperlink should point to the `CLAUDE.md` file itself.
 - Besides GitHub repositories, we welcome blog posts, articles, YouTube videos, Gists, and so on.
 - Please feel free to submit an Issue if: you find that one of the entries on the list is no longer available at the provided link; you believe that one of the entries is particularly unhelpful or contains misinformation, or is no longer relevant to the current version of Claude Code; any other suggestions to improve the repository.
