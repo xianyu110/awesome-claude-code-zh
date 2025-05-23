@@ -76,7 +76,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 
 - [/docs](https://github.com/slunsford/coffee-analytics/blob/main/.claude/commands/docs.md) - Generates comprehensive documentation that follows project structure, documenting APIs and usage patterns with consistent formatting for better user understanding.
 
-- [/dump](https://gist.github.com/fumito-ito/77c308e0382e06a9c16b22619f8a2f83) - Dumps the current Claude Code conversation to a markdown file in `.claude/logs/` with timestamped files that include session details and preserve full conversation history.
+- [/dump](https://gist.github.com/fumito-ito/77c308e0382e06a9c16b22619f8a2f83#file-dump-md) - Dumps the current Claude Code conversation to a markdown file in `.claude/logs/` with timestamped files that include session details and preserve full conversation history.
 
 - [/explain-issue-fix](https://github.com/hackdays-io/toban-contribution-viewer/blob/main/.claude/commands/explain-issue-fix.md) - Documents solution approaches for GitHub issues, explaining technical decisions, detailing challenges overcome, and providing implementation context for better understanding.
 
@@ -84,7 +84,7 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 
 - [/fix-github-issue](https://github.com/jeremymailen/kotlinter-gradle/blob/master/.claude/commands/fix-github-issue.md) - Analyzes and fixes GitHub issues using a structured approach with GitHub CLI for issue details, implementing necessary code changes, running tests, and creating proper commit messages.
 
-- [/fix-issue](https://github.com/rzykov/metabase/blob/master/.claude/commands/fix-issue.md) - Addresses GitHub issues by taking issue number as parameter, analyzing context, implementing solution, and testing/validating the fix for proper integration.
+- [/fix-issue](https://github.com/metabase/metabase/blob/master/.claude/commands/fix-issue.md) - Addresses GitHub issues by taking issue number as parameter, analyzing context, implementing solution, and testing/validating the fix for proper integration.
 
 - [/fix-pr](https://github.com/metabase/metabase/blob/master/.claude/commands/fix-pr.md) - Fetches and fixes unresolved PR comments by automatically retrieving feedback, addressing reviewer concerns, making targeted code improvements, and streamlining the review process.
 
@@ -131,10 +131,6 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 - [/run-ci](https://github.com/hackdays-io/toban-contribution-viewer/blob/main/.claude/commands/run-ci.md) - Activates virtual environments, runs CI-compatible check scripts, iteratively fixes errors, and ensures all tests pass before completion.
 
 - [/run-pre-commit](https://github.com/wmjones/wyatt-personal-aws/blob/main/.claude/commands/run-pre-commit.md) - Runs pre-commit checks with intelligent results handling, analyzing outputs, creating tasks for issue fixing, and integrating with task management systems.
-
-- [/say-goodbye](https://github.com/hesreallyhim/claude-code-workflows/blob/main/commands/say-goodbye.md) - Prints "Goodbye, World!" to the console, demonstrating simple command structure and basic output functionality for command development.
-
-- [/say-hello](https://github.com/hesreallyhim/claude-code-workflows/blob/main/commands/say-hello.md) - Prints "Hello, world!" to the console, providing a minimal command example that shows standard output formatting for command development.
 
 - [/task-breakdown](https://github.com/Hkgstax/VALUGATOR/blob/main/.claude/commands/task-breakdown.md) - Analyzes feature requirements, identifies components and dependencies, creates manageable tasks, and sets priorities for efficient feature implementation.
 
@@ -219,8 +215,6 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 - [Project Bootstrapping and Task Management](https://github.com/steadycursor/steadystart/tree/main/.claude/commands) - Provides a structured set of commands for bootstrapping and managing a new project, including meta-commands for creating and editing custom slash-commands
 
 - [Project Management, Implementation, Planning, and Release](https://github.com/scopecraft/command/tree/main/.claude/commands) - Really comprehensive set of commands for all aspects of SDLC.
-
-- [Smart TV](https://github.com/vitalets/awesome-smart-tv#readme) - Enables creation of applications for different TV platforms with cross-platform compatibility and optimized development workflows.
 
 ## Official Documentation
 

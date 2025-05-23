@@ -12,3 +12,5 @@ backups/
 !.claude/
 !.claude/commands/
 !.claude/commands/add-new-resource.md
+
+.DS_Store
