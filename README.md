@@ -205,11 +205,15 @@ Claude Code allows for a lot of configuration, in a lot of different ways. Users
 
 - [Claude Task Manager](https://gist.github.com/grahama1970/44a9da6a3da6769132037f06966945c2#file-00_readme-md) - Solves the critical challenge of context length limitations and task focus when working with Claude on complex projects through specialized context isolation and focused task execution.
 
+- [Context Priming](https://github.com/disler/just-prompt/tree/main/.claude/commands) - Provides a systematic approach to priming Claude Code with comprehensive project context through specialized commands for different project scenarios and development contexts.
+
 - [n8n_agent](https://github.com/kingler/n8n_agent/tree/main/.claude/commands) - Amazing comprehensive set of comments for code analysis, QA, design, documentation, project structure, project management, optimization, and many more.
 
 - [Project Bootstrapping and Task Management](https://github.com/steadycursor/steadystart/tree/main/.claude/commands) - Provides a structured set of commands for bootstrapping and managing a new project, including meta-commands for creating and editing custom slash-commands.
 
 - [Project Management, Implementation, Planning, and Release](https://github.com/scopecraft/command/tree/main/.claude/commands) - Really comprehensive set of commands for all aspects of SDLC.
+
+- [Project Workflow System](https://github.com/harperreed/dotfiles/tree/master/.claude/commands) - A set of commands that provide a comprehensive workflow system for managing projects, including task management, code review, and deployment processes.
 
 ## Official Documentation
 
