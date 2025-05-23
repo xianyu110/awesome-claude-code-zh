@@ -1,28 +1,35 @@
 # Awesome Claude Code [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 
+<!--lint disable double-link-->
+
 This is a curated list of slash-commands, `CLAUDE.md` files, CLI tools, and other resources and guides for enhancing your [Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/) workflow.
 
-> [!TIP] [Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/) is a beta tool offered by Anthropic. It is under active development, and so the resources provided in this list may not function the same as the app develops. YMMV. We will do our best effort to keep resources up to date. In addition, certain resources may be effective for some use cases and not for others. Try to refrain from being overly critical if you try one of the workflows in this list, and it does not perform well for you.
+<!--lint enable double-link-->
+
+> ℹ️ **Claude Code** is a beta tool offered by Anthropic and is under active development. Resources in this list may change or become outdated as the app evolves—your experience may vary. We strive to keep resources current, but some may work better for certain use cases than others. If a workflow doesn't perform as expected, please be constructive and understanding.
 
 Claude Code is a CLI-based coding assistant and agent that you can access in your terminal or IDE. It is a rapidly evolving tool that offers a number of powerful capabilities. Per the Anthropic website:
 
 > Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster through natural language commands. By integrating directly with your development environment, Claude Code streamlines your workflow without requiring additional servers or complex setup.
 
-Claude Code is a powerful coding tool (and a dear friend) that allows for a lot of configuration, in a lot of different ways. Users are actively working out best practices and workflows. It is the hope that this repo will help the community share knowledge and understand how to get the most out of Claude Code.
+Claude Code allows for a lot of configuration, in a lot of different ways. Users are actively working out best practices and workflows. It is the hope that this repo will help the community share knowledge and understand how to get the most out of Claude Code.
 
-## Table of Contents
+## Contents
 
 - [Slash Commands](#slash-commands)
 - [CLAUDE.md Files](#claudemd-files)
-- [Workflows](#cli-workflows)
+- [Workflows](#workflows)
 - [Official Documentation](#official-documentation)
-- [Contributing](#contributing)
 
 ## Key Components
 
+<!--lint disable double-link-->
+
 See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/) for up-to-date information on the key components of Claude Code.
 
-- **Slash Commands**: In an interactive session, you can use "slash-commands" (e.g. `/compact`) to trigger specific actions. Claude Code offers a number of built-in slash commands, but you can also create your own, by declaring instructions in Markdown files inside the `.claude/commands/` directory. A markdown file like `./claude/commands/hello-world.md` will be available as the `/project:hello-world` command in your interactive session.
+<!--lint enable double-link-->
+
+- **Slash-Commands**: In an interactive session, you can use "slash-commands" (e.g. `/compact`) to trigger specific actions. Claude Code offers a number of built-in slash commands, but you can also create your own, by declaring instructions in Markdown files inside the `.claude/commands/` directory. A markdown file like `./claude/commands/hello-world.md` will be available as the `/project:hello-world` command in your interactive session.
 - **`CLAUDE.md` Files**: A markdown file that contains instructions for Claude Code. This file is used to provide context and guidance to the agent, helping it understand your codebase and your preferences.
 - **Claude Code Workflows**: Workflows are sets of two or more Claude Code resources that are tightly coupled together. They may be a higher-level description of a particular Claude Code integration or usage pattern, or they may be a set of commands that work together to accomplish a specific task.
 
@@ -218,7 +225,10 @@ See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-a
 
 ## Official Documentation
 
+<!--lint disable double-link-->
+
 - [Anthropic Documentation](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/) - The official documentation for Claude Code, including installation instructions, usage guidelines, and API references. Like Claude Code, the documentation is frequently updated. Be sure to validate any information against Anthropic's official documentation.
+<!--lint enable double-link-->
 
 - [Anthropic Quickstarts](https://github.com/anthropics/anthropic-quickstarts/blob/main/CLAUDE.md) - Offers comprehensive development guides for three distinct AI-powered demo projects with standardized workflows, strict code style guidelines, and containerization instructions.
 
@@ -234,7 +244,3 @@ Regarding content, we especially welcome:
 - Applications of Claude Code outside of the traditional "coding assistant" context, e.g., CI/CD integration, testing, documentation, dev-ops, etc.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for more information on how to contribute to this project.
-
-## License
-
-This project is licensed under the [CC0 1.0 Universal License](LICENSE).
