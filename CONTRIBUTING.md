@@ -43,6 +43,10 @@ Thank you for your interest in contributing to Awesome Claude Code! We welcome a
 
 If a file comes from a particular GitHub repository, that repository may include a badge to show that it has been featured in the Awesome Claude Code list. The same applies to blogs, websites, etc. This is optional, but encouraged.
 
+Here are the badge assets:
+[![Mentioned in Awesome Claude Code](https://awesome.re/mentioned-badge.svg)](https://github.com/hesreallyhim/awesome-claude-code)
+[![Mentioned in Awesome Claude Code](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/hesreallyhim/awesome-claude-code)
+
 We aim to maintain a high-quality collection that helps the Claude Code community. Even small contributions can make a big difference!
 
 Thank you for helping make Awesome Claude Code even more awesome!
