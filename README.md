@@ -6,13 +6,7 @@ This is a curated list of slash-commands, `CLAUDE.md` files, CLI tools, and othe
 
 <!--lint enable double-link-->
 
-> ℹ️ **Claude Code** is a beta tool offered by Anthropic and is under active development. Resources in this list may change or become outdated as the app evolves—your experience may vary. We strive to keep resources current, but some may work better for certain use cases than others. If a workflow doesn't perform as expected, please be constructive and understanding.
-
-Claude Code is a CLI-based coding assistant and agent that you can access in your terminal or IDE. It is a rapidly evolving tool that offers a number of powerful capabilities. Per the Anthropic website:
-
-> Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster through natural language commands. By integrating directly with your development environment, Claude Code streamlines your workflow without requiring additional servers or complex setup.
-
-Claude Code allows for a lot of configuration, in a lot of different ways. Users are actively working out best practices and workflows. It is the hope that this repo will help the community share knowledge and understand how to get the most out of Claude Code.
+Claude Code is a cutting-edge CLI-based coding assistant and agent that you can access in your terminal or IDE. It is a rapidly evolving tool that offers a number of powerful capabilities, and allows for a lot of configuration, in a lot of different ways. Users are actively working out best practices and workflows. It is the hope that this repo will help the community share knowledge and understand how to get the most out of Claude Code.
 
 ## Contents
 
