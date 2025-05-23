@@ -2,7 +2,7 @@
 
 <!--lint disable double-link-->
 
-This is a curated list of slash-commands, `CLAUDE.md` files, CLI tools, and other resources and guides for enhancing your [Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/) workflow.
+This is a curated list of slash-commands, `CLAUDE.md` files, CLI tools, and other resources and guides for enhancing your [Claude Code](https://docs.anthropic.com/en/docs/claude-code) workflow.
 
 <!--lint enable double-link-->
 
@@ -207,7 +207,7 @@ Claude Code allows for a lot of configuration, in a lot of different ways. Users
 
 - [n8n_agent](https://github.com/kingler/n8n_agent/tree/main/.claude/commands) - Amazing comprehensive set of comments for code analysis, QA, design, documentation, project structure, project management, optimization, and many more.
 
-- [Project Bootstrapping and Task Management](https://github.com/steadycursor/steadystart/tree/main/.claude/commands) - Provides a structured set of commands for bootstrapping and managing a new project, including meta-commands for creating and editing custom slash-commands
+- [Project Bootstrapping and Task Management](https://github.com/steadycursor/steadystart/tree/main/.claude/commands) - Provides a structured set of commands for bootstrapping and managing a new project, including meta-commands for creating and editing custom slash-commands.
 
 - [Project Management, Implementation, Planning, and Release](https://github.com/scopecraft/command/tree/main/.claude/commands) - Really comprehensive set of commands for all aspects of SDLC.
 
@@ -215,7 +215,7 @@ Claude Code allows for a lot of configuration, in a lot of different ways. Users
 
 <!--lint disable double-link-->
 
-- [Anthropic Documentation](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/) - The official documentation for Claude Code, including installation instructions, usage guidelines, and API references. Like Claude Code, the documentation is frequently updated. Be sure to validate any information against Anthropic's official documentation.
+- [Anthropic Documentation](https://docs.anthropic.com/en/docs/claude-code) - The official documentation for Claude Code, including installation instructions, usage guidelines, API references, tutorials, examples, loads of information that I won't list individually. Like Claude Code, the documentation is frequently updated.
 <!--lint enable double-link-->
 
 - [Anthropic Quickstarts](https://github.com/anthropics/anthropic-quickstarts/blob/main/CLAUDE.md) - Offers comprehensive development guides for three distinct AI-powered demo projects with standardized workflows, strict code style guidelines, and containerization instructions.
