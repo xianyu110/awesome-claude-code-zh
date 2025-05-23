@@ -21,18 +21,6 @@ Claude Code allows for a lot of configuration, in a lot of different ways. Users
 - [Workflows](#workflows)
 - [Official Documentation](#official-documentation)
 
-## Key Components
-
-<!--lint disable double-link-->
-
-See [Anthropic's documentation site](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/) for up-to-date information on the key components of Claude Code.
-
-<!--lint enable double-link-->
-
-- **Slash-Commands**: In an interactive session, you can use "slash-commands" (e.g. `/compact`) to trigger specific actions. Claude Code offers a number of built-in slash commands, but you can also create your own, by declaring instructions in Markdown files inside the `.claude/commands/` directory. A markdown file like `./claude/commands/hello-world.md` will be available as the `/project:hello-world` command in your interactive session.
-- **`CLAUDE.md` Files**: A markdown file that contains instructions for Claude Code. This file is used to provide context and guidance to the agent, helping it understand your codebase and your preferences.
-- **Claude Code Workflows**: Workflows are sets of two or more Claude Code resources that are tightly coupled together. They may be a higher-level description of a particular Claude Code integration or usage pattern, or they may be a set of commands that work together to accomplish a specific task.
-
 ## Slash Commands
 
 - [/2-commit-fast](https://github.com/steadycursor/steadystart/blob/main/.claude/commands/2-commit-fast.md) - Automates git commit process by selecting the first suggested message, generating structured commits with consistent formatting while skipping manual confirmation and removing Claude co-authorship footer.
