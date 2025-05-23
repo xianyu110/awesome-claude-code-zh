@@ -1,6 +1,6 @@
 **/.claude/settings.local.json
 
-backups/
+.myob/
 
 .mypy_cache/
 
