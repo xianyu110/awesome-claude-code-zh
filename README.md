@@ -16,12 +16,12 @@ Claude Code allows for a lot of configuration, in a lot of different ways. Users
 
 ## Contents
 
-- [Slash Commands](#slash-commands)
+- [Slash-Commands](#slash-commands)
 - [CLAUDE.md Files](#claudemd-files)
 - [Workflows](#workflows)
 - [Official Documentation](#official-documentation)
 
-## Slash Commands
+## Slash-Commands
 
 - [/2-commit-fast](https://github.com/steadycursor/steadystart/blob/main/.claude/commands/2-commit-fast.md) - Automates git commit process by selecting the first suggested message, generating structured commits with consistent formatting while skipping manual confirmation and removing Claude co-authorship footer.
 
