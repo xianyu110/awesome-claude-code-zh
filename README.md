@@ -25,7 +25,7 @@
 
 <!--lint enable remark-lint:awesome-badge-->
 
-[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) [![r/ClaudeAI](https://claudelog.com/img/sub_reddit_logo.svg)](https://www.reddit.com/r/ClaudeAI/) [![ClaudeLog](https://claudelog.com/img/claude_log_badge.svg?v2)](https://claudelog.com)
+[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 
 <!--lint enable remark-lint:awesome-badge-->
 
@@ -49,7 +49,7 @@ Claude Code is a cutting-edge CLI-based coding assistant and agent that you can 
 
 <br>
 
-## Resources & Blogs
+## Supplementary Resources & Blogs
 
 [`CC Usage`](https://github.com/ryoppippi/ccusage) by [ryoppippi](https://github.com/ryoppippi)  
 Handy CLI tool for managing and analyzing Claude Code usage, based on analyzing local Claude Code logs. Presents a nice dashboard regarding cost information, token consumption, etc. \[DISCLAIMER: Keep an eye on the Issues if you are relying on this tool for anything business-critical - the logs that track usage appear to suffer from some "double-counting" problems - this may have been resolved by the time you are reading this, but I wanted to raise awareness - it is not something only affecting this application\].
