@@ -50,7 +50,7 @@ Claude Code is a cutting-edge CLI-based coding assistant and agent that you can 
 
 ## Workflows & Knowledge Guides
 
-#### A **workflow** is a tightly coupled set of Claude Code-native resources that facilitate specific projects.
+> A **workflow** is a tightly coupled set of Claude Code-native resources that facilitate specific projects
 
 [`Blogging Platform Instructions`](https://github.com/cloudartisan/cloudartisan.github.io/tree/d1ed4928b1326dcf658991e0b83387455d1b5004/.claude/commands) by [cloudartisan](https://github.com/cloudartisan)  
 Provides a well-structured set of commands for publishing and maintaining a blogging platform, including commands for creating posts, managing categories, and handling media files.
@@ -86,6 +86,8 @@ A pretty stunning list (88 at the time of this post!) of slash-commands ranging 
 
 ## Tooling
 
+> **Tooling** denotes applications that are built on top of Claude Code and consist of more components than slash-commands and `CLAUDE.md` files
+
 [`CC Usage`](https://github.com/ryoppippi/ccusage) by [ryoppippi](https://github.com/ryoppippi)  
 Handy CLI tool for managing and analyzing Claude Code usage, based on analyzing local Claude Code logs. Presents a nice dashboard regarding cost information, token consumption, etc. \[DISCLAIMER: Keep an eye on the Issues if you are relying on this tool for anything business-critical - the logs that track usage appear to suffer from some "double-counting" problems - this may have been resolved by the time you are reading this, but I wanted to raise awareness - it is not something only affecting this application\].
 
@@ -116,6 +118,8 @@ Development environments for coding agents. Enable multiple agents to work safel
 <br>
 
 ## Slash-Commands
+
+> **Slash-commands** are part of Claude Code's built-in API - they enable users to present customized instructions to Claude Code via a handy auto-complete-style interface
 
 [`/2-commit-fast`](https://github.com/steadycursor/steadystart/blob/main/.claude/commands/2-commit-fast.md) by [steadycursor](https://github.com/steadycursor)  
 Automates git commit process by selecting the first suggested message, generating structured commits with consistent formatting while skipping manual confirmation and removing Claude co-Contributorship footer
@@ -301,6 +305,8 @@ Provides an organized directory of available project commands categorized by fun
 
 ## CLAUDE.md Files
 
+> **`CLAUDE.md` files** are files that contain important guidelines and context-specfic information or instructions that help Claude Code to better understand your project and your coding standards
+
 [`AI IntelliJ Plugin`](https://github.com/didalgolab/ai-intellij-plugin/blob/main/CLAUDE.md) by [didalgolab](https://github.com/didalgolab)  
 Provides comprehensive Gradle commands for IntelliJ plugin development with platform-specific coding patterns, detailed package structure guidelines, and clear internationalization standards.
 
@@ -385,6 +391,8 @@ Details Go project conventions with comprehensive error handling recommendations
 <br>
 
 ## Official Documentation
+
+> Links to some of Anthropic's terrific documentation and resources regarding Claude Code
 
 <!--lint disable double-link-->
 
