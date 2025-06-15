@@ -121,86 +121,22 @@ Development environments for coding agents. Enable multiple agents to work safel
 
 > **Slash-commands** are part of Claude Code's built-in API - they enable users to present customized instructions to Claude Code via a handy auto-complete-style interface
 
+### Version Control & Git
+
 [`/2-commit-fast`](https://github.com/steadycursor/steadystart/blob/main/.claude/commands/2-commit-fast.md) by [steadycursor](https://github.com/steadycursor)  
 Automates git commit process by selecting the first suggested message, generating structured commits with consistent formatting while skipping manual confirmation and removing Claude co-Contributorship footer
-
-[`/act`](https://github.com/sotayamashita/dotfiles/blob/main/.claude/commands/act.md) by [sotayamashita](https://github.com/sotayamashita)  
-Generates React components with proper accessibility, creating ARIA-compliant components with keyboard navigation that follow React best practices and include comprehensive accessibility testing.
-
-[`/add-to-changelog`](https://github.com/berrydev-ai/blockdoc-python/blob/main/.claude/commands/add-to-changelog.md) by [berrydev-ai](https://github.com/berrydev-ai)  
-Adds new entries to changelog files while maintaining format consistency, properly documenting changes, and following established project standards for version tracking.
-
-[`/analyze-code`](https://github.com/Hkgstax/VALUGATOR/blob/main/.claude/commands/analyze-code.md) by [Hkgstax](https://github.com/Hkgstax)  
-Reviews code structure and identifies key components, mapping relationships between elements and suggesting targeted improvements for better architecture and performance.
-
-[`/analyze-issue`](https://github.com/jerseycheese/Narraitor/blob/feature/issue-227-ai-suggestions/.claude/commands/analyze-issue.md) by [jerseycheese](https://github.com/jerseycheese)  
-Fetches GitHub issue details to create comprehensive implementation specifications, analyzing requirements and planning structured approach with clear implementation steps.
-
-[`/bug-fix`](https://github.com/danielscholl/mvn-mcp-server/blob/main/.claude/commands/bug-fix.md) by [danielscholl](https://github.com/danielscholl)  
-Streamlines bug fixing by creating a GitHub issue first, then a feature branch for implementing and thoroughly testing the solution before merging.
-
-[`/build-react-app`](https://github.com/wmjones/wyatt-personal-aws/blob/main/.claude/commands/build-react-app.md) by [wmjones](https://github.com/wmjones)  
-Builds React applications locally with intelligent error handling, creating specific tasks for build failures and providing appropriate server commands based on build results.
-
-[`/check`](https://github.com/rygwdn/slack-tools/blob/main/.claude/commands/check.md) by [rygwdn](https://github.com/rygwdn)  
-Performs comprehensive code quality and security checks, featuring static analysis integration, security vulnerability scanning, code style enforcement, and detailed reporting.
-
-[`/clean`](https://github.com/Graphlet-AI/eridu/blob/main/.claude/commands/clean.md) by [Graphlet-AI](https://github.com/Graphlet-AI)  
-Addresses code formatting and quality issues by fixing black formatting problems, organizing imports with isort, resolving flake8 linting issues, and correcting mypy type errors.
-
-[`/code_analysis`](https://github.com/kingler/n8n_agent/blob/main/.claude/commands/code_analysis.md) by [kingler](https://github.com/kingler)  
-Provides a menu of advanced code analysis commands for deep inspection, including knowledge graph generation, optimization suggestions, and quality evaluation.
 
 [`/commit`](https://github.com/evmts/tevm-monorepo/blob/main/.claude/commands/commit.md) by [evmts](https://github.com/evmts)  
 Creates git commits using conventional commit format with appropriate emojis, following project standards and creating descriptive messages that explain the purpose of changes.
 
-[`/context-prime`](https://github.com/elizaOS/elizaos.github.io/blob/main/.claude/commands/context-prime.md) by [elizaOS](https://github.com/elizaOS)  
-Primes Claude with comprehensive project understanding by loading repository structure, setting development context, establishing project goals, and defining collaboration parameters.
-
-[`/context_prime` (NeuroVis-GoDot)](https://github.com/laportagm/NeruroVis-GoDot/blob/TheDefaultBranch/.claude/commands/context_prime.md) by [laportagm](https://github.com/laportagm)  
-Establishes specialized context for Godot Engine development projects by setting up AI as a Godot expert, defining project structure, referencing key documentation, and structuring collaboration workflow.
-
-[`/create-command`](https://github.com/scopecraft/command/blob/main/.claude/commands/create-command.md) by [scopecraft](https://github.com/scopecraft)  
-Guides Claude through creating new custom commands with proper structure by analyzing requirements, templating commands by category, enforcing command standards, and creating supporting documentation.
-
-[`/create-docs`](https://github.com/jerseycheese/Narraitor/tree/feature/issue-227-ai-suggestions/.claude/commands/create-docs.md) by [jerseycheese](https://github.com/jerseycheese)  
-Analyzes code structure and purpose to create comprehensive documentation detailing inputs/outputs, behavior, user interaction flows, and edge cases with error handling.
-
-[`/create-jtbd`](https://github.com/taddyorg/inkverse/blob/main/.claude/commands/create-jtbd.md) by [taddyorg](https://github.com/taddyorg)  
-Creates Jobs-to-be-Done frameworks that outline user needs with structured format, focusing on specific user problems and organizing by job categories for product development.
-
 [`/create-pr`](https://github.com/toyamarinyon/giselle/blob/main/.claude/commands/create-pr.md) by [toyamarinyon](https://github.com/toyamarinyon)  
 Streamlines pull request creation by handling the entire workflow: creating a new branch, committing changes, formatting modified files with Biome, and submitting the PR.
-
-[`/create-prd`](https://github.com/taddyorg/inkverse/blob/main/.claude/commands/create-prd.md) by [taddyorg](https://github.com/taddyorg)  
-Generates comprehensive product requirement documents outlining detailed specifications, requirements, and features following standardized document structure and format.
-
-[`/create-prp`](https://github.com/Wirasm/claudecode-utils/blob/main/.claude/commands/create-prp.md) by [Wirasm](https://github.com/Wirasm)  
-Creates product requirement plans by reading PRP methodology, following template structure, creating comprehensive requirements, and structuring product definitions for development.
 
 [`/create-pull-request`](https://github.com/liam-hq/liam/blob/main/.claude/commands/create-pull-request.md) by [liam-hq](https://github.com/liam-hq)  
 Provides comprehensive PR creation guidance with GitHub CLI, enforcing title conventions, following template structure, and offering concrete command examples with best practices.
 
 [`/create-worktrees`](https://github.com/evmts/tevm-monorepo/blob/main/.claude/commands/create-worktrees.md) by [evmts](https://github.com/evmts)  
 Creates git worktrees for all open PRs or specific branches, handling branches with slashes, cleaning up stale worktrees, and supporting custom branch creation for development.
-
-[`/deploy`](https://github.com/cloudartisan/cloudartisan.github.io/blob/main/.claude/commands/site/deploy.md) by [cloudartisan](https://github.com/cloudartisan)  
-Builds site with production settings, verifies build success, commits and pushes changes, and performs deployment checks for website publishing.
-
-[`/do-issue`](https://github.com/jerseycheese/Narraitor/blob/feature/issue-227-ai-suggestions/.claude/commands/do-issue.md) by [jerseycheese](https://github.com/jerseycheese)  
-Implements GitHub issues with manual review points, following a structured approach with issue number parameter and offering alternative automated mode for efficiency.
-
-[`/docs`](https://github.com/slunsford/coffee-analytics/blob/main/.claude/commands/docs.md) by [slunsford](https://github.com/slunsford)  
-Generates comprehensive documentation that follows project structure, documenting APIs and usage patterns with consistent formatting for better user understanding.
-
-[`/dump`](https://gist.github.com/fumito-ito/77c308e0382e06a9c16b22619f8a2f83#file-dump-md) by [fumito-ito](https://github.com/fumito-ito)  
-Dumps the current Claude Code conversation to a markdown file in `.claude/logs/` with timestamped files that include session details and preserve full conversation history.
-
-[`/explain-issue-fix`](https://github.com/hackdays-io/toban-contribution-viewer/blob/main/.claude/commands/explain-issue-fix.md) by [hackdays-io](https://github.com/hackdays-io)  
-Documents solution approaches for GitHub issues, explaining technical decisions, detailing challenges overcome, and providing implementation context for better understanding.
-
-[`/five`](https://github.com/TuckerTucker/tkr-agent-chat/blob/main/.claude/commands/five.md) by [TuckerTucker](https://github.com/TuckerTucker)  
-Applies the "five whys" methodology to perform root cause analysis, identify underlying issues, and create solution approaches for complex problems.
 
 [`/fix-github-issue`](https://github.com/jeremymailen/kotlinter-gradle/blob/master/.claude/commands/fix-github-issue.md) by [jeremymailen](https://github.com/jeremymailen)  
 Analyzes and fixes GitHub issues using a structured approach with GitHub CLI for issue details, implementing necessary code changes, running tests, and creating proper commit messages.
@@ -211,71 +147,31 @@ Addresses GitHub issues by taking issue number as parameter, analyzing context, 
 [`/fix-pr`](https://github.com/metabase/metabase/blob/master/.claude/commands/fix-pr.md) by [metabase](https://github.com/metabase)  
 Fetches and fixes unresolved PR comments by automatically retrieving feedback, addressing reviewer concerns, making targeted code improvements, and streamlining the review process.
 
-[`/fixing_go_in_graph`](https://github.com/Mjvolk3/torchcell/blob/main/.claude/commands/fixing_go_in_graph.md) by [Mjvolk3](https://github.com/Mjvolk3)  
-Focuses on Gene Ontology annotation integration in graph databases, handling multiple data sources, addressing graph representation issues, and ensuring correct data incorporation.
-
 [`/husky`](https://github.com/evmts/tevm-monorepo/blob/main/.claude/commands/husky.md) by [evmts](https://github.com/evmts)  
 Sets up and manages Husky Git hooks by configuring pre-commit hooks, establishing commit message standards, integrating with linting tools, and ensuring code quality on commits.
+
+[`/pr-review`](https://github.com/arkavo-org/opentdf-rs/blob/main/.claude/commands/pr-review.md) by [arkavo-org](https://github.com/arkavo-org)  
+Reviews pull request changes to provide feedback, check for issues, and suggest improvements before merging into the main codebase.
+
+[`/update-branch-name`](https://github.com/giselles-ai/giselle/blob/main/.claude/commands/update-branch-name.md) by [giselles-ai](https://github.com/giselles-ai)  
+Updates branch names with proper prefixes and formats, enforcing naming conventions, supporting semantic prefixes, and managing remote branch updates.
+
+### Code Analysis & Testing
+
+[`/analyze-code`](https://github.com/Hkgstax/VALUGATOR/blob/main/.claude/commands/analyze-code.md) by [Hkgstax](https://github.com/Hkgstax)  
+Reviews code structure and identifies key components, mapping relationships between elements and suggesting targeted improvements for better architecture and performance.
+
+[`/check`](https://github.com/rygwdn/slack-tools/blob/main/.claude/commands/check.md) by [rygwdn](https://github.com/rygwdn)  
+Performs comprehensive code quality and security checks, featuring static analysis integration, security vulnerability scanning, code style enforcement, and detailed reporting.
+
+[`/code_analysis`](https://github.com/kingler/n8n_agent/blob/main/.claude/commands/code_analysis.md) by [kingler](https://github.com/kingler)  
+Provides a menu of advanced code analysis commands for deep inspection, including knowledge graph generation, optimization suggestions, and quality evaluation.
 
 [`/implement-issue`](https://github.com/cmxela/thinkube/blob/main/.claude/commands/implement-issue.md) by [cmxela](https://github.com/cmxela)  
 Implements GitHub issues following strict project guidelines, complete implementation checklists, variable naming conventions, testing procedures, and documentation requirements.
 
 [`/implement-task`](https://github.com/Hkgstax/VALUGATOR/blob/main/.claude/commands/implement-task.md) by [Hkgstax](https://github.com/Hkgstax)  
 Approaches task implementation methodically by thinking through strategy step-by-step, evaluating different approaches, considering tradeoffs, and implementing the best solution.
-
-[`/initref`](https://github.com/okuvshynov/cubestat/blob/main/.claude/commands/initref.md) by [okuvshynov](https://github.com/okuvshynov)  
-Initializes reference documentation structure with standard doc templates, API reference setup, documentation conventions, and placeholder content generation.
-
-[`/load-llms-txt`](https://github.com/ethpandaops/xatu-data/blob/master/.claude/commands/load-llms-txt.md) by [ethpandaops](https://github.com/ethpandaops)  
-Loads LLM configuration files to context, importing specific terminology, model configurations, and establishing baseline terminology for AI discussions.
-
-[`/load_coo_context`](https://github.com/Mjvolk3/torchcell/blob/main/.claude/commands/load_coo_context.md) by [Mjvolk3](https://github.com/Mjvolk3)  
-References specific files for sparse matrix operations, explains transform usage, compares with previous approaches, and sets data formatting context for development.
-
-[`/load_dango_pipeline`](https://github.com/Mjvolk3/torchcell/blob/main/.claude/commands/load_dango_pipeline.md) by [Mjvolk3](https://github.com/Mjvolk3)  
-Sets context for model training by referencing pipeline files, establishing working context, and preparing for pipeline work with relevant documentation.
-
-[`/mermaid`](https://github.com/GaloyMoney/lana-bank/blob/main/.claude/commands/mermaid.md) by [GaloyMoney](https://github.com/GaloyMoney)  
-Generates Mermaid diagrams from SQL schema files, creating entity relationship diagrams with table properties, validating diagram compilation, and ensuring complete entity coverage.
-
-[`/new`](https://github.com/cloudartisan/cloudartisan.github.io/blob/main/.claude/commands/projects/new.md) by [cloudartisan](https://github.com/cloudartisan)  
-Creates new blog posts with proper front matter, enforcing structure, generating standardized metadata, and following site conventions for content workflow.
-
-[`/next-task`](https://github.com/wmjones/wyatt-personal-aws/blob/main/.claude/commands/next-task.md) by [wmjones](https://github.com/wmjones)  
-Gets the next task from TaskMaster and creates a branch for it, integrating with task management systems, automating branch creation, and enforcing naming conventions.
-
-[`/optimize`](https://github.com/to4iki/ai-project-rules/blob/main/.claude/commands/optimize.md) by [to4iki](https://github.com/to4iki)  
-Analyzes code performance to identify bottlenecks, proposing concrete optimizations with implementation guidance for improved application performance.
-
-[`/pr-review`](https://github.com/arkavo-org/opentdf-rs/blob/main/.claude/commands/pr-review.md) by [arkavo-org](https://github.com/arkavo-org)  
-Reviews pull request changes to provide feedback, check for issues, and suggest improvements before merging into the main codebase.
-
-[`/prime`](https://github.com/yzyydev/AI-Engineering-Structure/blob/main/.claude/commands/prime.md) by [yzyydev](https://github.com/yzyydev)  
-Sets up initial project context by viewing directory structure and reading key files, creating standardized context with directory visualization and key documentation focus.
-
-[`/project_hello_w_name`](https://github.com/disler/just-prompt/blob/main/.claude/commands/project_hello_w_name.md) by [disler](https://github.com/disler)  
-Creates customizable greeting components with name input, demonstrating argument passing, component reusability, state management, and user input handling.
-
-[`/release`](https://github.com/kelp/webdown/blob/main/.claude/commands/release.md) by [kelp](https://github.com/kelp)  
-Manages software releases by updating changelogs, reviewing README changes, evaluating version increments, and documenting release changes for better version tracking.
-
-[`/reminder`](https://github.com/cmxela/thinkube/blob/main/.claude/commands/reminder.md) by [cmxela](https://github.com/cmxela)  
-Re-establishes project context after conversation breaks or compaction, restoring context and fixing guideline inconsistencies for complex implementations.
-
-[`/repro-issue`](https://github.com/rzykov/metabase/blob/master/.claude/commands/repro-issue.md) by [rzykov](https://github.com/rzykov)  
-Creates reproducible test cases for GitHub issues, ensuring tests fail reliably and documenting clear reproduction steps for developers.
-
-[`/review_dcell_model`](https://github.com/Mjvolk3/torchcell/blob/main/.claude/commands/review_dcell_model.md) by [Mjvolk3](https://github.com/Mjvolk3)  
-Reviews old Dcell implementation files, comparing with newer Dango model, noting changes over time, and analyzing refactoring approaches for better code organization.
-
-[`/rsi`](https://github.com/ddisisto/si/blob/main/.claude/commands/rsi.md) by [ddisisto](https://github.com/ddisisto)  
-Reads all commands and key project files to optimize AI-assisted development by streamlining the process, loading command context, and setting up for better development workflow.
-
-[`/run-ci`](https://github.com/hackdays-io/toban-contribution-viewer/blob/main/.claude/commands/run-ci.md) by [hackdays-io](https://github.com/hackdays-io)  
-Activates virtual environments, runs CI-compatible check scripts, iteratively fixes errors, and ensures all tests pass before completion.
-
-[`/run-pre-commit`](https://github.com/wmjones/wyatt-personal-aws/blob/main/.claude/commands/run-pre-commit.md) by [wmjones](https://github.com/wmjones)  
-Runs pre-commit checks with intelligent results handling, analyzing outputs, creating tasks for issue fixing, and integrating with task management systems.
 
 [`/task-breakdown`](https://github.com/Hkgstax/VALUGATOR/blob/main/.claude/commands/task-breakdown.md) by [Hkgstax](https://github.com/Hkgstax)  
 Analyzes feature requirements, identifies components and dependencies, creates manageable tasks, and sets priorities for efficient feature implementation.
@@ -289,17 +185,135 @@ Implements Test-Driven Development by analyzing feature requirements, creating t
 [`/testing_plan_integration`](https://github.com/buster-so/buster/blob/main/api/.claude/commands/testing_plan_integration.md) by [buster-so](https://github.com/buster-so)  
 Creates inline Rust-style tests, suggests refactoring for testability, analyzes code challenges, and creates comprehensive test coverage for robust code.
 
-[`/update-branch-name`](https://github.com/giselles-ai/giselle/blob/main/.claude/commands/update-branch-name.md) by [giselles-ai](https://github.com/giselles-ai)  
-Updates branch names with proper prefixes and formats, enforcing naming conventions, supporting semantic prefixes, and managing remote branch updates.
+### Context Loading & Priming
+
+[`/context-prime`](https://github.com/elizaOS/elizaos.github.io/blob/main/.claude/commands/context-prime.md) by [elizaOS](https://github.com/elizaOS)  
+Primes Claude with comprehensive project understanding by loading repository structure, setting development context, establishing project goals, and defining collaboration parameters.
+
+[`/context_prime` (NeuroVis-GoDot)](https://github.com/laportagm/NeruroVis-GoDot/blob/TheDefaultBranch/.claude/commands/context_prime.md) by [laportagm](https://github.com/laportagm)  
+Establishes specialized context for Godot Engine development projects by setting up AI as a Godot expert, defining project structure, referencing key documentation, and structuring collaboration workflow.
+
+[`/initref`](https://github.com/okuvshynov/cubestat/blob/main/.claude/commands/initref.md) by [okuvshynov](https://github.com/okuvshynov)  
+Initializes reference documentation structure with standard doc templates, API reference setup, documentation conventions, and placeholder content generation.
+
+[`/load-llms-txt`](https://github.com/ethpandaops/xatu-data/blob/master/.claude/commands/load-llms-txt.md) by [ethpandaops](https://github.com/ethpandaops)  
+Loads LLM configuration files to context, importing specific terminology, model configurations, and establishing baseline terminology for AI discussions.
+
+[`/load_coo_context`](https://github.com/Mjvolk3/torchcell/blob/main/.claude/commands/load_coo_context.md) by [Mjvolk3](https://github.com/Mjvolk3)  
+References specific files for sparse matrix operations, explains transform usage, compares with previous approaches, and sets data formatting context for development.
+
+[`/load_dango_pipeline`](https://github.com/Mjvolk3/torchcell/blob/main/.claude/commands/load_dango_pipeline.md) by [Mjvolk3](https://github.com/Mjvolk3)  
+Sets context for model training by referencing pipeline files, establishing working context, and preparing for pipeline work with relevant documentation.
+
+[`/prime`](https://github.com/yzyydev/AI-Engineering-Structure/blob/main/.claude/commands/prime.md) by [yzyydev](https://github.com/yzyydev)  
+Sets up initial project context by viewing directory structure and reading key files, creating standardized context with directory visualization and key documentation focus.
+
+### Documentation & Changelogs
+
+[`/add-to-changelog`](https://github.com/berrydev-ai/blockdoc-python/blob/main/.claude/commands/add-to-changelog.md) by [berrydev-ai](https://github.com/berrydev-ai)  
+Adds new entries to changelog files while maintaining format consistency, properly documenting changes, and following established project standards for version tracking.
+
+[`/create-docs`](https://github.com/jerseycheese/Narraitor/tree/feature/issue-227-ai-suggestions/.claude/commands/create-docs.md) by [jerseycheese](https://github.com/jerseycheese)  
+Analyzes code structure and purpose to create comprehensive documentation detailing inputs/outputs, behavior, user interaction flows, and edge cases with error handling.
+
+[`/docs`](https://github.com/slunsford/coffee-analytics/blob/main/.claude/commands/docs.md) by [slunsford](https://github.com/slunsford)  
+Generates comprehensive documentation that follows project structure, documenting APIs and usage patterns with consistent formatting for better user understanding.
+
+[`/explain-issue-fix`](https://github.com/hackdays-io/toban-contribution-viewer/blob/main/.claude/commands/explain-issue-fix.md) by [hackdays-io](https://github.com/hackdays-io)  
+Documents solution approaches for GitHub issues, explaining technical decisions, detailing challenges overcome, and providing implementation context for better understanding.
 
 [`/update-docs`](https://github.com/Consiliency/Flutter-Structurizr/blob/main/.claude/commands/update-docs.md) by [Consiliency](https://github.com/Consiliency)  
 Reviews current documentation status, updates implementation progress, reviews phase documents, and maintains documentation consistency across the project.
 
-[`/use-stepper`](https://github.com/zuplo/docs/blob/main/.claude/commands/use-stepper.md) by [zuplo](https://github.com/zuplo)  
-Reformats documentation to use React Stepper component, transforming heading formats, applying proper indentation, and maintaining markdown compatibility with admonition formatting.
+### CI / Deployment
+
+[`/build-react-app`](https://github.com/wmjones/wyatt-personal-aws/blob/main/.claude/commands/build-react-app.md) by [wmjones](https://github.com/wmjones)  
+Builds React applications locally with intelligent error handling, creating specific tasks for build failures and providing appropriate server commands based on build results.
+
+[`/deploy`](https://github.com/cloudartisan/cloudartisan.github.io/blob/main/.claude/commands/site/deploy.md) by [cloudartisan](https://github.com/cloudartisan)  
+Builds site with production settings, verifies build success, commits and pushes changes, and performs deployment checks for website publishing.
+
+[`/release`](https://github.com/kelp/webdown/blob/main/.claude/commands/release.md) by [kelp](https://github.com/kelp)  
+Manages software releases by updating changelogs, reviewing README changes, evaluating version increments, and documenting release changes for better version tracking.
+
+[`/run-ci`](https://github.com/hackdays-io/toban-contribution-viewer/blob/main/.claude/commands/run-ci.md) by [hackdays-io](https://github.com/hackdays-io)  
+Activates virtual environments, runs CI-compatible check scripts, iteratively fixes errors, and ensures all tests pass before completion.
+
+[`/run-pre-commit`](https://github.com/wmjones/wyatt-personal-aws/blob/main/.claude/commands/run-pre-commit.md) by [wmjones](https://github.com/wmjones)  
+Runs pre-commit checks with intelligent results handling, analyzing outputs, creating tasks for issue fixing, and integrating with task management systems.
+
+### Project & Task Management
+
+[`/create-command`](https://github.com/scopecraft/command/blob/main/.claude/commands/create-command.md) by [scopecraft](https://github.com/scopecraft)  
+Guides Claude through creating new custom commands with proper structure by analyzing requirements, templating commands by category, enforcing command standards, and creating supporting documentation.
+
+[`/create-jtbd`](https://github.com/taddyorg/inkverse/blob/main/.claude/commands/create-jtbd.md) by [taddyorg](https://github.com/taddyorg)  
+Creates Jobs-to-be-Done frameworks that outline user needs with structured format, focusing on specific user problems and organizing by job categories for product development.
+
+[`/create-prd`](https://github.com/taddyorg/inkverse/blob/main/.claude/commands/create-prd.md) by [taddyorg](https://github.com/taddyorg)  
+Generates comprehensive product requirement documents outlining detailed specifications, requirements, and features following standardized document structure and format.
+
+[`/create-prp`](https://github.com/Wirasm/claudecode-utils/blob/main/.claude/commands/create-prp.md) by [Wirasm](https://github.com/Wirasm)  
+Creates product requirement plans by reading PRP methodology, following template structure, creating comprehensive requirements, and structuring product definitions for development.
+
+[`/do-issue`](https://github.com/jerseycheese/Narraitor/blob/feature/issue-227-ai-suggestions/.claude/commands/do-issue.md) by [jerseycheese](https://github.com/jerseycheese)  
+Implements GitHub issues with manual review points, following a structured approach with issue number parameter and offering alternative automated mode for efficiency.
+
+[`/new`](https://github.com/cloudartisan/cloudartisan.github.io/blob/main/.claude/commands/projects/new.md) by [cloudartisan](https://github.com/cloudartisan)  
+Creates new blog posts with proper front matter, enforcing structure, generating standardized metadata, and following site conventions for content workflow.
+
+[`/next-task`](https://github.com/wmjones/wyatt-personal-aws/blob/main/.claude/commands/next-task.md) by [wmjones](https://github.com/wmjones)  
+Gets the next task from TaskMaster and creates a branch for it, integrating with task management systems, automating branch creation, and enforcing naming conventions.
+
+[`/project_hello_w_name`](https://github.com/disler/just-prompt/blob/main/.claude/commands/project_hello_w_name.md) by [disler](https://github.com/disler)  
+Creates customizable greeting components with name input, demonstrating argument passing, component reusability, state management, and user input handling.
 
 [`/view_commands`](https://github.com/cloudartisan/cloudartisan.github.io/blob/main/.claude/commands/view_commands.md) by [cloudartisan](https://github.com/cloudartisan)  
 Provides an organized directory of available project commands categorized by function, detailing post management commands, site management tools, and content creation capabilities.
+
+### Miscellaneous
+
+[`/act`](https://github.com/sotayamashita/dotfiles/blob/main/.claude/commands/act.md) by [sotayamashita](https://github.com/sotayamashita)  
+Generates React components with proper accessibility, creating ARIA-compliant components with keyboard navigation that follow React best practices and include comprehensive accessibility testing.
+
+[`/analyze-issue`](https://github.com/jerseycheese/Narraitor/blob/feature/issue-227-ai-suggestions/.claude/commands/analyze-issue.md) by [jerseycheese](https://github.com/jerseycheese)  
+Fetches GitHub issue details to create comprehensive implementation specifications, analyzing requirements and planning structured approach with clear implementation steps.
+
+[`/bug-fix`](https://github.com/danielscholl/mvn-mcp-server/blob/main/.claude/commands/bug-fix.md) by [danielscholl](https://github.com/danielscholl)  
+Streamlines bug fixing by creating a GitHub issue first, then a feature branch for implementing and thoroughly testing the solution before merging.
+
+[`/clean`](https://github.com/Graphlet-AI/eridu/blob/main/.claude/commands/clean.md) by [Graphlet-AI](https://github.com/Graphlet-AI)  
+Addresses code formatting and quality issues by fixing black formatting problems, organizing imports with isort, resolving flake8 linting issues, and correcting mypy type errors.
+
+[`/dump`](https://gist.github.com/fumito-ito/77c308e0382e06a9c16b22619f8a2f83#file-dump-md) by [fumito-ito](https://github.com/fumito-ito)  
+Dumps the current Claude Code conversation to a markdown file in `.claude/logs/` with timestamped files that include session details and preserve full conversation history.
+
+[`/five`](https://github.com/TuckerTucker/tkr-agent-chat/blob/main/.claude/commands/five.md) by [TuckerTucker](https://github.com/TuckerTucker)  
+Applies the "five whys" methodology to perform root cause analysis, identify underlying issues, and create solution approaches for complex problems.
+
+[`/fixing_go_in_graph`](https://github.com/Mjvolk3/torchcell/blob/main/.claude/commands/fixing_go_in_graph.md) by [Mjvolk3](https://github.com/Mjvolk3)  
+Focuses on Gene Ontology annotation integration in graph databases, handling multiple data sources, addressing graph representation issues, and ensuring correct data incorporation.
+
+[`/mermaid`](https://github.com/GaloyMoney/lana-bank/blob/main/.claude/commands/mermaid.md) by [GaloyMoney](https://github.com/GaloyMoney)  
+Generates Mermaid diagrams from SQL schema files, creating entity relationship diagrams with table properties, validating diagram compilation, and ensuring complete entity coverage.
+
+[`/optimize`](https://github.com/to4iki/ai-project-rules/blob/main/.claude/commands/optimize.md) by [to4iki](https://github.com/to4iki)  
+Analyzes code performance to identify bottlenecks, proposing concrete optimizations with implementation guidance for improved application performance.
+
+[`/reminder`](https://github.com/cmxela/thinkube/blob/main/.claude/commands/reminder.md) by [cmxela](https://github.com/cmxela)  
+Re-establishes project context after conversation breaks or compaction, restoring context and fixing guideline inconsistencies for complex implementations.
+
+[`/repro-issue`](https://github.com/rzykov/metabase/blob/master/.claude/commands/repro-issue.md) by [rzykov](https://github.com/rzykov)  
+Creates reproducible test cases for GitHub issues, ensuring tests fail reliably and documenting clear reproduction steps for developers.
+
+[`/review_dcell_model`](https://github.com/Mjvolk3/torchcell/blob/main/.claude/commands/review_dcell_model.md) by [Mjvolk3](https://github.com/Mjvolk3)  
+Reviews old Dcell implementation files, comparing with newer Dango model, noting changes over time, and analyzing refactoring approaches for better code organization.
+
+[`/rsi`](https://github.com/ddisisto/si/blob/main/.claude/commands/rsi.md) by [ddisisto](https://github.com/ddisisto)  
+Reads all commands and key project files to optimize AI-assisted development by streamlining the process, loading command context, and setting up for better development workflow.
+
+[`/use-stepper`](https://github.com/zuplo/docs/blob/main/.claude/commands/use-stepper.md) by [zuplo](https://github.com/zuplo)  
+Reformats documentation to use React Stepper component, transforming heading formats, applying proper indentation, and maintaining markdown compatibility with admonition formatting.
 
 <br>
 
