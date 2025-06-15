@@ -30,7 +30,7 @@
 
 <!--lint disable double-link-->
 
-This is a curated list of slash-commands, `CLAUDE.md` files, CLI tools, and other resources and guides for enhancing your [Claude Code](https://docs.anthropic.com/en/docs/claude-code) workflow.
+This is a curated list of slash-commands, `CLAUDE.md` files, CLI tools, and other resources and guides for enhancing your [Claude Code](https://docs.anthropic.com/en/docs/claude-code) workflow, productivity, and vibse.
 
 <!--lint enable double-link-->
 
@@ -40,21 +40,78 @@ Claude Code is a cutting-edge CLI-based coding assistant and agent that you can 
 
 ## Contents
 
-▪&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Resources & Blogs](#resources--blogs)  
+▪&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Workflows & Knowledge Guides](#workflows--knowledge-guides)  
+▪&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Tooling](#tooling)  
 ▪&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Slash-Commands](#slash-commands)  
 ▪&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[CLAUDE.md Files](#claudemd-files)  
-▪&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Workflows](#workflows)  
 ▪&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Official Documentation](#official-documentation)
 
 <br>
 
-## Supplementary Resources & Blogs
+## Workflows & Knowledge Guides
+
+#### A **workflow** is a tightly coupled set of Claude Code-native resources that facilitate specific projects.
+
+[`Blogging Platform Instructions`](https://github.com/cloudartisan/cloudartisan.github.io/tree/d1ed4928b1326dcf658991e0b83387455d1b5004/.claude/commands) by [cloudartisan](https://github.com/cloudartisan)  
+Provides a well-structured set of commands for publishing and maintaining a blogging platform, including commands for creating posts, managing categories, and handling media files.
+
+[`ClaudeLog`](https://claudelog.com) by [InventorBlack](https://www.reddit.com/user/inventor_black/)  
+A comprehensive knowledge repository that features detailed breakdowns of advanced Claude Code mechanics including [CLAUDE.md best practices](https://claudelog.com/mechanics/claude-md-supremacy), practical technique guides like [plan mode](https://claudelog.com/mechanics/plan-mode), and a [configuration guide](https://claudelog.com/configuration).
+
+[`Claude Task Manager`](https://gist.github.com/grahama1970/44a9da6a3da6769132037f06966945c2#file-00_readme-md) by [grahama1970](https://github.com/grahama1970)  
+Solves the critical challenge of context length limitations and task focus when working with Claude on complex projects through specialized context isolation and focused task execution.
+
+[Context Priming](https://github.com/disler/just-prompt/tree/main/.claude/commands) by [disler](https://github.com/disler)  
+Provides a systematic approach to priming Claude Code with comprehensive project context through specialized commands for different project scenarios and development contexts.
+
+[n8n_agent](https://github.com/kingler/n8n_agent/tree/main/.claude/commands) by [kingler](https://github.com/kingler)  
+Amazing comprehensive set of comments for code analysis, QA, design, documentation, project structure, project management, optimization, and many more.
+
+[Project Bootstrapping and Task Management](https://github.com/steadycursor/steadystart/tree/main/.claude/commands) by [steadycursor](https://github.com/steadycursor)  
+Provides a structured set of commands for bootstrapping and managing a new project, including meta-commands for creating and editing custom slash-commands.
+
+[Project Management, Implementation, Planning, and Release](https://github.com/scopecraft/command/tree/main/.claude/commands) by [scopecraft](https://github.com/scopecraft)  
+Really comprehensive set of commands for all aspects of SDLC.
+
+[Project Workflow System](https://github.com/harperreed/dotfiles/tree/master/.claude/commands) by [harperreed](https://github.com/harperreed)  
+A set of commands that provide a comprehensive workflow system for managing projects, including task management, code review, and deployment processes.
+
+[Simone](https://github.com/Helmi/claude-simone) by [Helmi](https://github.com/Helmi)  
+A broader project management workflow for Claude Code that encompasses not just a set of commands, but a system of documents, guidelines, and processes to facilitate project planning and execution.
+
+[wcygan's slash-commands megalist](https://github.com/wcygan/dotfiles/tree/d8ab6b9f5a7a81007b7f5fa3025d4f83ce12cc02/claude/commands) by [wcygan](https://github.com/wcygan)
+A pretty stunning list (88 at the time of this post!) of slash-commands ranging from agent orchestration, code review, project management, security, documentation, self-assessment, almost anything you can dream of.
+
+<br>
+
+## Tooling
 
 [`CC Usage`](https://github.com/ryoppippi/ccusage) by [ryoppippi](https://github.com/ryoppippi)  
 Handy CLI tool for managing and analyzing Claude Code usage, based on analyzing local Claude Code logs. Presents a nice dashboard regarding cost information, token consumption, etc. \[DISCLAIMER: Keep an eye on the Issues if you are relying on this tool for anything business-critical - the logs that track usage appear to suffer from some "double-counting" problems - this may have been resolved by the time you are reading this, but I wanted to raise awareness - it is not something only affecting this application\].
 
-[`ClaudeLog`](https://claudelog.com) by [InventorBlack](https://www.reddit.com/user/inventor_black/)  
-A comprehensive knowledge repository that features detailed breakdowns of advanced Claude Code mechanics including [CLAUDE.md best practices](https://claudelog.com/mechanics/claude-md-supremacy), practical technique guides like [plan mode](https://claudelog.com/mechanics/plan-mode), and a [configuration guide](https://claudelog.com/configuration).
+[`Claude Code Flow`](https://github.com/ruvnet/claude-code-flow) by [ruvnet](https://github.com/ruvnet)
+This mode serves as a code-first orchestration layer, enabling Claude to write, edit, test, and optimize code autonomously across recursive agent cycles.
+
+[Claude Code Router](https://github.com/musistudio/claude-code-router) by [musistudio](<(https://github.com/musistudio)>)
+Use Claude Code as the foundation for coding infrastructure, allowing you to decide how to interact with the model while enjoying updates from Anthropic.
+
+[Claude Composer](https://github.com/possibilities/claude-composer) by [Mike Bannister](https://github.com/possibilities)
+A tool that adds small enhancements to Claude Code.
+
+[Claude Hub](https://github.com/claude-did-this/claude-hub) by [Claude Did This](https://github.com/claude-did-this)
+A webhook service that connects Claude Code to GitHub repositories, enabling AI-powered code assistance directly through pull requests and issues. This integration allows Claude to analyze repositories, answer technical questions, and help developers understand and improve their codebase through simple @mentions.
+
+[Claude Squad](https://github.com/smtg-ai/claude-squad)
+Claude Squad is a terminal app that manages multiple Claude Code, Codex (and other local agents including Aider) in separate workspaces, allowing you to work on multiple tasks simultaneously.
+
+[Claude Swarm](https://github.com/parruda/claude-swarm)
+Launch Claude Code session that is connected to a swarm of Claude Code Agents.
+
+[Claude Task Master](https://github.com/eyaltoledano/claude-task-master)
+A task management system for AI-driven development with Claude, designed to work seamlessly with Cursor AI.
+
+[Container Use](https://github.com/dagger/container-use)
+Development environments for coding agents. Enable multiple agents to work safely and independently with your preferred stack.
 
 <br>
 
@@ -327,57 +384,6 @@ Details Go project conventions with comprehensive error handling recommendations
 
 <br>
 
-## Workflows
-
-[Blogging Platform Instructions](https://github.com/cloudartisan/cloudartisan.github.io/tree/d1ed4928b1326dcf658991e0b83387455d1b5004/.claude/commands) by [cloudartisan](https://github.com/cloudartisan)  
-Provides a well-structured set of commands for publishing and maintaining a blogging platform, including commands for creating posts, managing categories, and handling media files.
-
-[Claude Task Manager](https://gist.github.com/grahama1970/44a9da6a3da6769132037f06966945c2#file-00_readme-md) by [grahama1970](https://github.com/grahama1970)  
-Solves the critical challenge of context length limitations and task focus when working with Claude on complex projects through specialized context isolation and focused task execution.
-
-[Context Priming](https://github.com/disler/just-prompt/tree/main/.claude/commands) by [disler](https://github.com/disler)  
-Provides a systematic approach to priming Claude Code with comprehensive project context through specialized commands for different project scenarios and development contexts.
-
-[n8n_agent](https://github.com/kingler/n8n_agent/tree/main/.claude/commands) by [kingler](https://github.com/kingler)  
-Amazing comprehensive set of comments for code analysis, QA, design, documentation, project structure, project management, optimization, and many more.
-
-[Project Bootstrapping and Task Management](https://github.com/steadycursor/steadystart/tree/main/.claude/commands) by [steadycursor](https://github.com/steadycursor)  
-Provides a structured set of commands for bootstrapping and managing a new project, including meta-commands for creating and editing custom slash-commands.
-
-[Project Management, Implementation, Planning, and Release](https://github.com/scopecraft/command/tree/main/.claude/commands) by [scopecraft](https://github.com/scopecraft)  
-Really comprehensive set of commands for all aspects of SDLC.
-
-[Project Workflow System](https://github.com/harperreed/dotfiles/tree/master/.claude/commands) by [harperreed](https://github.com/harperreed)  
-A set of commands that provide a comprehensive workflow system for managing projects, including task management, code review, and deployment processes.
-
-[Simone](https://github.com/Helmi/claude-simone) by [Helmi](https://github.com/Helmi)  
-A broader project management workflow for Claude Code that encompasses not just a set of commands, but a system of documents, guidelines, and processes to facilitate project planning and execution.
-
-## Tooling
-
-- [Claude Code Flow](https://github.com/ruvnet/claude-code-flow) - This mode serves as a code-first orchestration layer, enabling Claude to write, edit, test, and optimize code autonomously across recursive agent cycles.
-
-- [Claude Code Router](https://github.com/musistudio/claude-code-router) - Use Claude Code as the foundation for coding infrastructure, allowing you to decide how to interact with the model while enjoying updates from Anthropic.
-
-- [Claude Composer](https://github.com/possibilities/claude-composer) - A tool that adds small enhancements to Claude Code.
-
-- [Claude Hub](https://github.com/claude-did-this/claude-hub) - A webhook service that connects Claude Code to GitHub repositories, enabling AI-powered code assistance directly through pull requests and issues. This integration allows Claude to analyze repositories, answer technical questions, and help developers understand and improve their codebase through simple @mentions.
-
-- [Claude Squad](https://github.com/smtg-ai/claude-squad) - Claude Squad is a terminal app that manages multiple Claude Code, Codex (and other local agents including Aider) in separate workspaces, allowing you to work on multiple tasks simultaneously.
-
-- [Claude Swarm](https://github.com/parruda/claude-swarm) - Launch Claude Code session that is connected to a swarm of Claude Code Agents.
-
-- [Claude Task Master](https://github.com/eyaltoledano/claude-task-master) - A task management system for AI-driven development with Claude, designed to work seamlessly with Cursor AI.
-
-- [Container Use](https://github.com/dagger/container-use) - Development environments for coding agents. Enable multiple agents to work safely and independently with your preferred stack.
-
-## Additional Resources
-
-[wcygan's slash-commands megalist](https://github.com/wcygan/dotfiles/tree/d8ab6b9f5a7a81007b7f5fa3025d4f83ce12cc02/claude/commands) by [wcygan](https://github.com/wcygan)
-A pretty stunning list (88 at the time of this post!) of slash-commands ranging from agent orchestration, code review, project management, security, documentation, self-assessment, almost anything you can dream of.
-
-<br>
-
 ## Official Documentation
 
 <!--lint disable double-link-->
@@ -385,7 +391,7 @@ A pretty stunning list (88 at the time of this post!) of slash-commands ranging 
 [Anthropic Documentation](https://docs.anthropic.com/en/docs/claude-code) by [Anthropic](https://github.com/anthropics)  
 The official documentation for Claude Code, including installation instructions, usage guidelines, API references, tutorials, examples, loads of information that I won't list individually. Like Claude Code, the documentation is frequently updated.
 
-[Anthropic Quickstarts](https://github.com/anthropics/anthropic-quickstarts/blob/main/CLAUDE.md) by [anthropics](https://github.com/anthropics)  
+[Anthropic Quickstarts](https://github.com/anthropics/anthropic-quickstarts/blob/main/CLAUDE.md) by [Anthropic](https://github.com/anthropics)  
 Offers comprehensive development guides for three distinct AI-powered demo projects with standardized workflows, strict code style guidelines, and containerization instructions.
 
 <br>
