@@ -103,16 +103,16 @@ A tool that adds small enhancements to Claude Code.
 [`Claude Hub`](https://github.com/claude-did-this/claude-hub) by [Claude Did This](https://github.com/claude-did-this)  
 A webhook service that connects Claude Code to GitHub repositories, enabling AI-powered code assistance directly through pull requests and issues. This integration allows Claude to analyze repositories, answer technical questions, and help developers understand and improve their codebase through simple @mentions.
 
-[`Claude Squad`](https://github.com/smtg-ai/claude-squad)  
+[`Claude Squad`](https://github.com/smtg-ai/claude-squad) by [smtg-ai](https://github.com/smtg-ai)  
 Claude Squad is a terminal app that manages multiple Claude Code, Codex (and other local agents including Aider) in separate workspaces, allowing you to work on multiple tasks simultaneously.
 
-[`Claude Swarm`](https://github.com/parruda/claude-swarm)  
+[`Claude Swarm`](https://github.com/parruda/claude-swarm) by [parruda](https://github.com/parruda)  
 Launch Claude Code session that is connected to a swarm of Claude Code Agents.
 
-[`Claude Task Master`](https://github.com/eyaltoledano/claude-task-master)  
+[`Claude Task Master`](https://github.com/eyaltoledano/claude-task-master) by [eyaltoledano](https://github.com/eyaltoledano)  
 A task management system for AI-driven development with Claude, designed to work seamlessly with Cursor AI.
 
-[`Container Use`](https://github.com/dagger/container-use)  
+[`Container Use`](https://github.com/dagger/container-use) by [dagger](https://github.com/dagger)  
 Development environments for coding agents. Enable multiple agents to work safely and independently with your preferred stack.
 
 <br>
