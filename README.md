@@ -403,4 +403,4 @@ Regarding content, we especially welcome:
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for more information on how to contribute to this project. Or, fire up Claude Code and invoke the `/project:add-new-resource` command and let Claude walk you through it!
 
-If you have any suggestions or thoughts on how to improve the repo, or how to best organize the list, feel free to start a Discussion topic.
+If you have any suggestions or thoughts on how to improve the repo, or how to best organize the list, feel free to start a Discussion topic. This is meant to be for the Claude Code community, and in general I prefer not to act on sole authority.
