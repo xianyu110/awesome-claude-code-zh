@@ -399,6 +399,7 @@ Regarding content, we especially welcome:
 - Proven, effective resources that follow best practices and may even be in use in production.
 - Innovative, creative, or experimental workflows that perhaps are still being iterated upon, but have high potential value, and push the boundaries of Claude Code's documented capabilities and use cases.
 - Additional libraries and tooling that are built on top of Claude Code and offer enhanced functionality.
+- Applications of Claude Code outside of the traditional "coding assistant" context, e.g., CI/CD integration, testing, documentation, dev-ops, etc.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for more information on how to contribute to this project. Or, fire up Claude Code and invoke the `/project:add-new-resource` command and let Claude walk you through it!
 
