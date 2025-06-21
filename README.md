@@ -410,6 +410,11 @@ Offers clear step-by-step installation instructions with multiple configuration 
 
 <br>
 
+### Editor / IDE Integration
+
+- [claude-code.el](https://github.com/stevemolitor/claude-code.el) - An Emacs interface for Claude Code CLI.
+- [claude-code.nvim](https://github.com/greggh/claude-code.nvim) - A seamless integration between Claude Code AI assistant and Neovim
+
 ## Official Documentation
 
 > Links to some of Anthropic's terrific documentation and resources regarding Claude Code
