@@ -66,8 +66,8 @@ def process_csv(github_action=False):
     else:
         print(f"Starting validation at: {start_time.strftime('%Y-%m-%d %H:%M:%S')}", file=sys.stderr)
     
-    input_file = '.myob/resource-metadata.csv'
-    output_file = '.myob/resource-metadata.csv'
+    input_file = 'resource-metadata.csv'
+    output_file = 'resource-metadata.csv'
     
     # Track broken links for summary
     broken_links = []

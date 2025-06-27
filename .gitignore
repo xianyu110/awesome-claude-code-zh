@@ -5,7 +5,7 @@
 !.myob/
 !.myob/scripts/
 !.myob/scripts/validate_links.py
-!.myob/resource-metadata.csv
+!.myob/scripts/resource-metadata.csv
 
 .mypy_cache/
 

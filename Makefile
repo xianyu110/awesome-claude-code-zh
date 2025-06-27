@@ -35,7 +35,7 @@ update: process validate
 # Clean generated files (preserves scripts)
 clean:
 	@echo "Cleaning generated files..."
-	@rm -f .myob/resource-metadata.csv
+	@rm -f .myob/scripts/resource-metadata.csv
 	@echo "Clean complete!"
 
 # Install required Python packages
