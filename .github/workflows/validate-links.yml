@@ -24,14 +24,12 @@ jobs:
         python-version: '3.11'
 
     - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install requests
+      run: make install
 
     - name: Run link validation
       id: validate
       run: |
-        python .myob/scripts/validate_links.py --github-action > validation_results.json
+        make validate-github > validation_results.json
         echo "::set-output name=has_broken_links::$(python -c "import json; data=json.load(open('validation_results.json')); print('true' if data['broken_links'] else 'false')")"
         
     - name: Upload validation results

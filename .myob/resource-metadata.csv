@@ -1,111 +1,111 @@
 Display Name,Type,Primary Link,Secondary Link,Author Name,Author Link,Active,Last Checked
-Blogging Platform Instructions,Workflows & Knowledge Guides,https://github.com/cloudartisan/cloudartisan.github.io/tree/d1ed4928b1326dcf658991e0b83387455d1b5004/.claude/commands,,cloudartisan,https://github.com/cloudartisan,TRUE,2025-06-26:18-15-41
-ClaudeLog,Workflows & Knowledge Guides,https://claudelog.com,,InventorBlack,https://www.reddit.com/user/inventor_black/,TRUE,2025-06-26:18-15-46
-Claude Task Manager,Workflows & Knowledge Guides,https://gist.github.com/grahama1970/44a9da6a3da6769132037f06966945c2#file-00_readme-md,,grahama1970,https://github.com/grahama1970,TRUE,2025-06-26:18-15-49
-Context Priming,Workflows & Knowledge Guides,https://github.com/disler/just-prompt/tree/main/.claude/commands,,disler,https://github.com/disler,TRUE,2025-06-26:18-15-53
-n8n_agent,Workflows & Knowledge Guides,https://github.com/kingler/n8n_agent/tree/main/.claude/commands,,kingler,https://github.com/kingler,TRUE,2025-06-26:18-15-57
-Project Bootstrapping and Task Management,Workflows & Knowledge Guides,https://github.com/steadycursor/steadystart/tree/main/.claude/commands,,steadycursor,https://github.com/steadycursor,TRUE,2025-06-26:18-16-00
-"Project Management, Implementation, Planning, and Release",Workflows & Knowledge Guides,https://github.com/scopecraft/command/tree/main/.claude/commands,,scopecraft,https://github.com/scopecraft,TRUE,2025-06-26:18-16-04
-Project Workflow System,Workflows & Knowledge Guides,https://github.com/harperreed/dotfiles/tree/master/.claude/commands,,harperreed,https://github.com/harperreed,TRUE,2025-06-26:18-16-08
-Simone,Workflows & Knowledge Guides,https://github.com/Helmi/claude-simone,,Helmi,https://github.com/Helmi,TRUE,2025-06-26:18-16-11
-Slash-commands megalist,Workflows & Knowledge Guides,https://github.com/wcygan/dotfiles/tree/d8ab6b9f5a7a81007b7f5fa3025d4f83ce12cc02/claude/commands,,wcygan,https://github.com/wcygan,TRUE,2025-06-26:18-16-15
-CC Usage,Tooling,https://github.com/ryoppippi/ccusage,,ryoppippi,https://github.com/ryoppippi,TRUE,2025-06-26:18-16-19
-Claude Code Flow,Tooling,https://github.com/ruvnet/claude-code-flow,,ruvnet,https://github.com/ruvnet,TRUE,2025-06-26:18-16-22
-Claude Code Router,Tooling,https://github.com/musistudio/claude-code-router,,musistudio,https://github.com/musistudio,TRUE,2025-06-26:18-16-25
-Claude Composer,Tooling,https://github.com/possibilities/claude-composer,,Mike Bannister,https://github.com/possibilities,TRUE,2025-06-26:18-16-30
-Claude Hub,Tooling,https://github.com/claude-did-this/claude-hub,,Claude Did This,https://github.com/claude-did-this,TRUE,2025-06-26:18-16-34
-Claude Squad,Tooling,https://github.com/smtg-ai/claude-squad,,smtg-ai,https://github.com/smtg-ai,TRUE,2025-06-26:18-16-38
-Claude Swarm,Tooling,https://github.com/parruda/claude-swarm,,parruda,https://github.com/parruda,TRUE,2025-06-26:18-16-41
-Claude Task Master,Tooling,https://github.com/eyaltoledano/claude-task-master,,eyaltoledano,https://github.com/eyaltoledano,TRUE,2025-06-26:18-16-46
-Container Use,Tooling,https://github.com/dagger/container-use,,dagger,https://github.com/dagger,TRUE,2025-06-26:18-16-50
-claude-code.el,Tooling - IDE Integrations,https://github.com/stevemolitor/claude-code.el,,stevemolitor,https://github.com/stevemolitor,TRUE,2025-06-26:18-16-53
-claude-code.nvim,Tooling - IDE Integrations,https://github.com/greggh/claude-code.nvim,,greggh,https://github.com/greggh,TRUE,2025-06-26:18-16-57
-/2-commit-fast,Slash-Commands - Version Control & Git,https://github.com/steadycursor/steadystart/blob/main/.claude/commands/2-commit-fast.md,,steadycursor,https://github.com/steadycursor,TRUE,2025-06-26:18-17-01
-/commit,Slash-Commands - Version Control & Git,https://github.com/evmts/tevm-monorepo/blob/main/.claude/commands/commit.md,,evmts,https://github.com/evmts,TRUE,2025-06-26:18-17-04
-/create-pr,Slash-Commands - Version Control & Git,https://github.com/toyamarinyon/giselle/blob/main/.claude/commands/create-pr.md,,toyamarinyon,https://github.com/toyamarinyon,TRUE,2025-06-26:18-17-08
-/create-pull-request,Slash-Commands - Version Control & Git,https://github.com/liam-hq/liam/blob/main/.claude/commands/create-pull-request.md,,liam-hq,https://github.com/liam-hq,TRUE,2025-06-26:18-17-16
-/create-worktrees,Slash-Commands - Version Control & Git,https://github.com/evmts/tevm-monorepo/blob/main/.claude/commands/create-worktrees.md,,evmts,https://github.com/evmts,TRUE,2025-06-26:18-17-33
-/fix-github-issue,Slash-Commands - Version Control & Git,https://github.com/jeremymailen/kotlinter-gradle/blob/master/.claude/commands/fix-github-issue.md,,jeremymailen,https://github.com/jeremymailen,TRUE,2025-06-26:18-17-37
-/fix-issue,Slash-Commands - Version Control & Git,https://github.com/metabase/metabase/blob/master/.claude/commands/fix-issue.md,,metabase,https://github.com/metabase,TRUE,2025-06-26:18-17-44
-/fix-pr,Slash-Commands - Version Control & Git,https://github.com/metabase/metabase/blob/master/.claude/commands/fix-pr.md,,metabase,https://github.com/metabase,TRUE,2025-06-26:18-17-46
-/husky,Slash-Commands - Version Control & Git,https://github.com/evmts/tevm-monorepo/blob/main/.claude/commands/husky.md,,evmts,https://github.com/evmts,TRUE,2025-06-26:18-17-50
-/analyze-issue,Slash-Commands - Version Control & Git,https://github.com/jerseycheese/Narraitor/blob/feature/issue-227-ai-suggestions/.claude/commands/analyze-issue.md,,jerseycheese,https://github.com/jerseycheese,TRUE,2025-06-26:18-17-53
-/bug-fix,Slash-Commands - Version Control & Git,https://github.com/danielscholl/mvn-mcp-server/blob/main/.claude/commands/bug-fix.md,,danielscholl,https://github.com/danielscholl,TRUE,2025-06-26:18-17-59
-/pr-review,Slash-Commands - Version Control & Git,https://github.com/arkavo-org/opentdf-rs/blob/main/.claude/commands/pr-review.md,,arkavo-org,https://github.com/arkavo-org,TRUE,2025-06-26:18-18-02
-/update-branch-name,Slash-Commands - Version Control & Git,https://github.com/giselles-ai/giselle/blob/main/.claude/commands/update-branch-name.md,,giselles-ai,https://github.com/giselles-ai,TRUE,2025-06-26:18-18-05
-/analyze-code,Slash-Commands - Code Analysis & Testing,https://github.com/Hkgstax/VALUGATOR/blob/main/.claude/commands/analyze-code.md,,Hkgstax,https://github.com/Hkgstax,FALSE,2025-06-26:18-18-08
-/check,Slash-Commands - Code Analysis & Testing,https://github.com/rygwdn/slack-tools/blob/main/.claude/commands/check.md,,rygwdn,https://github.com/rygwdn,TRUE,2025-06-26:18-18-12
-/clean,Slash-Commands - Code Analysis & Testing,https://github.com/Graphlet-AI/eridu/blob/main/.claude/commands/clean.md,,Graphlet-AI,https://github.com/Graphlet-AI,TRUE,2025-06-26:18-18-17
-/code_analysis,Slash-Commands - Code Analysis & Testing,https://github.com/kingler/n8n_agent/blob/main/.claude/commands/code_analysis.md,,kingler,https://github.com/kingler,TRUE,2025-06-26:18-18-19
-/optimize,Slash-Commands - Code Analysis & Testing,https://github.com/to4iki/ai-project-rules/blob/main/.claude/commands/optimize.md,,to4iki,https://github.com/to4iki,FALSE,2025-06-26:18-18-37
-/repro-issue,Slash-Commands - Code Analysis & Testing,https://github.com/rzykov/metabase/blob/master/.claude/commands/repro-issue.md,,rzykov,https://github.com/rzykov,TRUE,2025-06-26:18-18-45
-/implement-issue,Slash-Commands - Code Analysis & Testing,https://github.com/cmxela/thinkube/blob/main/.claude/commands/implement-issue.md,,cmxela,https://github.com/cmxela,FALSE,2025-06-26:18-18-57
-/implement-task,Slash-Commands - Code Analysis & Testing,https://github.com/Hkgstax/VALUGATOR/blob/main/.claude/commands/implement-task.md,,Hkgstax,https://github.com/Hkgstax,FALSE,2025-06-26:18-19-02
-/task-breakdown,Slash-Commands - Code Analysis & Testing,https://github.com/Hkgstax/VALUGATOR/blob/main/.claude/commands/task-breakdown.md,,Hkgstax,https://github.com/Hkgstax,FALSE,2025-06-26:18-19-09
-/tdd,Slash-Commands - Code Analysis & Testing,https://github.com/zscott/pane/blob/main/.claude/commands/tdd.md,,zscott,https://github.com/zscott,TRUE,2025-06-26:18-19-12
-/tdd-implement,Slash-Commands - Code Analysis & Testing,https://github.com/jerseycheese/Narraitor/blob/feature/issue-227-ai-suggestions/.claude/commands/tdd-implement.md,,jerseycheese,https://github.com/jerseycheese,TRUE,2025-06-26:18-19-16
-/testing_plan_integration,Slash-Commands - Code Analysis & Testing,https://github.com/buster-so/buster/blob/main/api/.claude/commands/testing_plan_integration.md,,buster-so,https://github.com/buster-so,TRUE,2025-06-26:18-19-20
-/context-prime,Slash-Commands - Context Loading & Priming,https://github.com/elizaOS/elizaos.github.io/blob/main/.claude/commands/context-prime.md,,elizaOS,https://github.com/elizaOS,TRUE,2025-06-26:18-19-24
-/initref,Slash-Commands - Context Loading & Priming,https://github.com/okuvshynov/cubestat/blob/main/.claude/commands/initref.md,,okuvshynov,https://github.com/okuvshynov,TRUE,2025-06-26:18-19-27
-/load-llms-txt,Slash-Commands - Context Loading & Priming,https://github.com/ethpandaops/xatu-data/blob/master/.claude/commands/load-llms-txt.md,,ethpandaops,https://github.com/ethpandaops,TRUE,2025-06-26:18-19-32
-/load_coo_context,Slash-Commands - Context Loading & Priming,https://github.com/Mjvolk3/torchcell/blob/main/.claude/commands/load_coo_context.md,,Mjvolk3,https://github.com/Mjvolk3,TRUE,2025-06-26:18-19-37
-/load_dango_pipeline,Slash-Commands - Context Loading & Priming,https://github.com/Mjvolk3/torchcell/blob/main/.claude/commands/load_dango_pipeline.md,,Mjvolk3,https://github.com/Mjvolk3,TRUE,2025-06-26:18-19-48
-/prime,Slash-Commands - Context Loading & Priming,https://github.com/yzyydev/AI-Engineering-Structure/blob/main/.claude/commands/prime.md,,yzyydev,https://github.com/yzyydev,TRUE,2025-06-26:18-19-52
-/reminder,Slash-Commands - Context Loading & Priming,https://github.com/cmxela/thinkube/blob/main/.claude/commands/reminder.md,,cmxela,https://github.com/cmxela,FALSE,2025-06-26:18-19-56
-/rsi,Slash-Commands - Context Loading & Priming,https://github.com/ddisisto/si/blob/main/.claude/commands/rsi.md,,ddisisto,https://github.com/ddisisto,TRUE,2025-06-26:18-19-59
-/add-to-changelog,Slash-Commands - Documentation & Changelogs,https://github.com/berrydev-ai/blockdoc-python/blob/main/.claude/commands/add-to-changelog.md,,berrydev-ai,https://github.com/berrydev-ai,TRUE,2025-06-26:18-20-03
-/create-docs,Slash-Commands - Documentation & Changelogs,https://github.com/jerseycheese/Narraitor/tree/feature/issue-227-ai-suggestions/.claude/commands/create-docs.md,,jerseycheese,https://github.com/jerseycheese,TRUE,2025-06-26:18-20-23
-/docs,Slash-Commands - Documentation & Changelogs,https://github.com/slunsford/coffee-analytics/blob/main/.claude/commands/docs.md,,slunsford,https://github.com/slunsford,TRUE,2025-06-26:18-20-27
-/explain-issue-fix,Slash-Commands - Documentation & Changelogs,https://github.com/hackdays-io/toban-contribution-viewer/blob/main/.claude/commands/explain-issue-fix.md,,hackdays-io,https://github.com/hackdays-io,TRUE,2025-06-26:18-20-30
-/update-docs,Slash-Commands - Documentation & Changelogs,https://github.com/Consiliency/Flutter-Structurizr/blob/main/.claude/commands/update-docs.md,,Consiliency,https://github.com/Consiliency,TRUE,2025-06-26:18-20-37
-/build-react-app,Slash-Commands - CI / Deployment,https://github.com/wmjones/wyatt-personal-aws/blob/main/.claude/commands/build-react-app.md,,wmjones,https://github.com/wmjones,FALSE,2025-06-26:18-20-42
-/deploy,Slash-Commands - CI / Deployment,https://github.com/cloudartisan/cloudartisan.github.io/blob/main/.claude/commands/site/deploy.md,,cloudartisan,https://github.com/cloudartisan,TRUE,2025-06-26:18-20-46
-/release,Slash-Commands - CI / Deployment,https://github.com/kelp/webdown/blob/main/.claude/commands/release.md,,kelp,https://github.com/kelp,TRUE,2025-06-26:18-20-53
-/run-ci,Slash-Commands - CI / Deployment,https://github.com/hackdays-io/toban-contribution-viewer/blob/main/.claude/commands/run-ci.md,,hackdays-io,https://github.com/hackdays-io,TRUE,2025-06-26:18-20-57
-/run-pre-commit,Slash-Commands - CI / Deployment,https://github.com/wmjones/wyatt-personal-aws/blob/main/.claude/commands/run-pre-commit.md,,wmjones,https://github.com/wmjones,FALSE,2025-06-26:18-21-00
-/create-command,Slash-Commands - Project & Task Management,https://github.com/scopecraft/command/blob/main/.claude/commands/create-command.md,,scopecraft,https://github.com/scopecraft,TRUE,2025-06-26:18-21-05
-/create-jtbd,Slash-Commands - Project & Task Management,https://github.com/taddyorg/inkverse/blob/main/.claude/commands/create-jtbd.md,,taddyorg,https://github.com/taddyorg,TRUE,2025-06-26:18-21-09
-/create-prd,Slash-Commands - Project & Task Management,https://github.com/taddyorg/inkverse/blob/main/.claude/commands/create-prd.md,,taddyorg,https://github.com/taddyorg,TRUE,2025-06-26:18-21-13
-/create-prp,Slash-Commands - Project & Task Management,https://github.com/Wirasm/claudecode-utils/blob/main/.claude/commands/create-prp.md,,Wirasm,https://github.com/Wirasm,TRUE,2025-06-26:18-21-24
-/do-issue,Slash-Commands - Project & Task Management,https://github.com/jerseycheese/Narraitor/blob/feature/issue-227-ai-suggestions/.claude/commands/do-issue.md,,jerseycheese,https://github.com/jerseycheese,TRUE,2025-06-26:18-21-27
-/new,Slash-Commands - Project & Task Management,https://github.com/cloudartisan/cloudartisan.github.io/blob/main/.claude/commands/projects/new.md,,cloudartisan,https://github.com/cloudartisan,TRUE,2025-06-26:18-21-30
-/next-task,Slash-Commands - Project & Task Management,https://github.com/wmjones/wyatt-personal-aws/blob/main/.claude/commands/next-task.md,,wmjones,https://github.com/wmjones,FALSE,2025-06-26:18-21-33
-/project_hello_w_name,Slash-Commands - Project & Task Management,https://github.com/disler/just-prompt/blob/main/.claude/commands/project_hello_w_name.md,,disler,https://github.com/disler,TRUE,2025-06-26:18-21-38
-/todo,Slash-Commands - Project & Task Management,https://github.com/chrisleyva/todo-slash-command/blob/main/todo.md,,chrisleyva,https://github.com/chrisleyva,TRUE,2025-06-26:18-21-41
-/view_commands,Slash-Commands - Project & Task Management,https://github.com/cloudartisan/cloudartisan.github.io/blob/main/.claude/commands/view_commands.md,,cloudartisan,https://github.com/cloudartisan,TRUE,2025-06-26:18-21-53
-/act,Slash-Commands - Miscellaneous,https://github.com/sotayamashita/dotfiles/blob/main/.claude/commands/act.md,,sotayamashita,https://github.com/sotayamashita,TRUE,2025-06-26:18-21-56
-/dump,Slash-Commands - Miscellaneous,https://gist.github.com/fumito-ito/77c308e0382e06a9c16b22619f8a2f83#file-dump-md,,fumito-ito,https://github.com/fumito-ito,TRUE,2025-06-26:18-22-00
-/five,Slash-Commands - Miscellaneous,https://github.com/TuckerTucker/tkr-agent-chat/blob/main/.claude/commands/five.md,,TuckerTucker,https://github.com/TuckerTucker,FALSE,2025-06-26:18-22-07
-/fixing_go_in_graph,Slash-Commands - Miscellaneous,https://github.com/Mjvolk3/torchcell/blob/main/.claude/commands/fixing_go_in_graph.md,,Mjvolk3,https://github.com/Mjvolk3,TRUE,2025-06-26:18-22-10
-/mermaid,Slash-Commands - Miscellaneous,https://github.com/GaloyMoney/lana-bank/blob/main/.claude/commands/mermaid.md,,GaloyMoney,https://github.com/GaloyMoney,TRUE,2025-06-26:18-22-13
-/review_dcell_model,Slash-Commands - Miscellaneous,https://github.com/Mjvolk3/torchcell/blob/main/.claude/commands/review_dcell_model.md,,Mjvolk3,https://github.com/Mjvolk3,TRUE,2025-06-26:18-22-17
-/use-stepper,Slash-Commands - Miscellaneous,https://github.com/zuplo/docs/blob/main/.claude/commands/use-stepper.md,,zuplo,https://github.com/zuplo,TRUE,2025-06-26:18-22-23
-AI IntelliJ Plugin,CLAUDE.md Files - Language-Specific,https://github.com/didalgolab/ai-intellij-plugin/blob/main/CLAUDE.md,,didalgolab,https://github.com/didalgolab,TRUE,2025-06-26:18-22-30
-AWS MCP Server,CLAUDE.md Files - Language-Specific,https://github.com/alexei-led/aws-mcp-server/blob/main/CLAUDE.md,,alexei-led,https://github.com/alexei-led,TRUE,2025-06-26:18-22-34
-DroidconKotlin,CLAUDE.md Files - Language-Specific,https://github.com/touchlab/DroidconKotlin/blob/main/CLAUDE.md,,touchlab,https://github.com/touchlab,TRUE,2025-06-26:18-22-38
-EDSL,CLAUDE.md Files - Language-Specific,https://github.com/expectedparrot/edsl/blob/main/CLAUDE.md,,expectedparrot,https://github.com/expectedparrot,TRUE,2025-06-26:18-22-45
-Giselle,CLAUDE.md Files - Language-Specific,https://github.com/giselles-ai/giselle/blob/main/CLAUDE.md,,giselles-ai,https://github.com/giselles-ai,TRUE,2025-06-26:18-22-49
-HASH,CLAUDE.md Files - Language-Specific,https://github.com/hashintel/hash/blob/main/CLAUDE.md,,hashintel,https://github.com/hashintel,TRUE,2025-06-26:18-22-54
-Inkline,CLAUDE.md Files - Language-Specific,https://github.com/inkline/inkline/blob/main/CLAUDE.md,,inkline,https://github.com/inkline,TRUE,2025-06-26:18-23-01
-JSBeeb,CLAUDE.md Files - Language-Specific,https://github.com/mattgodbolt/jsbeeb/blob/main/CLAUDE.md,,mattgodbolt,https://github.com/mattgodbolt,TRUE,2025-06-26:18-23-08
-Lamoom Python,CLAUDE.md Files - Language-Specific,https://github.com/LamoomAI/lamoom-python/blob/main/CLAUDE.md,,LamoomAI,https://github.com/LamoomAI,TRUE,2025-06-26:18-23-13
-LangGraphJS,CLAUDE.md Files - Language-Specific,https://github.com/langchain-ai/langgraphjs/blob/main/CLAUDE.md,,langchain-ai,https://github.com/langchain-ai,TRUE,2025-06-26:18-23-26
-Metabase,CLAUDE.md Files - Language-Specific,https://github.com/metabase/metabase/blob/master/CLAUDE.md,,metabase,https://github.com/metabase,TRUE,2025-06-26:18-23-29
-SG Cars Trends Backend,CLAUDE.md Files - Language-Specific,https://github.com/sgcarstrends/backend/blob/main/CLAUDE.md,,sgcarstrends,https://github.com/sgcarstrends,TRUE,2025-06-26:18-23-35
-SPy,CLAUDE.md Files - Language-Specific,https://github.com/spylang/spy/blob/main/CLAUDE.md,,spylang,https://github.com/spylang,TRUE,2025-06-26:18-23-41
-TPL,CLAUDE.md Files - Language-Specific,https://github.com/KarpelesLab/tpl/blob/master/CLAUDE.md,,KarpelesLab,https://github.com/KarpelesLab,TRUE,2025-06-26:18-23-45
-AVS Vibe Developer Guide,CLAUDE.md Files - Domain-Specific,https://github.com/Layr-Labs/avs-vibe-developer-guide/blob/master/CLAUDE.md,,Layr-Labs,https://github.com/Layr-Labs,TRUE,2025-06-26:18-23-48
-Comm,CLAUDE.md Files - Domain-Specific,https://github.com/CommE2E/comm/blob/master/CLAUDE.md,,CommE2E,https://github.com/CommE2E,TRUE,2025-06-26:18-23-52
-Course Builder,CLAUDE.md Files - Domain-Specific,https://github.com/badass-courses/course-builder/blob/master/CLAUDE.md,,badass-courses,https://github.com/badass-courses,FALSE,2025-06-26:18-24-09
-Cursor Tools,CLAUDE.md Files - Domain-Specific,https://github.com/eastlondoner/cursor-tools/blob/main/CLAUDE.md,,eastlondoner,https://github.com/eastlondoner,TRUE,2025-06-26:18-24-13
-Guitar,CLAUDE.md Files - Domain-Specific,https://github.com/soramimi/Guitar/blob/master/CLAUDE.md,,soramimi,https://github.com/soramimi,TRUE,2025-06-26:18-24-17
-Network Chronicles,CLAUDE.md Files - Domain-Specific,https://github.com/Fimeg/NetworkChronicles/blob/main/CLAUDE.md,,Fimeg,https://github.com/Fimeg,TRUE,2025-06-26:18-24-20
-Note Companion,CLAUDE.md Files - Domain-Specific,https://github.com/different-ai/note-companion/blob/master/CLAUDE.md,,different-ai,https://github.com/different-ai,TRUE,2025-06-26:18-24-26
-Pareto Mac,CLAUDE.md Files - Domain-Specific,https://github.com/ParetoSecurity/pareto-mac/blob/main/CLAUDE.md,,ParetoSecurity,https://github.com/ParetoSecurity,TRUE,2025-06-26:18-24-30
-SteadyStart,CLAUDE.md Files - Domain-Specific,https://github.com/steadycursor/steadystart/blob/main/CLAUDE.md,,steadycursor,https://github.com/steadycursor,TRUE,2025-06-26:18-24-37
-Basic Memory,CLAUDE.md Files - Project Scaffolding & MCP,https://github.com/basicmachines-co/basic-memory/blob/main/CLAUDE.md,,basicmachines-co,https://github.com/basicmachines-co,TRUE,2025-06-26:18-24-55
-claude-code-mcp-enhanced,CLAUDE.md Files - Project Scaffolding & MCP,https://github.com/grahama1970/claude-code-mcp-enhanced/blob/66328d6bcc960c81ff24f6213ce5614000858698/CLAUDE.md,,grahama1970,https://github.com/grahama1970,TRUE,2025-06-26:18-24-58
-MCP Engine,CLAUDE.md Files - Project Scaffolding & MCP,https://github.com/featureform/mcp-engine/blob/main/CLAUDE.md,,featureform,https://github.com/featureform,FALSE,2025-06-26:18-25-01
-Perplexity MCP,CLAUDE.md Files - Project Scaffolding & MCP,https://github.com/Family-IT-Guy/perplexity-mcp/blob/main/CLAUDE.md,,Family-IT-Guy,https://github.com/Family-IT-Guy,TRUE,2025-06-26:18-25-04
-Anthropic Documentation,Official Documentation,https://docs.anthropic.com/en/docs/claude-code,,Anthropic,https://github.com/anthropics,TRUE,2025-06-26:18-25-07
-Anthropic Quickstarts,Official Documentation,https://github.com/anthropics/anthropic-quickstarts/blob/main/CLAUDE.md,,Anthropic,https://github.com/anthropics,TRUE,2025-06-26:18-25-09
+AVS Vibe Developer Guide,CLAUDE.md Files - Domain-Specific,https://github.com/Layr-Labs/avs-vibe-developer-guide/blob/master/CLAUDE.md,,Layr-Labs,https://github.com/Layr-Labs,,
+Comm,CLAUDE.md Files - Domain-Specific,https://github.com/CommE2E/comm/blob/master/CLAUDE.md,,CommE2E,https://github.com/CommE2E,,
+Course Builder,CLAUDE.md Files - Domain-Specific,https://github.com/badass-courses/course-builder/blob/master/CLAUDE.md,,badass-courses,https://github.com/badass-courses,,
+Cursor Tools,CLAUDE.md Files - Domain-Specific,https://github.com/eastlondoner/cursor-tools/blob/main/CLAUDE.md,,eastlondoner,https://github.com/eastlondoner,,
+Guitar,CLAUDE.md Files - Domain-Specific,https://github.com/soramimi/Guitar/blob/master/CLAUDE.md,,soramimi,https://github.com/soramimi,,
+Network Chronicles,CLAUDE.md Files - Domain-Specific,https://github.com/Fimeg/NetworkChronicles/blob/main/CLAUDE.md,,Fimeg,https://github.com/Fimeg,,
+Note Companion,CLAUDE.md Files - Domain-Specific,https://github.com/different-ai/note-companion/blob/master/CLAUDE.md,,different-ai,https://github.com/different-ai,,
+Pareto Mac,CLAUDE.md Files - Domain-Specific,https://github.com/ParetoSecurity/pareto-mac/blob/main/CLAUDE.md,,ParetoSecurity,https://github.com/ParetoSecurity,,
+SteadyStart,CLAUDE.md Files - Domain-Specific,https://github.com/steadycursor/steadystart/blob/main/CLAUDE.md,,steadycursor,https://github.com/steadycursor,,
+AI IntelliJ Plugin,CLAUDE.md Files - Language-Specific,https://github.com/didalgolab/ai-intellij-plugin/blob/main/CLAUDE.md,,didalgolab,https://github.com/didalgolab,,
+AWS MCP Server,CLAUDE.md Files - Language-Specific,https://github.com/alexei-led/aws-mcp-server/blob/main/CLAUDE.md,,alexei-led,https://github.com/alexei-led,,
+DroidconKotlin,CLAUDE.md Files - Language-Specific,https://github.com/touchlab/DroidconKotlin/blob/main/CLAUDE.md,,touchlab,https://github.com/touchlab,,
+EDSL,CLAUDE.md Files - Language-Specific,https://github.com/expectedparrot/edsl/blob/main/CLAUDE.md,,expectedparrot,https://github.com/expectedparrot,,
+Giselle,CLAUDE.md Files - Language-Specific,https://github.com/giselles-ai/giselle/blob/main/CLAUDE.md,,giselles-ai,https://github.com/giselles-ai,,
+HASH,CLAUDE.md Files - Language-Specific,https://github.com/hashintel/hash/blob/main/CLAUDE.md,,hashintel,https://github.com/hashintel,,
+Inkline,CLAUDE.md Files - Language-Specific,https://github.com/inkline/inkline/blob/main/CLAUDE.md,,inkline,https://github.com/inkline,,
+JSBeeb,CLAUDE.md Files - Language-Specific,https://github.com/mattgodbolt/jsbeeb/blob/main/CLAUDE.md,,mattgodbolt,https://github.com/mattgodbolt,,
+Lamoom Python,CLAUDE.md Files - Language-Specific,https://github.com/LamoomAI/lamoom-python/blob/main/CLAUDE.md,,LamoomAI,https://github.com/LamoomAI,,
+LangGraphJS,CLAUDE.md Files - Language-Specific,https://github.com/langchain-ai/langgraphjs/blob/main/CLAUDE.md,,langchain-ai,https://github.com/langchain-ai,,
+Metabase,CLAUDE.md Files - Language-Specific,https://github.com/metabase/metabase/blob/master/CLAUDE.md,,metabase,https://github.com/metabase,,
+SG Cars Trends Backend,CLAUDE.md Files - Language-Specific,https://github.com/sgcarstrends/backend/blob/main/CLAUDE.md,,sgcarstrends,https://github.com/sgcarstrends,,
+SPy,CLAUDE.md Files - Language-Specific,https://github.com/spylang/spy/blob/main/CLAUDE.md,,spylang,https://github.com/spylang,,
+TPL,CLAUDE.md Files - Language-Specific,https://github.com/KarpelesLab/tpl/blob/master/CLAUDE.md,,KarpelesLab,https://github.com/KarpelesLab,,
+Basic Memory,CLAUDE.md Files - Project Scaffolding & MCP,https://github.com/basicmachines-co/basic-memory/blob/main/CLAUDE.md,,basicmachines-co,https://github.com/basicmachines-co,,
+claude-code-mcp-enhanced,CLAUDE.md Files - Project Scaffolding & MCP,https://github.com/grahama1970/claude-code-mcp-enhanced/blob/66328d6bcc960c81ff24f6213ce5614000858698/CLAUDE.md,,grahama1970,https://github.com/grahama1970,,
+MCP Engine,CLAUDE.md Files - Project Scaffolding & MCP,https://github.com/featureform/mcp-engine/blob/main/CLAUDE.md,,featureform,https://github.com/featureform,,
+Perplexity MCP,CLAUDE.md Files - Project Scaffolding & MCP,https://github.com/Family-IT-Guy/perplexity-mcp/blob/main/CLAUDE.md,,Family-IT-Guy,https://github.com/Family-IT-Guy,,
+Anthropic Documentation,Official Documentation,https://docs.anthropic.com/en/docs/claude-code,,Anthropic,https://github.com/anthropics,,
+Anthropic Quickstarts,Official Documentation,https://github.com/anthropics/anthropic-quickstarts/blob/main/CLAUDE.md,,Anthropic,https://github.com/anthropics,,
+/build-react-app,Slash-Commands - CI / Deployment,https://github.com/wmjones/wyatt-personal-aws/blob/main/.claude/commands/build-react-app.md,,wmjones,https://github.com/wmjones,,
+/deploy,Slash-Commands - CI / Deployment,https://github.com/cloudartisan/cloudartisan.github.io/blob/main/.claude/commands/site/deploy.md,,cloudartisan,https://github.com/cloudartisan,,
+/release,Slash-Commands - CI / Deployment,https://github.com/kelp/webdown/blob/main/.claude/commands/release.md,,kelp,https://github.com/kelp,,
+/run-ci,Slash-Commands - CI / Deployment,https://github.com/hackdays-io/toban-contribution-viewer/blob/main/.claude/commands/run-ci.md,,hackdays-io,https://github.com/hackdays-io,,
+/run-pre-commit,Slash-Commands - CI / Deployment,https://github.com/wmjones/wyatt-personal-aws/blob/main/.claude/commands/run-pre-commit.md,,wmjones,https://github.com/wmjones,,
+/analyze-code,Slash-Commands - Code Analysis & Testing,https://github.com/Hkgstax/VALUGATOR/blob/main/.claude/commands/analyze-code.md,,Hkgstax,https://github.com/Hkgstax,,
+/check,Slash-Commands - Code Analysis & Testing,https://github.com/rygwdn/slack-tools/blob/main/.claude/commands/check.md,,rygwdn,https://github.com/rygwdn,,
+/clean,Slash-Commands - Code Analysis & Testing,https://github.com/Graphlet-AI/eridu/blob/main/.claude/commands/clean.md,,Graphlet-AI,https://github.com/Graphlet-AI,,
+/code_analysis,Slash-Commands - Code Analysis & Testing,https://github.com/kingler/n8n_agent/blob/main/.claude/commands/code_analysis.md,,kingler,https://github.com/kingler,,
+/implement-issue,Slash-Commands - Code Analysis & Testing,https://github.com/cmxela/thinkube/blob/main/.claude/commands/implement-issue.md,,cmxela,https://github.com/cmxela,,
+/implement-task,Slash-Commands - Code Analysis & Testing,https://github.com/Hkgstax/VALUGATOR/blob/main/.claude/commands/implement-task.md,,Hkgstax,https://github.com/Hkgstax,,
+/optimize,Slash-Commands - Code Analysis & Testing,https://github.com/to4iki/ai-project-rules/blob/main/.claude/commands/optimize.md,,to4iki,https://github.com/to4iki,,
+/repro-issue,Slash-Commands - Code Analysis & Testing,https://github.com/rzykov/metabase/blob/master/.claude/commands/repro-issue.md,,rzykov,https://github.com/rzykov,,
+/task-breakdown,Slash-Commands - Code Analysis & Testing,https://github.com/Hkgstax/VALUGATOR/blob/main/.claude/commands/task-breakdown.md,,Hkgstax,https://github.com/Hkgstax,,
+/tdd,Slash-Commands - Code Analysis & Testing,https://github.com/zscott/pane/blob/main/.claude/commands/tdd.md,,zscott,https://github.com/zscott,,
+/tdd-implement,Slash-Commands - Code Analysis & Testing,https://github.com/jerseycheese/Narraitor/blob/feature/issue-227-ai-suggestions/.claude/commands/tdd-implement.md,,jerseycheese,https://github.com/jerseycheese,,
+/testing_plan_integration,Slash-Commands - Code Analysis & Testing,https://github.com/buster-so/buster/blob/main/api/.claude/commands/testing_plan_integration.md,,buster-so,https://github.com/buster-so,,
+/context-prime,Slash-Commands - Context Loading & Priming,https://github.com/elizaOS/elizaos.github.io/blob/main/.claude/commands/context-prime.md,,elizaOS,https://github.com/elizaOS,,
+/initref,Slash-Commands - Context Loading & Priming,https://github.com/okuvshynov/cubestat/blob/main/.claude/commands/initref.md,,okuvshynov,https://github.com/okuvshynov,,
+/load-llms-txt,Slash-Commands - Context Loading & Priming,https://github.com/ethpandaops/xatu-data/blob/master/.claude/commands/load-llms-txt.md,,ethpandaops,https://github.com/ethpandaops,,
+/load_coo_context,Slash-Commands - Context Loading & Priming,https://github.com/Mjvolk3/torchcell/blob/main/.claude/commands/load_coo_context.md,,Mjvolk3,https://github.com/Mjvolk3,,
+/load_dango_pipeline,Slash-Commands - Context Loading & Priming,https://github.com/Mjvolk3/torchcell/blob/main/.claude/commands/load_dango_pipeline.md,,Mjvolk3,https://github.com/Mjvolk3,,
+/prime,Slash-Commands - Context Loading & Priming,https://github.com/yzyydev/AI-Engineering-Structure/blob/main/.claude/commands/prime.md,,yzyydev,https://github.com/yzyydev,,
+/reminder,Slash-Commands - Context Loading & Priming,https://github.com/cmxela/thinkube/blob/main/.claude/commands/reminder.md,,cmxela,https://github.com/cmxela,,
+/rsi,Slash-Commands - Context Loading & Priming,https://github.com/ddisisto/si/blob/main/.claude/commands/rsi.md,,ddisisto,https://github.com/ddisisto,,
+/add-to-changelog,Slash-Commands - Documentation & Changelogs,https://github.com/berrydev-ai/blockdoc-python/blob/main/.claude/commands/add-to-changelog.md,,berrydev-ai,https://github.com/berrydev-ai,,
+/create-docs,Slash-Commands - Documentation & Changelogs,https://github.com/jerseycheese/Narraitor/tree/feature/issue-227-ai-suggestions/.claude/commands/create-docs.md,,jerseycheese,https://github.com/jerseycheese,,
+/docs,Slash-Commands - Documentation & Changelogs,https://github.com/slunsford/coffee-analytics/blob/main/.claude/commands/docs.md,,slunsford,https://github.com/slunsford,,
+/explain-issue-fix,Slash-Commands - Documentation & Changelogs,https://github.com/hackdays-io/toban-contribution-viewer/blob/main/.claude/commands/explain-issue-fix.md,,hackdays-io,https://github.com/hackdays-io,,
+/update-docs,Slash-Commands - Documentation & Changelogs,https://github.com/Consiliency/Flutter-Structurizr/blob/main/.claude/commands/update-docs.md,,Consiliency,https://github.com/Consiliency,,
+/act,Slash-Commands - Miscellaneous,https://github.com/sotayamashita/dotfiles/blob/main/.claude/commands/act.md,,sotayamashita,https://github.com/sotayamashita,,
+/dump,Slash-Commands - Miscellaneous,https://gist.github.com/fumito-ito/77c308e0382e06a9c16b22619f8a2f83#file-dump-md,,fumito-ito,https://github.com/fumito-ito,,
+/five,Slash-Commands - Miscellaneous,https://github.com/TuckerTucker/tkr-agent-chat/blob/main/.claude/commands/five.md,,TuckerTucker,https://github.com/TuckerTucker,,
+/fixing_go_in_graph,Slash-Commands - Miscellaneous,https://github.com/Mjvolk3/torchcell/blob/main/.claude/commands/fixing_go_in_graph.md,,Mjvolk3,https://github.com/Mjvolk3,,
+/mermaid,Slash-Commands - Miscellaneous,https://github.com/GaloyMoney/lana-bank/blob/main/.claude/commands/mermaid.md,,GaloyMoney,https://github.com/GaloyMoney,,
+/review_dcell_model,Slash-Commands - Miscellaneous,https://github.com/Mjvolk3/torchcell/blob/main/.claude/commands/review_dcell_model.md,,Mjvolk3,https://github.com/Mjvolk3,,
+/use-stepper,Slash-Commands - Miscellaneous,https://github.com/zuplo/docs/blob/main/.claude/commands/use-stepper.md,,zuplo,https://github.com/zuplo,,
+/create-command,Slash-Commands - Project & Task Management,https://github.com/scopecraft/command/blob/main/.claude/commands/create-command.md,,scopecraft,https://github.com/scopecraft,,
+/create-jtbd,Slash-Commands - Project & Task Management,https://github.com/taddyorg/inkverse/blob/main/.claude/commands/create-jtbd.md,,taddyorg,https://github.com/taddyorg,,
+/create-prd,Slash-Commands - Project & Task Management,https://github.com/taddyorg/inkverse/blob/main/.claude/commands/create-prd.md,,taddyorg,https://github.com/taddyorg,,
+/create-prp,Slash-Commands - Project & Task Management,https://github.com/Wirasm/claudecode-utils/blob/main/.claude/commands/create-prp.md,,Wirasm,https://github.com/Wirasm,,
+/do-issue,Slash-Commands - Project & Task Management,https://github.com/jerseycheese/Narraitor/blob/feature/issue-227-ai-suggestions/.claude/commands/do-issue.md,,jerseycheese,https://github.com/jerseycheese,,
+/new,Slash-Commands - Project & Task Management,https://github.com/cloudartisan/cloudartisan.github.io/blob/main/.claude/commands/projects/new.md,,cloudartisan,https://github.com/cloudartisan,,
+/next-task,Slash-Commands - Project & Task Management,https://github.com/wmjones/wyatt-personal-aws/blob/main/.claude/commands/next-task.md,,wmjones,https://github.com/wmjones,,
+/project_hello_w_name,Slash-Commands - Project & Task Management,https://github.com/disler/just-prompt/blob/main/.claude/commands/project_hello_w_name.md,,disler,https://github.com/disler,,
+/todo,Slash-Commands - Project & Task Management,https://github.com/chrisleyva/todo-slash-command/blob/main/todo.md,,chrisleyva,https://github.com/chrisleyva,,
+/view_commands,Slash-Commands - Project & Task Management,https://github.com/cloudartisan/cloudartisan.github.io/blob/main/.claude/commands/view_commands.md,,cloudartisan,https://github.com/cloudartisan,,
+/2-commit-fast,Slash-Commands - Version Control & Git,https://github.com/steadycursor/steadystart/blob/main/.claude/commands/2-commit-fast.md,,steadycursor,https://github.com/steadycursor,,
+/analyze-issue,Slash-Commands - Version Control & Git,https://github.com/jerseycheese/Narraitor/blob/feature/issue-227-ai-suggestions/.claude/commands/analyze-issue.md,,jerseycheese,https://github.com/jerseycheese,,
+/bug-fix,Slash-Commands - Version Control & Git,https://github.com/danielscholl/mvn-mcp-server/blob/main/.claude/commands/bug-fix.md,,danielscholl,https://github.com/danielscholl,,
+/commit,Slash-Commands - Version Control & Git,https://github.com/evmts/tevm-monorepo/blob/main/.claude/commands/commit.md,,evmts,https://github.com/evmts,,
+/create-pr,Slash-Commands - Version Control & Git,https://github.com/toyamarinyon/giselle/blob/main/.claude/commands/create-pr.md,,toyamarinyon,https://github.com/toyamarinyon,,
+/create-pull-request,Slash-Commands - Version Control & Git,https://github.com/liam-hq/liam/blob/main/.claude/commands/create-pull-request.md,,liam-hq,https://github.com/liam-hq,,
+/create-worktrees,Slash-Commands - Version Control & Git,https://github.com/evmts/tevm-monorepo/blob/main/.claude/commands/create-worktrees.md,,evmts,https://github.com/evmts,,
+/fix-github-issue,Slash-Commands - Version Control & Git,https://github.com/jeremymailen/kotlinter-gradle/blob/master/.claude/commands/fix-github-issue.md,,jeremymailen,https://github.com/jeremymailen,,
+/fix-issue,Slash-Commands - Version Control & Git,https://github.com/metabase/metabase/blob/master/.claude/commands/fix-issue.md,,metabase,https://github.com/metabase,,
+/fix-pr,Slash-Commands - Version Control & Git,https://github.com/metabase/metabase/blob/master/.claude/commands/fix-pr.md,,metabase,https://github.com/metabase,,
+/husky,Slash-Commands - Version Control & Git,https://github.com/evmts/tevm-monorepo/blob/main/.claude/commands/husky.md,,evmts,https://github.com/evmts,,
+/pr-review,Slash-Commands - Version Control & Git,https://github.com/arkavo-org/opentdf-rs/blob/main/.claude/commands/pr-review.md,,arkavo-org,https://github.com/arkavo-org,,
+/update-branch-name,Slash-Commands - Version Control & Git,https://github.com/giselles-ai/giselle/blob/main/.claude/commands/update-branch-name.md,,giselles-ai,https://github.com/giselles-ai,,
+CC Usage,Tooling,https://github.com/ryoppippi/ccusage,,ryoppippi,https://github.com/ryoppippi,,
+Claude Code Flow,Tooling,https://github.com/ruvnet/claude-code-flow,,ruvnet,https://github.com/ruvnet,,
+Claude Code Router,Tooling,https://github.com/musistudio/claude-code-router,,musistudio,https://github.com/musistudio,,
+Claude Composer,Tooling,https://github.com/possibilities/claude-composer,,Mike Bannister,https://github.com/possibilities,,
+Claude Hub,Tooling,https://github.com/claude-did-this/claude-hub,,Claude Did This,https://github.com/claude-did-this,,
+Claude Squad,Tooling,https://github.com/smtg-ai/claude-squad,,smtg-ai,https://github.com/smtg-ai,,
+Claude Swarm,Tooling,https://github.com/parruda/claude-swarm,,parruda,https://github.com/parruda,,
+Claude Task Master,Tooling,https://github.com/eyaltoledano/claude-task-master,,eyaltoledano,https://github.com/eyaltoledano,,
+Container Use,Tooling,https://github.com/dagger/container-use,,dagger,https://github.com/dagger,,
+claude-code.el,Tooling - IDE Integrations,https://github.com/stevemolitor/claude-code.el,,stevemolitor,https://github.com/stevemolitor,,
+claude-code.nvim,Tooling - IDE Integrations,https://github.com/greggh/claude-code.nvim,,greggh,https://github.com/greggh,,
+Blogging Platform Instructions,Workflows & Knowledge Guides,https://github.com/cloudartisan/cloudartisan.github.io/tree/d1ed4928b1326dcf658991e0b83387455d1b5004/.claude/commands,,cloudartisan,https://github.com/cloudartisan,,
+Claude Task Manager,Workflows & Knowledge Guides,https://gist.github.com/grahama1970/44a9da6a3da6769132037f06966945c2#file-00_readme-md,,grahama1970,https://github.com/grahama1970,,
+ClaudeLog,Workflows & Knowledge Guides,https://claudelog.com,,InventorBlack,https://www.reddit.com/user/inventor_black/,,
+Context Priming,Workflows & Knowledge Guides,https://github.com/disler/just-prompt/tree/main/.claude/commands,,disler,https://github.com/disler,,
+n8n_agent,Workflows & Knowledge Guides,https://github.com/kingler/n8n_agent/tree/main/.claude/commands,,kingler,https://github.com/kingler,,
+Project Bootstrapping and Task Management,Workflows & Knowledge Guides,https://github.com/steadycursor/steadystart/tree/main/.claude/commands,,steadycursor,https://github.com/steadycursor,,
+"Project Management, Implementation, Planning, and Release",Workflows & Knowledge Guides,https://github.com/scopecraft/command/tree/main/.claude/commands,,scopecraft,https://github.com/scopecraft,,
+Project Workflow System,Workflows & Knowledge Guides,https://github.com/harperreed/dotfiles/tree/master/.claude/commands,,harperreed,https://github.com/harperreed,,
+Simone,Workflows & Knowledge Guides,https://github.com/Helmi/claude-simone,,Helmi,https://github.com/Helmi,,
+Slash-commands megalist,Workflows & Knowledge Guides,https://github.com/wcygan/dotfiles/tree/d8ab6b9f5a7a81007b7f5fa3025d4f83ce12cc02/claude/commands,,wcygan,https://github.com/wcygan,,
