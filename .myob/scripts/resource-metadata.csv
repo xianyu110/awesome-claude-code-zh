@@ -90,7 +90,6 @@ Anthropic Quickstarts,Official Documentation,https://github.com/anthropics/anthr
 /update-branch-name,Slash-Commands - Version Control & Git,https://github.com/giselles-ai/giselle/blob/main/.claude/commands/update-branch-name.md,,giselles-ai,https://github.com/giselles-ai,TRUE,2025-06-27:04-02-49,Apache-2.0
 CC Usage,Tooling,https://github.com/ryoppippi/ccusage,,ryoppippi,https://github.com/ryoppippi,TRUE,2025-06-27:04-02-53,MIT
 Claude Code Flow,Tooling,https://github.com/ruvnet/claude-code-flow,,ruvnet,https://github.com/ruvnet,TRUE,2025-06-27:04-02-57,MIT
-Claude Code Router,Tooling,https://github.com/musistudio/claude-code-router,,musistudio,https://github.com/musistudio,TRUE,2025-06-27:04-03-01,
 Claude Composer,Tooling,https://github.com/possibilities/claude-composer,,Mike Bannister,https://github.com/possibilities,TRUE,2025-06-27:04-03-07,NOT_FOUND
 Claude Hub,Tooling,https://github.com/claude-did-this/claude-hub,,Claude Did This,https://github.com/claude-did-this,TRUE,2025-06-27:04-03-10,NOT_FOUND
 Claude Squad,Tooling,https://github.com/smtg-ai/claude-squad,,smtg-ai,https://github.com/smtg-ai,TRUE,2025-06-27:04-03-15,AGPL-3.0
