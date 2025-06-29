@@ -1,226 +1,163 @@
+"""
+Link validation script for the Awesome Claude Code repository that ensures 
+all resource URLs are accessible and updates the CSV with current status.
+
+How it works:
+1. Reads resource-metadata.csv to extract Primary/Secondary Link URLs
+2. Validates each URL using HTTP requests (HEAD for regular URLs, GET for GitHub API)
+3. Handles GitHub repository URLs by converting them to GitHub API endpoints
+4. Implements exponential backoff retry logic for rate limiting and temporary failures
+5. Updates CSV with Active status (TRUE/FALSE) and Last Checked timestamp
+6. Provides detailed logging and summary of broken links
+7. Supports GitHub Action mode for CI/CD integration with JSON output
+"""
+
 import csv
 import requests
+import re
 import time
 from datetime import datetime
-from urllib.parse import urlparse
 import random
 import json
 import sys
 import argparse
-import re
 
-def get_github_license(url, retry_count=0, max_retries=3, quiet=False):
+USER_AGENT = "awesome-claude-code Link Validator/1.0"
+INPUT_FILE = ".myob/scripts/resource-metadata.csv"
+OUTPUT_FILE = ".myob/scripts/resource-metadata.csv"
+PRIMARY_LINK_HEADER_NAME = "Primary Link"
+SECONDARY_LINK_HEADER_NAME = "Secondary Link"
+ACTIVE_HEADER_NAME = "Active"
+LAST_CHECKED_HEADER_NAME = "Last Checked"
+HEADERS = {
+    "User-Agent": USER_AGENT,
+    "Accept": "application/vnd.github+json"
+}
+PRINT_FILE = None
+
+def parse_github_url(url):
     """
-    Get license information for GitHub repositories.
-    Returns the SPDX license identifier (e.g., 'MIT', 'Apache-2.0')
+    Parse GitHub URL and return API endpoint if it's a GitHub repository content URL.
+    Returns (api_url, is_github) tuple.
     """
-    if 'github.com' not in url:
-        return None
+    github_pattern = r'https://github\.com/([^/]+)/([^/]+)/blob/([^/]+)/(.+)'
+    match = re.match(github_pattern, url)
     
-    # Extract owner/repo from various GitHub URL patterns
-    # Handle: github.com/owner/repo, github.com/owner/repo/tree/..., github.com/owner/repo/blob/...
-    match = re.search(r'github\.com/([^/]+)/([^/]+)', url)
-    if not match:
-        return None
+    if match:
+        owner, repo, branch, path = match.groups()
+        api_url = f"https://api.github.com/repos/{owner}/{repo}/contents/{path}?ref={branch}"
+        return api_url, True
     
-    owner, repo = match.groups()
-    # Remove .git extension if present
-    repo = repo.replace('.git', '')
-    
-    # GitHub API endpoint for license
-    api_url = f"https://api.github.com/repos/{owner}/{repo}/license"
-    headers = {
-        'Accept': 'application/vnd.github.v3+json',
-        'User-Agent': 'AwesomeClaudeCode-Validator'
-    }
-    
-    try:
-        response = requests.get(api_url, headers=headers, timeout=10)
-        
-        # Handle rate limiting
-        if response.status_code == 429:
-            if retry_count < max_retries:
-                wait_time = (2 ** retry_count) + random.uniform(1, 3)
-                if not quiet:
-                    print(f"  ⏳ Rate limited for license check. Waiting {wait_time:.1f}s before retry {retry_count + 1}/{max_retries}")
-                time.sleep(wait_time)
-                return get_github_license(url, retry_count + 1, max_retries, quiet)
-            else:
-                return None
-        
-        if response.status_code == 200:
-            data = response.json()
-            license_info = data.get('license', {})
-            spdx_id = license_info.get('spdx_id', 'UNKNOWN')
-            if not quiet:
-                print(f"  📜 License: {spdx_id}")
-            return spdx_id
-        elif response.status_code == 404:
-            if not quiet:
-                print(f"  📜 License: No license found")
-            return 'NO_LICENSE'
-        else:
-            return None
-            
-    except requests.exceptions.RequestException as e:
-        if retry_count < max_retries:
-            wait_time = (2 ** retry_count) + random.uniform(1, 2)
-            if not quiet:
-                print(f"  ⚠️  License check error: {str(e)}. Retrying in {wait_time:.1f}s...")
-            time.sleep(wait_time)
-            return get_github_license(url, retry_count + 1, max_retries, quiet)
-        else:
-            return None
+    return url, False
 
-
-def validate_link(url, retry_count=0, max_retries=3, quiet=False):
+def check_link_is_valid(url, retry_count=0, max_retries=3, quiet=False):
     """
     Check if a URL returns a 40x status code with rate limiting and retry logic.
+    Uses GitHub API for GitHub repository content URLs.
     Returns tuple (is_active, status_code/error_message)
     """
     try:
-        # Add a timeout and user agent to avoid being blocked
-        headers = {
-            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
-        }
-        response = requests.head(url, timeout=15, headers=headers, allow_redirects=True)
+        # Check if this is a GitHub URL and convert to API endpoint
+        api_url, is_github = parse_github_url(url)
+        
+        if is_github:
+            # Use GET for GitHub API (HEAD not supported)
+            response = requests.get(api_url, timeout=15, headers=HEADERS, allow_redirects=True)
+        else:
+            # Use HEAD for non-GitHub URLs
+            response = requests.head(url, timeout=15, headers=HEADERS, allow_redirects=True)
+        
+        if response.status_code == 404:
+            # If the link is 404, we can return immediately
+            if not quiet:
+                print(f"  ❌ BROKEN: {url} - Status: {response.status_code}", file=PRINT_FILE)
+            return False, response.status_code
         
         # Handle rate limiting (429 Too Many Requests)
         if response.status_code == 429:
-            if retry_count < max_retries:
-                # Exponential backoff with jitter
-                wait_time = (2 ** retry_count) + random.uniform(1, 3)
-                if not quiet:
-                    print(f"⏳ Rate limited for {url}. Waiting {wait_time:.1f}s before retry {retry_count + 1}/{max_retries}")
-                time.sleep(wait_time)
-                return validate_link(url, retry_count + 1, max_retries, quiet)
-            else:
-                if not quiet:
-                    print(f"❌ {url} - Status: 429 (Rate limited after {max_retries} retries)")
-                return False, 429
-        
+            raise requests.exceptions.HTTPError(f"Rate limited: {url} - Status: {response.status_code}")
+
         # Check if status code is in 40x range
         if 400 <= response.status_code < 500:
-            if not quiet:
-                print(f"❌ {url} - Status: {response.status_code}")
-            return False, response.status_code
-        else:
-            if not quiet:
-                print(f"✅ {url} - Status: {response.status_code}")
-            return True, response.status_code
-            
-    except requests.exceptions.RequestException as e:
+            raise requests.exceptions.HTTPError(f"Client error: {url} - Status: {response.status_code}")
+
+        return True, response.status_code
+
+    except Exception as e:
         if retry_count < max_retries:
             wait_time = (2 ** retry_count) + random.uniform(1, 2)
             if not quiet:
-                print(f"⚠️  {url} - Error: {str(e)}. Retrying in {wait_time:.1f}s...")
+                print(f"⚠️  {url} - Error: {str(e)}. Retrying in {wait_time:.1f}s...", file=PRINT_FILE)
             time.sleep(wait_time)
-            return validate_link(url, retry_count + 1, max_retries, quiet)
+            return check_link_is_valid(url, retry_count + 1, max_retries, quiet)
         else:
             if not quiet:
-                print(f"⚠️  {url} - Error after {max_retries} retries: {str(e)}")
+                print(f"⚠️  {url} - Error after {max_retries} retries: {str(e)}", file=PRINT_FILE)
             return False, str(e)
 
-def process_csv(github_action=False, check_license=True):
+def process_csv(github_action=False):
     """
     Read the CSV, validate links, and update the Active column.
     """
     start_time = datetime.now()
-    if not github_action:
-        print(f"🚀 Starting validation at: {start_time.strftime('%Y-%m-%d %H:%M:%S')}")
-    else:
-        print(f"Starting validation at: {start_time.strftime('%Y-%m-%d %H:%M:%S')}", file=sys.stderr)
-    
-    input_file = '.myob/scripts/resource-metadata.csv'
-    output_file = '.myob/scripts/resource-metadata.csv'
-    
-    # Track broken links and licenses for summary
+    print(f"Starting validation at: {start_time.strftime('%Y-%m-%d %H:%M:%S')}", file=PRINT_FILE)
+
+    input_file = INPUT_FILE
+    output_file = OUTPUT_FILE
+
+    # Track broken links for summary
     broken_links = []
     total_links = 0
-    license_stats = {}
     
     # Read the CSV
     rows = []
-    with open(input_file, 'r', newline='', encoding='utf-8') as file:
+    with open(input_file, "r", newline="", encoding="utf-8") as file:
         reader = csv.reader(file)
         headers = next(reader)  # Read the header row
-        
-        # Find the License column index (it should be the last column)
-        license_idx = headers.index('License') if 'License' in headers else -1
-        if license_idx == -1:
-            # Add License column if it doesn't exist
-            headers.append('License')
-            license_idx = len(headers) - 1
-        
         rows.append(headers)
+        primary_link_index = headers.index(PRIMARY_LINK_HEADER_NAME)
+        secondary_link_index = headers.index(SECONDARY_LINK_HEADER_NAME)
+        active_index = headers.index(ACTIVE_HEADER_NAME)
+        last_checked_index = headers.index(LAST_CHECKED_HEADER_NAME)
         
         total_rows = sum(1 for _ in reader)
-        if not github_action:
-            print(f"Processing {total_rows} links...")
-        else:
-            print(f"Processing {total_rows} links...", file=sys.stderr)
+        print(f"Processing {total_rows} links...", file=PRINT_FILE)
         file.seek(0)
         next(reader)  # Skip header again
         
         for row_num, row in enumerate(reader, start=2):
-            if len(row) >= 3 and row[2].strip():  # Check if Primary Link exists
-                primary_link = row[2].strip()
+            url = row[primary_link_index].strip() if primary_link_index < len(row) else (
+                row[secondary_link_index].strip() if secondary_link_index < len(row) else ""
+            )
+            if url:
                 total_links += 1
-                if not github_action:
-                    print(f"\n[{row_num-1}] Checking: {row[0]} - {primary_link}")
-                else:
-                    print(f"[{row_num-1}] Checking: {row[0]} - {primary_link}", file=sys.stderr)
-                
+                print(f"[{row_num-1}] Checking: {row[0]} - {url}", file=PRINT_FILE)
+
                 # Validate the link
-                is_active, status = validate_link(primary_link, quiet=github_action)
-                
+                is_active, status = check_link_is_valid(url, quiet=github_action)
+
                 # Track broken links
                 if not is_active:
                     broken_links.append({
                         'name': row[0] if len(row) > 0 else 'Unknown',
-                        'url': primary_link,
+                        'url': url,
                         'row_num': row_num-1,
                         'status': status
                     })
-                    if github_action:
-                        print(f"  ❌ BROKEN: Status {status}", file=sys.stderr)
-                elif github_action:
-                    print(f"  ✅ OK: Status {status}", file=sys.stderr)
-                
-                # Get GitHub license information
-                license_spdx = get_github_license(primary_link, quiet=github_action) if check_license else None
-                
-                # Extend row to ensure it has enough columns
-                max_idx = max(7, license_idx)
-                if len(row) <= max_idx:
-                    row.extend([''] * (max_idx + 1 - len(row)))
-                
-                # Update the Active column (index 6) and Last Checked column (index 7)
-                row[6] = 'TRUE' if is_active else 'FALSE'
-                row[7] = datetime.now().strftime('%Y-%m-%d:%H-%M-%S')
-                
-                # Update license column
-                if license_spdx is not None:
-                    row[license_idx] = license_spdx
-                    # Track license statistics
-                    if license_spdx:
-                        license_stats[license_spdx] = license_stats.get(license_spdx, 0) + 1
-                
-                # Add variable delay to be respectful to servers and avoid rate limiting
-                # Longer delay for GitHub URLs, shorter for others
-                if 'github.com' in primary_link:
-                    delay = random.uniform(2, 4)  # 2-4 seconds for GitHub
+                    print(f"  ❌ BROKEN: Status {status}", file=PRINT_FILE)
                 else:
-                    delay = random.uniform(1, 2)  # 1-2 seconds for other sites
+                    print(f"  ✅ OK: Status {status}", file=PRINT_FILE)
+                
+                # Update the Active column and Last Checked column
+                row[active_index] = 'TRUE' if is_active else 'FALSE'
+                row[last_checked_index] = datetime.now().strftime('%Y-%m-%d:%H-%M-%S')
+
+                delay = random.uniform(2, 4)
                 time.sleep(delay)
             else:
                 # No link to validate, mark as FALSE
-                max_idx = max(7, license_idx)
-                if len(row) <= max_idx:
-                    row.extend([''] * (max_idx + 1 - len(row)))
-                row[6] = 'FALSE'
-                row[7] = datetime.now().strftime('%Y-%m-%d:%H-%M-%S')
-                # Leave license column empty for rows without links
+                row[active_index] = 'FALSE'
+                row[last_checked_index] = datetime.now().strftime('%Y-%m-%d:%H-%M-%S')
             
             rows.append(row)
     
@@ -240,67 +177,36 @@ def process_csv(github_action=False, check_license=True):
             'execution_time': str(duration),
             'total_links': total_links,
             'active_links': total_links - len(broken_links),
-            'broken_links': broken_links,
-            'license_stats': license_stats
+            'broken_links': broken_links
         }
         print(json.dumps(result, indent=2))
         
-        # Also print summary to stderr for logs
-        print(f"\nValidation completed at: {end_time.strftime('%Y-%m-%d %H:%M:%S')}", file=sys.stderr)
-        print(f"Total execution time: {duration}", file=sys.stderr)
-        print(f"Summary: {total_links - len(broken_links)}/{total_links} links are active", file=sys.stderr)
+        print(f"\nValidation completed at: {end_time.strftime('%Y-%m-%d %H:%M:%S')}", file=PRINT_FILE)
+        print(f"Total execution time: {duration}", file=PRINT_FILE)
+        print(f"Summary: {total_links - len(broken_links)}/{total_links} links are active", file=PRINT_FILE)
         if broken_links:
-            print(f"\nBROKEN LINKS SUMMARY ({len(broken_links)} broken):", file=sys.stderr)
-            print("=" * 80, file=sys.stderr)
+            print(f"\nBROKEN LINKS SUMMARY ({len(broken_links)} broken):", file=PRINT_FILE)
+            print("=" * 80, file=PRINT_FILE)
             for i, link in enumerate(broken_links, 1):
-                print(f"{i:2d}. [{link['row_num']:3d}] {link['name']}", file=sys.stderr)
-                print(f"     URL: {link['url']}", file=sys.stderr)
-                print(f"     Status: {link['status']}", file=sys.stderr)
-                print(file=sys.stderr)
+                print(f"{i:2d}. [{link['row_num']:3d}] {link['name']}", file=PRINT_FILE)
+                print(f"     URL: {link['url']}", file=PRINT_FILE)
+                print(f"     Status: {link['status']}", file=PRINT_FILE)
+                print(file=PRINT_FILE)
         else:
-            print(f"\n🎉 All {total_links} links are working!", file=sys.stderr)
-    else:
-        # Normal console output
-        print(f"\n🏁 Validation completed at: {end_time.strftime('%Y-%m-%d %H:%M:%S')}")
-        print(f"⏱️  Total execution time: {duration}")
-        print(f"📊 Summary: {total_links - len(broken_links)}/{total_links} links are active")
-        print(f"✅ Updated CSV file: {output_file}")
-        
-        # Print broken links summary
-        if broken_links:
-            print(f"\n💥 BROKEN LINKS SUMMARY ({len(broken_links)} broken):")
-            print("=" * 80)
-            for i, link in enumerate(broken_links, 1):
-                print(f"{i:2d}. [{link['row_num']:3d}] {link['name']}")
-                print(f"     🔗 {link['url']}")
-                print(f"     Status: {link['status']}")
-                print()
-        else:
-            print(f"\n🎉 All {total_links} links are working!")
-        
-        # Print license statistics
-        if license_stats:
-            print(f"\n📊 LICENSE STATISTICS:")
-            print("=" * 40)
-            sorted_licenses = sorted(license_stats.items(), key=lambda x: x[1], reverse=True)
-            for license_type, count in sorted_licenses:
-                print(f"{license_type:20} {count:3d} repos")
-            print(f"\nTotal repos analyzed: {sum(license_stats.values())}")
+            print(f"\n🎉 All {total_links} links are working!", file=PRINT_FILE)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Validate links in resource-metadata.csv')
     parser.add_argument('--github-action', action='store_true', 
                         help='Run in GitHub Action mode (outputs JSON to stdout, logs to stderr)')
-    parser.add_argument('--no-license', action='store_true',
-                        help='Skip license checking (useful for GitHub Actions to avoid API rate limits)')
     args = parser.parse_args()
     
-    if not args.github_action:
-        print("Starting link validation...")
-    else:
-        print("Starting link validation in GitHub Action mode...", file=sys.stderr)
+    PRINT_FILE = None
     
-    process_csv(github_action=args.github_action, check_license=not args.no_license)
+    if args.github_action:
+        PRINT_FILE = sys.stderr
+
+    print(f"Starting link validation{' in GitHub Action mode' if args.github_action else ''}...", file=PRINT_FILE)
+    process_csv(github_action=args.github_action)
     
-    if not args.github_action:
-        print("Link validation completed!")
+    print("Link validation completed!", file=PRINT_FILE)

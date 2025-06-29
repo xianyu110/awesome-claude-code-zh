@@ -6,10 +6,12 @@
 !.myob/scripts/
 !.myob/scripts/validate_links.py
 !.myob/scripts/resource-metadata.csv
+!.myob/scripts/resource-metadata.test.csv
+!.myob/scripts/test_validate_links.py
+!.myob/scripts/generate_readme.py
 
 .mypy_cache/
 
-# Basically, this is in order to ignore everything in `.claude/` directory EXCEPT the `/add-new-resource` command. 
 .claude/*
 .claude/commands/*
 !CLAUDE.md

@@ -11,11 +11,25 @@ This is the Awesome Claude Code repository - a curated list of slash-commands, C
 ### Adding New Resources
 
 1. **Use the slash-command**: Run `/project:add-new-resource` to be guided through adding a new resource
-2. **Manual addition**: Edit README.md following the existing format and alphabetical ordering
+2. **CSV-based addition (RECOMMENDED)**: Edit `.myob/scripts/resource-metadata.csv` directly and run `make generate` to create a perfectly formatted README.md
+3. **Manual addition**: Edit README.md following the existing format and alphabetical ordering
+
+### Generating README from CSV
+
+The repository now supports data-driven README generation:
+
+- Edit resources in `.myob/scripts/resource-metadata.csv` with fields: Display Name, Primary Link, Secondary Link, Author Name, Author Link, Category, Sub-Category, Description, Active, Last Checked
+- Run `make generate` to generate README.md from CSV data
+- The generated README includes hierarchical table of contents and maintains proper formatting
 
 ### Checking Links
 
-Run `/check-links` to verify all links in the README are working properly.
+Run `/check-links` to verify all links in the README are working properly. The link validation script:
+
+- Validates all URLs in the CSV file
+- Updates Active status and Last Checked timestamps
+- Supports GitHub API for repository links
+- Includes retry logic and rate limiting
 
 ### Creating Pull Requests
 
@@ -25,15 +39,17 @@ Run `/check-links` to verify all links in the README are working properly.
 
 ## Repository Structure
 
-- **README.md**: Main list of resources, organized by category
+- **README.md**: Main list of resources, organized by category (generated from CSV)
 - **CONTRIBUTING.md**: Contribution guidelines
 - **code-of-conduct.md**: Community standards
+- **Makefile**: Build system with `generate` target for README generation
+- **.myob/scripts/**: Data management and automation scripts
+  - `resource-metadata.csv`: Single source of truth for all resource data
+  - `generate_readme.py`: Converts CSV to formatted README.md with hierarchical TOC
+  - `validate_links.py`: Comprehensive link validation with GitHub API support
 - **.claude/commands/**: Custom slash-commands for this project
   - `add-new-resource.md`: Wizard for adding new resources
   - `add-new-claude-md.md`: Helper for adding CLAUDE.md files
-  - `check-links.md`: Link validation tool
-  - `commit-all.md`: Commit helper
-  - `create-badge-pr.md`: Badge creation helper
 
 ## Key Guidelines
 
@@ -51,7 +67,29 @@ Run `/check-links` to verify all links in the README are working properly.
 
 - The repository excludes `.myob` and `.claude` directories from analysis unless specifically requested
 - This is a documentation/curation project focused on maintaining high-quality, well-organized content
-- While no source code testing is needed, consider implementing:
+- **Data-driven approach**: The CSV file serves as the single source of truth for all resource metadata
+- **Automated generation**: Use `make generate` to create perfectly formatted README from CSV data
+- **Link validation**: Run `make validate` to validate all links. Implemented with GitHub API support, retry logic, and comprehensive status tracking
+- Quality assurance features:
   - Link validation tests to ensure all curated resources remain accessible
   - Markdown linting to maintain consistent formatting
-  - CI/CD checks for PR validation (formatting, alphabetical ordering, category placement)
+  - CSV-based data validation and integrity checks
+  - Automated TOC generation with hierarchical structure
+
+## Development Tools and Scripts
+
+The `.myob/scripts/` directory contains several Python utilities for managing repository data:
+
+1. **generate_readme.py**: Main generation script
+
+   - Automatically migrates CSV schema if needed
+   - Preserves exact ordering from CSV file
+   - Generates hierarchical table of contents
+   - Maintains all original README formatting and structure
+
+2. **validate_links.py**: Comprehensive link checker
+
+   - Supports both regular URLs and GitHub repository links
+   - Implements exponential backoff for rate limiting
+   - Updates CSV with validation status and timestamps
+   - GitHub Action compatible with JSON output
