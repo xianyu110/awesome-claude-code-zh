@@ -373,7 +373,7 @@ Offers clear step-by-step installation instructions with multiple configuration 
 
 <!--lint disable double-link-->
 
-[`Anthropic Documentation`](https://docs.anthropic.com/en/docs/claude-code) by [Anthropic](https://github.com/anthropics) ⚖️ MIT  
+[`Anthropic Documentation`](https://docs.anthropic.com/en/docs/claude-code) by [Anthropic](https://github.com/anthropics)  &copy;  
 The official documentation for Claude Code, including installation instructions, usage guidelines, API references, tutorials, examples, loads of information that I won't list individually. Like Claude Code, the documentation is frequently updated.
 
 [`Anthropic Quickstarts`](https://github.com/anthropics/anthropic-quickstarts/blob/main/CLAUDE.md) by [Anthropic](https://github.com/anthropics) ⚖️ MIT  
