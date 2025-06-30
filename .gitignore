@@ -10,7 +10,10 @@
 !.myob/scripts/test_validate_links.py
 !.myob/scripts/generate_readme.py
 
+# Note: resources/ directory is NOT gitignored - it contains hosted open-source resources
+
 .mypy_cache/
+.ruff_cache/
 
 .claude/*
 .claude/commands/*
