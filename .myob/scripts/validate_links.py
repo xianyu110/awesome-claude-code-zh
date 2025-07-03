@@ -35,7 +35,7 @@ HEADERS = {"User-Agent": USER_AGENT, "Accept": "application/vnd.github+json"}
 PRINT_FILE = None
 
 # License cache to avoid redundant API calls
-license_cache = {}
+license_cache: dict[str, str] = {}
 
 
 def parse_github_url(url):
