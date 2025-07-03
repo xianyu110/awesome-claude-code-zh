@@ -6,6 +6,9 @@ on:
     - cron: '0 2 * * *'
   workflow_dispatch: # Allow manual triggering
 
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 permissions:
   contents: read
   issues: write
