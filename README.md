@@ -39,6 +39,7 @@ Claude Code is a cutting-edge CLI-based coding assistant and agent that you can 
 ### Announcements
 
 - 2025-07-04: Added new section for Claude Code _hooks_!
+- 2025-07-04: The new contribution system/CI/CD is under repair, if you want to submit something just put together a clear and tidy PR, if the CI messes things up a bit, I'll take care of it for now, should be back up and running by end of week.
 
 <br>
 
