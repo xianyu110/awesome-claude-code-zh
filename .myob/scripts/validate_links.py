@@ -15,6 +15,7 @@ How it works:
 import argparse
 import csv
 import json
+import os
 import random
 import re
 import sys
@@ -22,6 +23,11 @@ import time
 from datetime import datetime
 
 import requests
+from dotenv import load_dotenv
+
+load_dotenv()
+
+GITHUB_TOKEN = os.getenv("GITHUB_TOKEN", "")
 
 USER_AGENT = "awesome-claude-code Link Validator/1.0"
 INPUT_FILE = ".myob/scripts/resource-metadata.csv"
@@ -32,10 +38,13 @@ ACTIVE_HEADER_NAME = "Active"
 LAST_CHECKED_HEADER_NAME = "Last Checked"
 LICENSE_HEADER_NAME = "License"
 HEADERS = {"User-Agent": USER_AGENT, "Accept": "application/vnd.github+json"}
+if GITHUB_TOKEN:
+    HEADERS["Authorization"] = f"Bearer {GITHUB_TOKEN}"
+
 PRINT_FILE = None
 
-# License cache to avoid redundant API calls
-license_cache = {}
+# License cache to avoid redundant API calls - TEMP: SKIP CACHING FOR NOW
+# license_cache: dict[str, str] = {}
 
 
 def parse_github_url(url):
@@ -78,10 +87,10 @@ def check_github_license(owner, repo, retry_count=0, max_retries=3):
     Fetch license information from GitHub API with retry logic.
     Returns license SPDX ID or status string.
     """
-    # Check cache first
-    cache_key = f"{owner}/{repo}"
-    if cache_key in license_cache:
-        return license_cache[cache_key]
+    # Check cache first - TEMP: SKIP CACHING FOR NOW
+    # cache_key = f"{owner}/{repo}"
+    # if cache_key in license_cache:
+    #     return license_cache[cache_key]
 
     try:
         # Try license endpoint first
@@ -91,7 +100,7 @@ def check_github_license(owner, repo, retry_count=0, max_retries=3):
         if response.status_code == 200:
             data = response.json()
             license_id = data.get("license", {}).get("spdx_id", "UNKNOWN")
-            license_cache[cache_key] = license_id
+            # license_cache[cache_key] = license_id
             return license_id
         elif response.status_code == 404:
             # Try repository endpoint as fallback
@@ -102,10 +111,10 @@ def check_github_license(owner, repo, retry_count=0, max_retries=3):
                 license_info = data.get("license")
                 if license_info:
                     license_id = license_info.get("spdx_id", "UNKNOWN")
-                    license_cache[cache_key] = license_id
+                    # license_cache[cache_key] = license_id
                     return license_id
             # No license found
-            license_cache[cache_key] = "NOT_FOUND"
+            # license_cache[cache_key] = "NOT_FOUND"
             return "NOT_FOUND"
         elif response.status_code == 429:
             # Rate limited
@@ -117,8 +126,8 @@ def check_github_license(owner, repo, retry_count=0, max_retries=3):
             time.sleep(wait_time)
             return check_github_license(owner, repo, retry_count + 1, max_retries)
 
-        # Cache error result to avoid repeated attempts
-        license_cache[cache_key] = "ERROR"
+        # Cache error result to avoid repeated attempts - TEMP: SKIP CACHING FOR NOW
+        # license_cache[cache_key] = "ERROR"
         return "ERROR"
 
 
