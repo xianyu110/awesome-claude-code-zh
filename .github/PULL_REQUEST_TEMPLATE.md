@@ -17,7 +17,7 @@
 <!-- Complete all fields for new resources -->
 
 - **Display Name**: <!-- e.g., "Claude Task Manager" or "/commit" -->
-- **Category**: <!-- Select from: Workflows & Knowledge Guides, Tooling, Slash-Commands, CLAUDE.md Files, Official Documentation -->
+- **Category**: <!-- Select from: Workflows & Knowledge Guides, Tooling, Hooks, Slash-Commands, CLAUDE.md Files, Official Documentation -->
 - **Sub-Category** (if applicable): <!-- e.g., "Version Control & Git", "Code Analysis & Testing" -->
 - **Primary Link**: <!-- The main URL for the resource -->
 - **Author Name**: <!-- Creator/maintainer name -->
@@ -25,6 +25,7 @@
 - **License** (if known): <!-- e.g., MIT, Apache-2.0, GPL-3.0 -->
 
 ### Description
+
 <!-- 1-2 sentences describing what the resource does and why it's valuable to Claude Code users -->
 
 ### Checklist for New Resources

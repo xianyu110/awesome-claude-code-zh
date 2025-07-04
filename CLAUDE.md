@@ -81,6 +81,7 @@ Download active resources from GitHub using the download script:
 4. **Categories**:
    - Workflows & Knowledge Guides
    - Tooling
+   - Hooks (new)
    - Slash-Commands (organized by command name)
    - CLAUDE.md Files (organized by repository name)
    - Official Documentation

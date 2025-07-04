@@ -3,7 +3,12 @@ import os
 import sys
 from datetime import datetime
 
-from validate_links import ACTIVE_HEADER_NAME, PRIMARY_LINK_HEADER_NAME, SECONDARY_LINK_HEADER_NAME, check_link_is_valid
+from .validate_links import (
+    ACTIVE_HEADER_NAME,
+    PRIMARY_LINK_HEADER_NAME,
+    SECONDARY_LINK_HEADER_NAME,
+    check_link_is_valid,
+)
 
 
 def run_validation_test():

@@ -111,6 +111,8 @@ def generate_readme_content(csv_path):
     # Start building README
     readme_content = header_content + toc_content
 
+    # TODO: Add icons for categories (if available)
+
     # Generate content sections
     for category, subcategories in organized_data.items():
         readme_content += f"## {category}\n\n"
@@ -120,6 +122,8 @@ def generate_readme_content(csv_path):
             readme_content += "> A **workflow** is a tightly coupled set of Claude Code-native resources that facilitate specific projects\n\n"
         elif category == "Tooling":
             readme_content += "> **Tooling** denotes applications that are built on top of Claude Code and consist of more components than slash-commands and `CLAUDE.md` files\n\n"
+        elif category == "Hooks":
+            readme_content += "> **Hooks** are a brand new API for Claude Code that allows users to activate commands and run scripts at different points in Claude's agentic lifecycle\n\n"
         elif category == "CLAUDE.md Files":
             readme_content += "> **`CLAUDE.md` files** are files that contain important guidelines and context-specfic information or instructions that help Claude Code to better understand your project and your coding standards\n\n"
         elif category == "Official Documentation":
