@@ -18,8 +18,9 @@ Your role is to help potential contributors add new resources to the repository.
 4. Creating a well-formed Pull Request
 
 The CSV file has the following columns:
+
 - Display Name: The name of the resource as it appears in the README
-- Category: The main category (e.g., "Workflows & Knowledge Guides", "Tooling", "Slash-Commands", "CLAUDE.md Files", "Official Documentation")
+- Category: The main category (e.g., "Workflows & Knowledge Guides", "Tooling", "Hooks", "Slash-Commands", "CLAUDE.md Files", "Official Documentation")
 - Sub-Category: Optional sub-category (e.g., "Version Control & Git", "Code Analysis & Testing", etc.)
 - Primary Link: The main URL for the resource
 - Secondary Link: Optional secondary URL
@@ -38,6 +39,7 @@ Your task involves conversing with the user to gather this information and help 
 ### Workflows & Knowledge Guides
 
 A **workflow** is a tightly coupled set of Claude Code-native resources that facilitate specific projects. This includes:
+
 - Collections of slash-commands that work together
 - Comprehensive guides for using Claude Code in specific contexts
 - Integrated systems of commands, CLAUDE.md files, and processes
@@ -45,13 +47,19 @@ A **workflow** is a tightly coupled set of Claude Code-native resources that fac
 ### Tooling
 
 **Tooling** denotes applications that are built on top of Claude Code and consist of more components than slash-commands and `CLAUDE.md` files. This includes:
+
 - CLI tools that enhance Claude Code
 - IDE integrations
 - External applications that integrate with Claude Code
 
+### Hooks
+
+**Hooks** are a brand new API for Claude Code that allows users to activate commands and run scripts at different points in Claude's agentic lifecycle.
+
 ### Slash-Commands
 
 Individual slash-commands are instructions stored in Markdown files. The name of the file determines the name of the slash-command (e.g., `hello-world.md` creates `/hello-world`). Slash-commands are organized by sub-categories:
+
 - Version Control & Git
 - Code Analysis & Testing
 - Context Loading & Priming
@@ -63,6 +71,7 @@ Individual slash-commands are instructions stored in Markdown files. The name of
 ### CLAUDE.md Files
 
 `CLAUDE.md` files contain important guidelines and context-specific information that help Claude Code better understand your project and coding standards. They are organized by sub-categories:
+
 - Language-Specific
 - Domain-Specific
 - Project Scaffolding & MCP
