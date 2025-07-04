@@ -137,7 +137,7 @@ A seamless integration between Claude Code AI assistant and Neovim.
 
 **[EXPERIMENTAL]** - The resources listed in this section have not been fully vetted and may not work as expected, given the bleeding-edge nature of Claude Code hooks. Nevertheless, I wished to include them at least as a source of inspiration and to explore this unknown terrain. YMMV!
 
-['claude-code-hooks-sdk`](https://github.com/beyondcode/claude-hooks-sdk) by [beyondcode](https://github.com/beyondcode) ⚖️ MIT  
+[`claude-code-hooks-sdk`](https://github.com/beyondcode/claude-hooks-sdk) by [beyondcode](https://github.com/beyondcode) ⚖️ MIT  
 A Laravel-inspired PHP SDK for building Claude Code hook responses with a clean, fluent API. This SDK makes it easy to create structured JSON responses for Claude Code hooks using an expressive, chainable interface.
 
 <br>
