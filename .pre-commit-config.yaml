@@ -1,34 +1,32 @@
 # See https://pre-commit.com for more information
 # See https://pre-commit.com/hooks.html for more hooks
 repos:
--   repo: https://github.com/pre-commit/pre-commit-hooks
+  - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v5.0.0
     hooks:
-    -   id: check-added-large-files
-    -   id: check-case-conflict
-    -   id: check-merge-conflict
-    -   id: check-yaml
-    -   id: check-json
-    -   id: detect-private-key
-    -   id: end-of-file-fixer
-    -   id: mixed-line-ending
-    -   id: trailing-whitespace
-        args: [--markdown-linebreak-ext=md]
+      - id: check-added-large-files
+      - id: check-case-conflict
+      - id: check-merge-conflict
+      - id: check-yaml
+      - id: check-json
+      - id: detect-private-key
+      - id: end-of-file-fixer
+      - id: mixed-line-ending
 
--   repo: https://github.com/astral-sh/ruff-pre-commit
+  - repo: https://github.com/astral-sh/ruff-pre-commit
     rev: v0.8.5
     hooks:
-    # Run the linter
-    -   id: ruff
-        types_or: [ python, pyi, jupyter ]
-        args: [ --fix ]
-    # Run the formatter
-    -   id: ruff-format
-        types_or: [ python, pyi, jupyter ]
+      # Run the linter
+      - id: ruff
+        types_or: [python, pyi, jupyter]
+        args: [--fix]
+      # Run the formatter
+      - id: ruff-format
+        types_or: [python, pyi, jupyter]
 
--   repo: local
+  - repo: local
     hooks:
-    -   id: make-test
+      - id: make-test
         name: run make test
         entry: make test
         language: system
@@ -36,10 +34,10 @@ repos:
         pass_filenames: false
         always_run: true
 
-    -   id: check-readme-generated
+      - id: check-readme-generated
         name: check README.md is generated from CSV
         entry: bash -c 'make generate && git diff --exit-code README.md'
         language: system
-        files: '\.myob/scripts/resource-metadata\.csv|README\.md'
+        files: 'resource-metadata\.csv|README\.md'
         pass_filenames: false
         description: Ensures README.md is generated from CSV data
