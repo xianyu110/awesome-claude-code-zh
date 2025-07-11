@@ -38,9 +38,8 @@ Claude Code is a cutting-edge CLI-based coding assistant and agent that you can 
 
 ### Announcements
 
-- 2025-07-10: Pushed the updated CI/CI and submission code - all submissions are managed through `THE_RESOURCES_TABLE.csv`, which is used to generate the `README`. Also, planning to add an "Experimental" section for tools/applications that are very new and exciting but which I have not had the chance to personally explore. ALSO: Send in your HOOKS! This is a very powerful addition to Claude Code and we want to see what everyone is experimenting with! 
+- 2025-07-10: Pushed the updated CI/CI and submission code - all submissions are managed through `THE_RESOURCES_TABLE.csv`, which is used to generate the `README`. Also, planning to add an "Experimental" section for tools/applications that are very new and exciting but which I have not had the chance to personally explore. ALSO: Send in your HOOKS! This is a very powerful addition to Claude Code and we want to see what everyone is experimenting with!
 - 2025-07-04: Added new section for Claude Code _hooks_!
-- 2025-07-04: The new contribution system/CI/CD is under repair, if you want to submit something just put together a clear and tidy PR, if the CI messes things up a bit, I'll take care of it for now, should be back up and running by end of week.
 
 <br>
 
@@ -96,6 +95,9 @@ A broader project management workflow for Claude Code that encompasses not just 
 
 [`Slash-commands megalist`](https://github.com/wcygan/dotfiles/tree/d8ab6b9f5a7a81007b7f5fa3025d4f83ce12cc02/claude/commands) &nbsp; by &nbsp; [wcygan](https://github.com/wcygan)    
 A pretty stunning list (88 at the time of this post!) of slash-commands ranging from agent orchestration, code review, project management, security, documentation, self-assessment, almost anything you can dream of.
+
+[`Shipping Real Code w/ Claude`](https://diwank.space/field-notes-from-shipping-real-code-with-claude) &nbsp; by &nbsp; [Diwank](https://github.com/creatorrr)    
+A detailed blog post explaining the author's process for shipping a product with Claude Code, including CLAUDE.md files and other interesting resources.
 
 <br>
 
