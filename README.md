@@ -38,7 +38,7 @@ Claude Code is a cutting-edge CLI-based coding assistant and agent that you can 
 
 ### Announcements
 
-- 2025-07-10: Pushed the updated CI/CI and submission code - all submissions are managed through `THE_RESOURCES_TABLE.csv`, which is used to generate the `README`. Also, planning to add an "Experimental" section for tools/applications that are very new and exciting but which I have not had the chance to personally explore. ALSO: Send in your HOOKS! This is a very powerful addition to Claude Code and we want to see what everyone is experimenting with!
+- 2025-07-10: Pushed the updated CI/CD and submission code - all submissions are managed through `THE_RESOURCES_TABLE.csv`, which is used to generate the `README`. Also, planning to add an "Experimental" section for tools/applications that are very new and exciting but which I have not had the chance to personally explore. ALSO: Send in your HOOKS! This is a very powerful addition to Claude Code and we want to see what everyone is experimenting with!
 - 2025-07-04: Added new section for Claude Code _hooks_!
 
 <br>
@@ -57,7 +57,7 @@ Claude Code is a cutting-edge CLI-based coding assistant and agent that you can 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▫&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[CI / Deployment](#ci--deployment)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▫&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Project & Task Management](#project--task-management)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▫&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Miscellaneous](#miscellaneous)  
-▪&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[CLAUDE.md Files](#claude.md-files-)  
+▪&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[CLAUDE.md Files](#claudemd-files-)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▫&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Language-Specific](#language-specific)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▫&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Domain-Specific](#domain-specific)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▫&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Project Scaffolding & MCP](#project-scaffolding--mcp)  

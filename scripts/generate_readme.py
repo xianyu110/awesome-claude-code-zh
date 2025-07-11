@@ -40,7 +40,7 @@ def generate_toc_from_structure(structure):
     for section in sections:
         # Main section link
         section_title = section["title"]
-        anchor = section_title.lower().replace(" ", "-").replace("&", "").replace("/", "")
+        anchor = section_title.lower().replace(" ", "-").replace("&", "").replace("/", "").replace(".", "")
 
         toc_lines.append(f"{symbol}{indent}[{section_title}](#{anchor}-)  ")
 
