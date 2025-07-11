@@ -141,6 +141,9 @@ An Emacs interface for Claude Code CLI.
 [`claude-code.nvim`](https://github.com/greggh/claude-code.nvim) &nbsp; by &nbsp; [greggh](https://github.com/greggh)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;MIT  
 A seamless integration between Claude Code AI assistant and Neovim.
 
+[`crystal`](https://github.com/stravu/crystal) &nbsp; by &nbsp; [stravu](https://github.com/stravu)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;MIT  
+A full-fledged desktop application for orchestrating, monitoring, and interacting with Claude Code agents.
+
 <br>
 
 ## Hooks 🪝
