@@ -8,6 +8,8 @@ Thank you for your interest in contributing to Awesome Claude Code! We welcome a
 
 ## How to Contribute
 
+### THIS IS CURRENTLY UNDER REVISION. I'm moving to a system where you run a script that asks you the necessary information for your entry and updates the files in the appropriate way. Going to be much simpler, it's already in the repo under `scripts/add_resource.py` or `make add_resource` but I haven't documented it yet.
+
 The repository uses a CSV-based approach where all resources are stored in `THE_RESOURCES_TABLE.csv` and the `README.md` is automatically generated. There are two ways to contribute:
 
 ### Option 1: Using the Claude Code Wizard (Optional)
