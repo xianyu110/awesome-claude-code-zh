@@ -162,6 +162,9 @@ A TypeScript-based system for configuring and customizing Claude Code hooks with
 [`Linting, testing, and notifications (in go)`](https://github.com/Veraticus/nix-config/tree/main/home-manager/claude-code/hooks) &nbsp; by &nbsp; [Josh Symonds](https://github.com/Veraticus)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;MIT  
 Nice set of hooks for enforcing code quality (linting, testing, notifications), with a nice configuration setup as well.
 
+[`TDD Guard`](https://github.com/nizos/tdd-guard) &nbsp; by &nbsp; [Nizar Selander](https://github.com/nizos)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;MIT  
+A hooks-driven system that monitors file operations in real-time and blocks changes that violate TDD principles.
+
 <br>
 
 ## Slash-Commands 🔪
