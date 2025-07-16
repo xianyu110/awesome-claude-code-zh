@@ -343,7 +343,7 @@ def validate_links(csv_file, max_links=None, ignore_overrides=False):
                 newly_broken_links.append(link_info)
                 print(f"❌ NEW: {row.get('Display Name', 'Unknown')}: {primary_status}")
             else:
-                print(f"❌ {row.get('Display Name', 'Unknown')}: {primary_status}")
+                print(f"Already broken: {row.get('Display Name', 'Unknown')}: {primary_status}")
         elif not is_active and "active" in locked_fields:
             print(f"🔒 {row.get('Display Name', 'Unknown')}: Inactive (locked by override)")
         else:
@@ -420,11 +420,11 @@ def main():
 
             # Set action failure if broken links found
             if results["broken"] > 0:
-                print(f"\n::error::Found {results['broken']} broken links")
+                print(f"\n::error::Found {results['newly_broken']} newly broken links")
                 sys.exit(1)
 
         # Exit with error code if broken links found
-        sys.exit(1 if results["broken"] > 0 else 0)
+        sys.exit(1 if results["newly_broken"] > 0 else 0)
 
     except Exception as e:
         print(f"Error during validation: {e}")
