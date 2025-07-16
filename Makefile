@@ -7,11 +7,12 @@ else
 endif
 SCRIPTS_DIR := ./scripts
 
-.PHONY: help process validate validate-single update clean test generate download-resources add_resource sort
+.PHONY: help process validate validate-single update clean test generate download-resources add_resource sort submit submit-resource
 
 help:
 	@echo "Available commands:"
 	@echo "  make add_resource      - Interactive tool to add a new resource"
+	@echo "  make submit            - One-command submission workflow (entry to PR)"
 	@echo "  make process           - Extract resources from README.md and create/update CSV"
 	@echo "  make validate          - Validate all links in the resource CSV"
 	@echo "  make validate-single URL=<url> - Validate a single resource URL"
@@ -110,3 +111,11 @@ install:
 add_resource:
 	@echo "Starting interactive resource submission..."
 	@$(PYTHON) $(SCRIPTS_DIR)/add_resource.py
+
+# One-command submission workflow
+submit:
+	@echo "Starting resource submission workflow..."
+	@$(PYTHON) $(SCRIPTS_DIR)/submit_resource.py $(ARGS)
+
+# Alias for submit
+submit-resource: submit

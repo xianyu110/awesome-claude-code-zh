@@ -26,7 +26,7 @@ import time
 from datetime import datetime
 
 import requests
-import yaml
+import yaml  # type: ignore[import-untyped]
 from dotenv import load_dotenv
 
 logger = logging.getLogger(__name__)
@@ -137,31 +137,37 @@ def get_github_license(owner, repo):
     return "NOT_FOUND"
 
 
+def get_committer_date_from_response(
+    response: requests.Response,
+) -> str | None:
+    """Extract committer date from GitHub API response."""
+    data = response.json()
+    if isinstance(data, list) and len(data) > 0:
+        # Get the committer date from the latest commit
+        commit = data[0]
+        commit_date = commit.get("committer", {}).get("date")
+        return commit_date
+    return None
+
+
+def format_commit_date(commit_date: str) -> str:
+    """Format commit date from ISO format to YYYY-MM-DD:HH-MM-SS."""
+    from datetime import datetime
+
+    dt = datetime.fromisoformat(commit_date.replace("Z", "+00:00"))
+    return dt.strftime("%Y-%m-%d:%H-%M-%S")
+
+
 def get_github_last_modified(owner, repo, path=None):
     """Fetch last modified date for a GitHub file or repository."""
     try:
-        if path:
-            # For specific file, get the latest commit for that file
-            api_url = f"https://api.github.com/repos/{owner}/{repo}/commits"
-            params = {"path": path, "per_page": 1}
-            response = requests.get(api_url, headers=HEADERS, params=params, timeout=10)
-        else:
-            # For repository root, get the latest commit
-            api_url = f"https://api.github.com/repos/{owner}/{repo}/commits"
-            params = {"per_page": 1}
-            response = requests.get(api_url, headers=HEADERS, params=params, timeout=10)
-
+        api_url = f"https://api.github.com/repos/{owner}/{repo}/commits"
+        params = {"per_page": 1, "path": path} if path else {"per_page": 1}
+        response = requests.get(api_url, headers=HEADERS, params=params, timeout=10)
         if response.status_code == 200:
-            commits = response.json()
-            if commits and len(commits) > 0:
-                # Get the committer date from the latest commit
-                commit_date = commits[0].get("commit", {}).get("committer", {}).get("date")
-                if commit_date:
-                    # Convert ISO format to our format: YYYY-MM-DD:HH-MM-SS
-                    from datetime import datetime
-
-                    dt = datetime.fromisoformat(commit_date.replace("Z", "+00:00"))
-                    return dt.strftime("%Y-%m-%d:%H-%M-%S")
+            commit_date = get_committer_date_from_response(response)
+            if commit_date:
+                return format_commit_date(commit_date)
     except Exception as e:
         print(f"Error fetching last modified date for {owner}/{repo}: {e}")
     return None
@@ -255,6 +261,7 @@ def validate_links(csv_file, max_links=None, ignore_overrides=False):
     total_resources = len(rows)
     processed = 0
     broken_links = []
+    newly_broken_links = []  # Track newly discovered broken links
     github_links = 0
     github_api_calls = 0
     override_count = 0
@@ -282,7 +289,7 @@ def validate_links(csv_file, max_links=None, ignore_overrides=False):
             continue
 
         primary_url = row.get(PRIMARY_LINK_HEADER_NAME, "").strip()
-        secondary_url = row.get(SECONDARY_LINK_HEADER_NAME, "").strip()
+        # secondary_url = row.get(SECONDARY_LINK_HEADER_NAME, "").strip()  # Ignoring secondary URLs
 
         # Track GitHub links
         if "github.com" in primary_url:
@@ -303,13 +310,16 @@ def validate_links(csv_file, max_links=None, ignore_overrides=False):
             last_modified_updates += 1
 
         # Validate secondary URL if present
-        secondary_valid = True
-        if secondary_url:
-            secondary_valid, _, _, _ = validate_url(secondary_url)
+        # secondary_valid = True
+        # if secondary_url:
+        #     secondary_valid, _, _, _ = validate_url(secondary_url)  # Ignoring secondary URLs
 
+        # Check previous status before updating
+        was_active = row.get(ACTIVE_HEADER_NAME, "TRUE").upper() == "TRUE"
         # Update Active status if not locked
         if "active" not in locked_fields:
-            is_active = primary_valid and secondary_valid
+            # is_active = primary_valid and secondary_valid  # Original logic included secondary URL
+            is_active = primary_valid  # Now only depends on primary URL validity
             row[ACTIVE_HEADER_NAME] = "TRUE" if is_active else "FALSE"
         else:
             is_active = row[ACTIVE_HEADER_NAME].upper() == "TRUE"
@@ -320,15 +330,20 @@ def validate_links(csv_file, max_links=None, ignore_overrides=False):
 
         # Track broken links
         if not is_active and "active" not in locked_fields:
-            broken_links.append(
-                {
-                    "name": row.get("Display Name", "Unknown"),
-                    "primary_url": primary_url,
-                    "primary_status": primary_status,
-                    "secondary_url": secondary_url if not secondary_valid else None,
-                }
-            )
-            print(f"❌ {row.get('Display Name', 'Unknown')}: {primary_status}")
+            link_info = {
+                "name": row.get("Display Name", "Unknown"),
+                "primary_url": primary_url,
+                "primary_status": primary_status,
+                # "secondary_url": secondary_url if not secondary_valid else None,  # No longer tracking secondary URLs
+            }
+            broken_links.append(link_info)
+
+            # Check if this is a newly discovered broken link
+            if was_active:
+                newly_broken_links.append(link_info)
+                print(f"❌ NEW: {row.get('Display Name', 'Unknown')}: {primary_status}")
+            else:
+                print(f"❌ {row.get('Display Name', 'Unknown')}: {primary_status}")
         elif not is_active and "active" in locked_fields:
             print(f"🔒 {row.get('Display Name', 'Unknown')}: Inactive (locked by override)")
         else:
@@ -354,25 +369,33 @@ def validate_links(csv_file, max_links=None, ignore_overrides=False):
     if override_count:
         print(f"Resources with overrides: {override_count}")
         print(f"Total locked fields: {locked_field_count}")
-    print(f"Broken links: {len(broken_links)}")
+    print(f"Total broken links: {len(broken_links)}")
+    print(f"Newly broken links: {len(newly_broken_links)}")
 
     # Print broken links
+    if newly_broken_links:
+        print("\nNEWLY broken links:")
+        for link in newly_broken_links:
+            print(f"  - {link['name']}: {link['primary_url']} ({link['primary_status']})")
+
     if broken_links:
-        print("\nBroken links found:")
+        print("\nAll broken links:")
         for link in broken_links:
             print(f"  - {link['name']}: {link['primary_url']} ({link['primary_status']})")
-            if link.get("secondary_url"):
-                print(f"    Secondary: {link['secondary_url']}")
+            # if link.get("secondary_url"):  # No longer reporting secondary URLs
+            #     print(f"    Secondary: {link['secondary_url']}")
 
     return {
         "total": total_resources,
         "processed": processed,
         "broken": len(broken_links),
+        "newly_broken": len(newly_broken_links),
         "github_links": github_links,
         "github_api_calls": github_api_calls,
         "override_count": override_count,
         "locked_fields": locked_field_count,
         "broken_links": broken_links,
+        "newly_broken_links": newly_broken_links,
     }
 
 
