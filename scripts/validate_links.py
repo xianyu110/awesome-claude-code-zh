@@ -396,6 +396,7 @@ def validate_links(csv_file, max_links=None, ignore_overrides=False):
         "locked_fields": locked_field_count,
         "broken_links": broken_links,
         "newly_broken_links": newly_broken_links,
+        "timestamp": datetime.now().strftime("%Y-%m-%d:%H-%M-%S"),
     }
 
 
@@ -416,10 +417,17 @@ def main():
 
         if args.github_action:
             # Output JSON for GitHub Action
-            print("\n::set-output name=validation-results::" + json.dumps(results))
+            # Always print the JSON results for capture by the workflow
+            print(json.dumps(results))
+
+            # Also write to GITHUB_OUTPUT if available
+            # github_output = os.getenv("GITHUB_OUTPUT")
+            # if github_output:
+            with open("validation_results.json", "w") as f:
+                json.dump(results, f)
 
             # Set action failure if broken links found
-            if results["broken"] > 0:
+            if results["newly_broken"] > 0:
                 print(f"\n::error::Found {results['newly_broken']} newly broken links")
                 sys.exit(1)
 
