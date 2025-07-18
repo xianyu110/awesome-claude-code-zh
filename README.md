@@ -38,9 +38,7 @@ Claude Code is a cutting-edge CLI-based coding assistant and agent that you can 
 
 ### Announcements
 
-- 2025-07-15: Finalizing the fully optimized, fully managed submission workflow and CI system, apologies for any delays in submission reviews.
-- 2025-07-10: Pushed the updated CI/CD and submission code - all submissions are managed through `THE_RESOURCES_TABLE.csv`, which is used to generate the `README`. Also, planning to add an "Experimental" section for tools/applications that are very new and exciting but which I have not had the chance to personally explore. ALSO: Send in your HOOKS! This is a very powerful addition to Claude Code and we want to see what everyone is experimenting with!
-- 2025-07-04: Added new section for Claude Code _hooks_!
+- 2025-07-18 - I ended up over-engineering the submission workflow, but I think it's done, I just have to smoke test it and update the docs. For anyone with existing PR's, don't worry about updating them (for formatting purposes, that is), I can take care of it myself. For anoyne with new PR's, you _should_ be able to run `make submit` from the root directory of your fork for an interactive experience (as I said, needs smoke testing) - alternatively, add your entry to the bottom of [`THE_RESOURCES_TABLE`](../THE_RESOURCES_TABLE.csv) and run `make generate` to automatically update the `README.md` based on the information you filled in. If it's not working, just open a PR with the relevant information and I'll deal with it, I created this mess anyway 😃.
 
 <br>
 
@@ -109,7 +107,7 @@ A pretty stunning list (88 at the time of this post!) of slash-commands ranging 
 [`CC Usage`](https://github.com/ryoppippi/ccusage) &nbsp; by &nbsp; [ryoppippi](https://github.com/ryoppippi)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;MIT  
 Handy CLI tool for managing and analyzing Claude Code usage, based on analyzing local Claude Code logs. Presents a nice dashboard regarding cost information, token consumption, etc.
 
-[`ccexp`](https://github.com/nyatinte/ccexp) &nbsp; by &nbsp; [nyatinte](https://github.com/nyatinte)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;MIT  
+[`ccexp`](https://github.com/nyatinte/ccexp) ([link](https://www.npmjs.com/package/ccexp)) &nbsp; by &nbsp; [nyatinte](https://github.com/nyatinte)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;MIT  
 Interactive CLI tool for discovering and managing Claude Code configuration files and slash commands with a beautiful terminal UI.
 
 [`Claude Code Flow`](https://github.com/ruvnet/claude-code-flow) &nbsp; by &nbsp; [ruvnet](https://github.com/ruvnet)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;MIT  
@@ -306,9 +304,6 @@ A convenient command to quickly manage project todo items without leaving the Cl
 
 ### Miscellaneous
 
-[`/act`](https://github.com/sotayamashita/dotfiles/blob/main/.claude/commands/act.md) &nbsp; by &nbsp; [sotayamashita](https://github.com/sotayamashita)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;MIT  
-Generates React components with proper accessibility, creating ARIA-compliant components with keyboard navigation that follow React best practices and include comprehensive accessibility testing.
-
 [`/five`](https://github.com/TuckerTucker/tkr-portfolio/blob/main/.claude/commands/five.md) &nbsp; by &nbsp; [TuckerTucker](https://github.com/TuckerTucker)    
 Applies the "five whys" methodology to perform root cause analysis, identify underlying issues, and create solution approaches for complex problems.
 
@@ -392,6 +387,9 @@ Creates a versatile AI command interface supporting multiple providers and model
 [`Guitar`](https://github.com/soramimi/Guitar/blob/master/CLAUDE.md) &nbsp; by &nbsp; [soramimi](https://github.com/soramimi)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;GPL-2.0  
 Serves as development guide for Guitar Git GUI Client with build commands for various platforms, code style guidelines for contributing, and project structure explanation.
 
+[`Network Chronicles`](https://github.com/Fimeg/NetworkChronicles/blob/legacy-v1/CLAUDE.md) &nbsp; by &nbsp; [Fimeg](https://github.com/Fimeg)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;MIT  
+Presents detailed implementation plan for AI-driven game characters with technical specifications for LLM integration, character guidelines, and service discovery mechanics.
+
 [`Note Companion`](https://github.com/different-ai/note-companion/blob/master/CLAUDE.md) &nbsp; by &nbsp; [different-ai](https://github.com/different-ai)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;MIT  
 Provides detailed styling isolation techniques for Obsidian plugins using Tailwind with custom prefix to prevent style conflicts and practical troubleshooting steps.
 
@@ -407,7 +405,7 @@ Clear and direct instructives about style, permissions, Claude's "role", communi
 [`Basic Memory`](https://github.com/basicmachines-co/basic-memory/blob/main/CLAUDE.md) &nbsp; by &nbsp; [basicmachines-co](https://github.com/basicmachines-co)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;AGPL-3.0  
 Presents an innovative AI-human collaboration framework with Model Context Protocol for bidirectional LLM-markdown communication and flexible knowledge structure for complex projects.
 
-[`claude-code-mcp-enhanced`](https://github.com/grahama1970/claude-code-mcp-enhanced/blob/66328d6bcc960c81ff24f6213ce5614000858698/CLAUDE.md) &nbsp; by &nbsp; [grahama1970](https://github.com/grahama1970)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;MIT  
+[`claude-code-mcp-enhanced`](https://github.com/grahama1970/claude-code-mcp-enhanced/blob/main/CLAUDE.md) &nbsp; by &nbsp; [grahama1970](https://github.com/grahama1970)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;MIT  
 Provides detailed and emphatic instructions for Claude to follow as a coding agent, with testing guidance, code examples, and compliance checks.
 
 [`Perplexity MCP`](https://github.com/Family-IT-Guy/perplexity-mcp/blob/main/CLAUDE.md) &nbsp; by &nbsp; [Family-IT-Guy](https://github.com/Family-IT-Guy)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;ISC  
