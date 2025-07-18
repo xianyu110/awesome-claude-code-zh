@@ -38,7 +38,7 @@ Claude Code is a cutting-edge CLI-based coding assistant and agent that you can 
 
 ### Announcements
 
-- 2025-07-18 - I ended up over-engineering the submission workflow, but I think it's done, I just have to smoke test it up and update the docs. For anyone with existing PR's, don't worry about updating them i can take care of it myself. For anoyne with new PR's, you _should_ be able to run `make submit` from the root directory of your fork, but, like I said, I still need to smoke test. Great to see your submissions coming in, thanks for your patience.
+- 2025-07-18 - I ended up over-engineering the submission workflow, but I think it's done, I just have to smoke test it and update the docs. For anyone with existing PR's, don't worry about updating them (for formatting purposes, that is), I can take care of it myself. For anoyne with new PR's, you _should_ be able to run `make submit` from the root directory of your fork for an interactive experience (as I said, needs smoke testing) - alternatively, add your entry to the bottom of [`THE_RESOURCES_TABLE`](../THE_RESOURCES_TABLE.csv) and run `make generate` to automatically update the `README.md` based on the information you filled in. If it's not working, just open a PR with the relevant information and I'll deal with it, I created this mess anyway 😃.
 
 <br>
 
