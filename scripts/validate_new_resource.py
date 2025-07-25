@@ -121,7 +121,7 @@ def validate_and_update_resource(resource: dict[str, str]) -> bool:
     overrides = load_overrides()
 
     # Apply overrides
-    resource, locked_fields = apply_overrides(resource, overrides)
+    resource, locked_fields, skip_validation = apply_overrides(resource, overrides)
 
     if locked_fields:
         print(f"Fields locked by override: {', '.join(locked_fields)}")
@@ -129,6 +129,11 @@ def validate_and_update_resource(resource: dict[str, str]) -> bool:
     # Skip validation if active and last_checked are locked
     if "active" in locked_fields and "last_checked" in locked_fields:
         print("Skipping validation - fields locked by override")
+        return True
+
+    # Skip validation if marked
+    if skip_validation:
+        print("Skipping validation - resource marked as skip_validation")
         return True
 
     # Validate primary URL
