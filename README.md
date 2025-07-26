@@ -26,6 +26,8 @@
 
 [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 
+# [Awesome Claude Code](https://github.com/hesreallyhim/awesome-claude-code) 🤝 [Awesome Claude Code Agents](https://github.com/hesreallyhim/awesome-claude-code-agents)
+
 <!--lint enable remark-lint:awesome-badge-->
 
 <!--lint disable double-link-->
