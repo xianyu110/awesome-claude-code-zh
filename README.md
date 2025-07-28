@@ -26,6 +26,8 @@
 
 [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 
+# [Awesome Claude Code](https://github.com/hesreallyhim/awesome-claude-code) 🤝 [Awesome Claude Code Agents](https://github.com/hesreallyhim/awesome-claude-code-agents)
+
 <!--lint enable remark-lint:awesome-badge-->
 
 <!--lint disable double-link-->
@@ -38,7 +40,8 @@ Claude Code is a cutting-edge CLI-based coding assistant and agent that you can 
 
 ### Announcements
 
-- 2025-07-18 - I ended up over-engineering the submission workflow, but I think it's done, I just have to smoke test it and update the docs. For anyone with existing PR's, don't worry about updating them (for formatting purposes, that is), I can take care of it myself. For anoyne with new PR's, you _should_ be able to run `make submit` from the root directory of your fork for an interactive experience (as I said, needs smoke testing) - alternatively, add your entry to the bottom of [`THE_RESOURCES_TABLE`](../THE_RESOURCES_TABLE.csv) and run `make generate` to automatically update the `README.md` based on the information you filled in. If it's not working, just open a PR with the relevant information and I'll deal with it, I created this mess anyway 😃.
+- 2025-07-26 - Anthropic done done it again, and Claude Code now has another super-power in its arsenal - custom user Sub Agents! I was thinking I might add a little section at the bottom about this "agent" thing, but then I tried it, and I think they're amazing, and probably deserve their own repo, so come and check out [awesome-claude-code-agents](https://github.com/hesreallyhim/awesome-claude-code-agents) and get those submissions rolling in. Can't wait to see what people are getting up to already with this new tech.
+- 2025-07-25 - The new-new submission workflow is up now, I've managed to make it about 4-5 times more complicated than it should be 😜 so check out [`CONTRIBUTING.md`](../CONTRIBUTING.md) if you'd like to submit a new resource.
 
 <br>
 
@@ -72,7 +75,7 @@ Claude Code is a cutting-edge CLI-based coding assistant and agent that you can 
 Provides a well-structured set of commands for publishing and maintaining a blogging platform, including commands for creating posts, managing categories, and handling media files.
 
 [`ClaudeLog`](https://claudelog.com) &nbsp; by &nbsp; [InventorBlack](https://www.reddit.com/user/inventor_black/)    
-A comprehensive knowledge repository that features detailed breakdowns of advanced Claude Code mechanics including [CLAUDE.md best practices](https://claudelog.com/mechanics/claude-md-supremacy), practical technique guides like [plan mode](https://claudelog.com/mechanics/plan-mode), and a [configuration guide](https://claudelog.com/configuration).
+A comprehensive knowledge base with detailed breakdowns of advanced [mechanics](https://claudelog.com/mechanics/you-are-the-main-thread/) including [CLAUDE.md best practices](https://claudelog.com/mechanics/claude-md-supremacy), practical technique guides like [plan mode](https://claudelog.com/mechanics/plan-mode), [ultrathink](https://claudelog.com/faqs/what-is-ultrathink/), [sub-agents](https://claudelog.com/mechanics/task-agent-tools/), [agent-first design](https://claudelog.com/mechanics/agent-first-design/) and [configuration guides](https://claudelog.com/configuration).
 
 [`Context Priming`](https://github.com/disler/just-prompt/tree/main/.claude/commands) &nbsp; by &nbsp; [disler](https://github.com/disler)    
 Provides a systematic approach to priming Claude Code with comprehensive project context through specialized commands for different project scenarios and development contexts.
@@ -113,6 +116,9 @@ Interactive CLI tool for discovering and managing Claude Code configuration file
 [`Claude Code Flow`](https://github.com/ruvnet/claude-code-flow) &nbsp; by &nbsp; [ruvnet](https://github.com/ruvnet)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;MIT  
 This mode serves as a code-first orchestration layer, enabling Claude to write, edit, test, and optimize code autonomously across recursive agent cycles.
 
+[`Claude Code Usage Monitor`](https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor) &nbsp; by &nbsp; [Maciek-roboblog](https://github.com/Maciek-roboblog)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;MIT  
+A real-time terminal-based tool for monitoring Claude Code token usage. It shows live token consumption, burn rate, and predictions for token depletion. Features include visual progress bars, session-aware analytics, and support for multiple subscription plans.
+
 [`Claude Composer`](https://github.com/possibilities/claude-composer) &nbsp; by &nbsp; [Mike Bannister](https://github.com/possibilities)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;Unlicense  
 A tool that adds small enhancements to Claude Code.
 
@@ -136,6 +142,9 @@ Development environments for coding agents. Enable multiple agents to work safel
 
 
 ### IDE Integrations
+
+[`Claude Code Chat`](https://marketplace.visualstudio.com/items?itemName=AndrePimenta.claude-code-chat) &nbsp; by &nbsp; [andrepimenta](https://github.com/andrepimenta)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;&copy;  
+An elegant and user-friendly Claude Code chat interface for VS Code.
 
 [`claude-code.el`](https://github.com/stevemolitor/claude-code.el) &nbsp; by &nbsp; [stevemolitor](https://github.com/stevemolitor)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;Apache-2.0  
 An Emacs interface for Claude Code CLI.
@@ -427,6 +436,9 @@ The official documentation for Claude Code, including installation instructions,
 
 [`Anthropic Quickstarts`](https://github.com/anthropics/anthropic-quickstarts/blob/main/CLAUDE.md) &nbsp; by &nbsp; [Anthropic](https://github.com/anthropics)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;MIT  
 Offers comprehensive development guides for three distinct AI-powered demo projects with standardized workflows, strict code style guidelines, and containerization instructions.
+
+[`Claude Code GitHub Actions`](https://github.com/anthropics/claude-code-action/tree/main/examples) &nbsp; by &nbsp; [Anthropic](https://github.com/anthropics)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;MIT  
+Official GitHub Actions integration for Claude Code with examples and documentation for automating AI-powered workflows in CI/CD pipelines.
 
 
 ## Contributing 🌻
