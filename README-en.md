@@ -1,7 +1,5 @@
 <!--lint disable remark-lint:awesome-badge-->
 
-> 🌍 **语言 / Language / 語言**: [简体中文](README.md) | [繁體中文](README-zh-TW.md) | [English](README-en.md)
-
 #
 
 <!-- [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) -->
