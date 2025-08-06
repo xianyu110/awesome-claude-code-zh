@@ -106,17 +106,19 @@ jobs:
       with:
         script: |
           const title = `🔄 上游同步报告 - ${new Date().toISOString().split('T')[0]}`;
-          const body = `
-## 📊 同步摘要
+          const upstreamCommit = '${{ steps.check-updates.outputs.upstream_commit }}';
+          const latestCommits = `${{ steps.get-changes.outputs.latest_commits }}`;
+          
+          const body = `## 📊 同步摘要
 
 🔗 **上游仓库**: [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code)
 📅 **同步时间**: ${new Date().toLocaleString('zh-CN', {timeZone: 'Asia/Shanghai'})} (北京时间)
-🆔 **上游提交**: \`${{ steps.check-updates.outputs.upstream_commit }}\`
+🆔 **上游提交**: \`${upstreamCommit}\`
 
 ## 📋 上游最新更改
 
 \`\`\`
-${{ steps.get-changes.outputs.latest_commits }}
+${latestCommits}
 \`\`\`
 
 ## ✅ 自动同步完成
@@ -134,8 +136,7 @@ ${{ steps.get-changes.outputs.latest_commits }}
 - [ ] 更新术语对照表 (docs/i18n/terminology.md)
 
 ---
-*此报告由 GitHub Actions 自动生成*
-          `;
+*此报告由 GitHub Actions 自动生成*`;
           
           github.rest.issues.create({
             owner: context.repo.owner,
