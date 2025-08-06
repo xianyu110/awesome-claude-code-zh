@@ -1,0 +1,153 @@
+name: 🔄 同步上游仓库更新
+
+on:
+  # 每天北京时间早上 8 点检查更新
+  schedule:
+    - cron: '0 0 * * *'  # UTC 0:00 = 北京时间 8:00
+  
+  # 允许手动触发
+  workflow_dispatch:
+    inputs:
+      force_sync:
+        description: '强制同步（忽略冲突）'
+        required: false
+        default: 'false'
+        type: boolean
+
+jobs:
+  sync-upstream:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 🔧 检出代码
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0
+    
+    - name: ⚙️ 配置 Git
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+    
+    - name: 🔗 添加上游仓库
+      run: |
+        git remote add upstream https://github.com/hesreallyhim/awesome-claude-code.git || true
+        git fetch upstream
+    
+    - name: 📊 检查是否有新的提交
+      id: check-updates
+      run: |
+        UPSTREAM_COMMIT=$(git rev-parse upstream/main)
+        CURRENT_COMMIT=$(git rev-parse HEAD)
+        
+        echo "upstream_commit=$UPSTREAM_COMMIT" >> $GITHUB_OUTPUT
+        echo "current_commit=$CURRENT_COMMIT" >> $GITHUB_OUTPUT
+        
+        if [ "$UPSTREAM_COMMIT" != "$CURRENT_COMMIT" ]; then
+          echo "has_updates=true" >> $GITHUB_OUTPUT
+          echo "🆕 发现上游更新"
+        else
+          echo "has_updates=false" >> $GITHUB_OUTPUT
+          echo "✅ 已是最新版本"
+        fi
+    
+    - name: 🔄 同步英文版本
+      if: steps.check-updates.outputs.has_updates == 'true' || github.event.inputs.force_sync == 'true'
+      run: |
+        # 获取上游的 README.md 并保存为 README-en.md
+        git show upstream/main:README.md > README-en.md
+        
+        # 检查是否有变化
+        if git diff --quiet README-en.md; then
+          echo "📝 英文版本无变化"
+        else
+          echo "📝 英文版本已更新"
+          git add README-en.md
+        fi
+    
+    - name: 📋 获取上游更新摘要
+      if: steps.check-updates.outputs.has_updates == 'true' || github.event.inputs.force_sync == 'true'
+      id: get-changes
+      run: |
+        # 获取上游最新的提交信息
+        LATEST_COMMITS=$(git log --oneline upstream/main ^HEAD | head -5)
+        echo "latest_commits<<EOF" >> $GITHUB_OUTPUT
+        echo "$LATEST_COMMITS" >> $GITHUB_OUTPUT
+        echo "EOF" >> $GITHUB_OUTPUT
+    
+    - name: 🚀 提交更新
+      if: steps.check-updates.outputs.has_updates == 'true' || github.event.inputs.force_sync == 'true'
+      run: |
+        if git diff --staged --quiet; then
+          echo "📝 没有文件需要更新"
+        else
+          git commit -m "🔄 自动同步上游更新
+
+📋 上游最新提交:
+${{ steps.get-changes.outputs.latest_commits }}
+
+🔗 上游提交: ${{ steps.check-updates.outputs.upstream_commit }}
+🕐 同步时间: $(date -u '+%Y-%m-%d %H:%M:%S UTC')
+
+---
+此更新由 GitHub Actions 自动生成
+原始项目: https://github.com/hesreallyhim/awesome-claude-code"
+
+          git push origin main
+          echo "✅ 更新已推送到远程仓库"
+        fi
+    
+    - name: 📝 创建同步报告 Issue
+      if: steps.check-updates.outputs.has_updates == 'true'
+      uses: actions/github-script@v7
+      with:
+        script: |
+          const title = `🔄 上游同步报告 - ${new Date().toISOString().split('T')[0]}`;
+          const body = `
+## 📊 同步摘要
+
+🔗 **上游仓库**: [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code)
+📅 **同步时间**: ${new Date().toLocaleString('zh-CN', {timeZone: 'Asia/Shanghai'})} (北京时间)
+🆔 **上游提交**: \`${{ steps.check-updates.outputs.upstream_commit }}\`
+
+## 📋 上游最新更改
+
+\`\`\`
+${{ steps.get-changes.outputs.latest_commits }}
+\`\`\`
+
+## ✅ 自动同步完成
+
+- [x] 英文版本 (README-en.md) 已更新
+- [x] 中文版本 (README.md) 保持不变
+- [x] 繁体中文版本 (README-zh-TW.md) 保持不变
+
+## 📝 后续行动
+
+如果上游有重大内容更新，可能需要手动更新中文翻译版本：
+- [ ] 检查英文版本的新增内容
+- [ ] 更新简体中文翻译 (README.md)
+- [ ] 更新繁体中文翻译 (README-zh-TW.md)
+- [ ] 更新术语对照表 (docs/i18n/terminology.md)
+
+---
+*此报告由 GitHub Actions 自动生成*
+          `;
+          
+          github.rest.issues.create({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            title: title,
+            body: body,
+            labels: ['🔄 自动同步', '📝 需要翻译']
+          });
+    
+    - name: 📢 同步完成通知
+      if: steps.check-updates.outputs.has_updates == 'true' || github.event.inputs.force_sync == 'true'
+      run: |
+        echo "🎉 同步完成！"
+        echo "📊 统计信息:"
+        echo "  - 上游提交: ${{ steps.check-updates.outputs.upstream_commit }}"
+        echo "  - 同步时间: $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+        echo "�� 请检查是否需要更新中文翻译版本" 
