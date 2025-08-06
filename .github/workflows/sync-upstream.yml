@@ -105,38 +105,28 @@ jobs:
       uses: actions/github-script@v7
       with:
         script: |
-          const title = `🔄 上游同步报告 - ${new Date().toISOString().split('T')[0]}`;
+          const title = '🔄 上游同步报告 - ' + new Date().toISOString().split('T')[0];
           const upstreamCommit = '${{ steps.check-updates.outputs.upstream_commit }}';
-          const latestCommits = `${{ steps.get-changes.outputs.latest_commits }}`;
+          const latestCommits = '${{ steps.get-changes.outputs.latest_commits }}';
+          const syncTime = new Date().toLocaleString('zh-CN', {timeZone: 'Asia/Shanghai'});
           
-          const body = `## 📊 同步摘要
-
-🔗 **上游仓库**: [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code)
-📅 **同步时间**: ${new Date().toLocaleString('zh-CN', {timeZone: 'Asia/Shanghai'})} (北京时间)
-🆔 **上游提交**: \`${upstreamCommit}\`
-
-## 📋 上游最新更改
-
-\`\`\`
-${latestCommits}
-\`\`\`
-
-## ✅ 自动同步完成
-
-- [x] 英文版本 (README-en.md) 已更新
-- [x] 中文版本 (README.md) 保持不变
-- [x] 繁体中文版本 (README-zh-TW.md) 保持不变
-
-## 📝 后续行动
-
-如果上游有重大内容更新，可能需要手动更新中文翻译版本：
-- [ ] 检查英文版本的新增内容
-- [ ] 更新简体中文翻译 (README.md)
-- [ ] 更新繁体中文翻译 (README-zh-TW.md)
-- [ ] 更新术语对照表 (docs/i18n/terminology.md)
-
----
-*此报告由 GitHub Actions 自动生成*`;
+          const body = '## 📊 同步摘要\n\n' +
+            '🔗 **上游仓库**: [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code)\n' +
+            '📅 **同步时间**: ' + syncTime + ' (北京时间)\n' +
+            '🆔 **上游提交**: `' + upstreamCommit + '`\n\n' +
+            '## 📋 上游最新更改\n\n' +
+            '```\n' + latestCommits + '\n```\n\n' +
+            '## ✅ 自动同步完成\n\n' +
+            '- [x] 英文版本 (README-en.md) 已更新\n' +
+            '- [x] 中文版本 (README.md) 保持不变\n' +
+            '- [x] 繁体中文版本 (README-zh-TW.md) 保持不变\n\n' +
+            '## 📝 后续行动\n\n' +
+            '如果上游有重大内容更新，可能需要手动更新中文翻译版本：\n' +
+            '- [ ] 检查英文版本的新增内容\n' +
+            '- [ ] 更新简体中文翻译 (README.md)\n' +
+            '- [ ] 更新繁体中文翻译 (README-zh-TW.md)\n' +
+            '- [ ] 更新术语对照表 (docs/i18n/terminology.md)\n\n' +
+            '---\n*此报告由 GitHub Actions 自动生成*';
           
           github.rest.issues.create({
             owner: context.repo.owner,
