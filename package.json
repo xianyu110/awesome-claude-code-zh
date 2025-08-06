@@ -1,0 +1,60 @@
+{
+  "name": "awesome-claude-code-zh",
+  "version": "1.0.0",
+  "description": "精心策划的 Claude Code 资源列表，包含斜杠命令、CLAUDE.md 文件、CLI 工具以及其他资源和指南",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 3000 -o",
+    "dev": "npx live-server --port=3000 --open=index.html",
+    "build": "echo 'Building static site...' && npm run optimize",
+    "optimize": "npm run minify-css && npm run minify-js",
+    "minify-css": "npx cleancss -o styles.min.css styles.css",
+    "minify-js": "npx terser script.js -o script.min.js --compress --mangle",
+    "lint": "npx eslint script.js",
+    "format": "npx prettier --write *.html *.css *.js *.md",
+    "validate": "npx html-validate index.html",
+    "test": "echo 'Running tests...' && npm run validate && npm run lint",
+    "deploy": "echo 'Deploying to GitHub Pages...'",
+    "clean": "rm -f *.min.css *.min.js",
+    "serve": "npx http-server . -p 8080"
+  },
+  "keywords": [
+    "claude-code",
+    "awesome-list",
+    "ai-tools",
+    "coding-assistant",
+    "claude",
+    "anthropic",
+    "developer-tools",
+    "chinese",
+    "中文"
+  ],
+  "author": "Awesome Claude Code Contributors",
+  "license": "CC-BY-SA-4.0",
+  "homepage": "https://github.com/hesreallyhim/awesome-claude-code-zh",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hesreallyhim/awesome-claude-code-zh.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hesreallyhim/awesome-claude-code-zh/issues"
+  },
+  "devDependencies": {
+    "clean-css-cli": "^5.6.2",
+    "eslint": "^8.57.0",
+    "html-validate": "^8.7.4",
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2",
+    "prettier": "^3.1.1",
+    "terser": "^5.26.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  }
+} 

@@ -1,0 +1,68 @@
+# GitHub Pages 配置
+title: "Awesome Claude Code 中文版"
+description: "精心策划的 Claude Code 资源列表，包含斜杠命令、CLAUDE.md 文件、CLI 工具以及其他资源和指南"
+url: "https://username.github.io/awesome-claude-code-zh"
+baseurl: ""
+
+# 作者信息
+author:
+  name: "Awesome Claude Code Contributors"
+  email: "your-email@example.com"
+
+# GitHub Pages 设置
+remote_theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# 语言设置
+lang: zh-CN
+
+# 社交媒体链接
+github_username: hesreallyhim
+
+# 构建设置
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# 排除文件
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - package.json
+  - package-lock.json
+
+# 包含文件
+include:
+  - _pages
+
+# 默认布局
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+# SEO 设置
+google_analytics: # 如果有 Google Analytics ID，在这里添加
+google_site_verification: # 如果有 Google Site Verification，在这里添加
+
+# 网站图标
+favicon: /assets/favicon.ico
+
+# 主题配置
+minima:
+  skin: auto
+  social_links:
+    github: hesreallyhim 
