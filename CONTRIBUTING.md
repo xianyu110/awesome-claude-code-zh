@@ -167,4 +167,42 @@ For more information about how the repository works, including the automated sys
 
 ---
 
+## Contributing to Multilingual Documentation
+
+We welcome contributions to our multilingual documentation! Currently supported languages:
+
+- 🇨🇳 **简体中文** - [README.md](README.md) (Simplified Chinese) - Primary
+- 🇹🇼 **繁體中文** - [README-zh-TW.md](README-zh-TW.md) (Traditional Chinese)
+- 🇺🇸 **English** - [README-en.md](README-en.md) (English Version)
+
+### How to Contribute Translations
+
+1. **For new resources**: When submitting via the form above, the resource will be automatically added to all language versions
+2. **For translation improvements**: Submit a regular Pull Request with your changes
+3. **For new languages**: Open an issue to discuss adding a new language version
+
+### Translation Guidelines
+
+Please follow our [terminology reference](docs/i18n/terminology.md) to ensure consistency across all translations:
+
+- ✅ Keep technical terms accurate
+- ✅ Use natural, fluent language expressions  
+- ✅ Maintain consistent formatting with the original
+- ✅ Ensure all links remain functional
+- ✅ Follow cultural conventions of the target language
+
+### Language-Specific Notes
+
+#### 简体中文 (Simplified Chinese)
+- Target audience: Mainland China users
+- Use simplified characters and mainland terminology
+- Follow mainland tech community standards
+
+#### 繁體中文 (Traditional Chinese) 
+- Target audience: Taiwan, Hong Kong, and other traditional Chinese regions
+- Use traditional characters and Taiwan terminology
+- Maintain formal and accurate expressions
+
+For more details, see our [multilingual documentation guide](docs/i18n/README.md).
+
 Thank you for helping make Awesome Claude Code even more awesome! 🚀
