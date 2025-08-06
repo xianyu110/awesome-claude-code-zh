@@ -82,18 +82,20 @@ jobs:
         if git diff --staged --quiet; then
           echo "📝 没有文件需要更新"
         else
-          git commit -m "🔄 自动同步上游更新
+          # 创建提交消息
+          COMMIT_MSG="🔄 自动同步上游更新
 
-📋 上游最新提交:
-${{ steps.get-changes.outputs.latest_commits }}
+        📋 上游最新提交:
+        ${{ steps.get-changes.outputs.latest_commits }}
 
-🔗 上游提交: ${{ steps.check-updates.outputs.upstream_commit }}
-🕐 同步时间: $(date -u '+%Y-%m-%d %H:%M:%S UTC')
+        🔗 上游提交: ${{ steps.check-updates.outputs.upstream_commit }}
+        🕐 同步时间: $(date -u '+%Y-%m-%d %H:%M:%S UTC')
 
----
-此更新由 GitHub Actions 自动生成
-原始项目: https://github.com/hesreallyhim/awesome-claude-code"
-
+        ---
+        此更新由 GitHub Actions 自动生成
+        原始项目: https://github.com/hesreallyhim/awesome-claude-code"
+          
+          git commit -m "$COMMIT_MSG"
           git push origin main
           echo "✅ 更新已推送到远程仓库"
         fi
