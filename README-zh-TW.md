@@ -298,6 +298,29 @@ Claude Code 的官方文件，包括安裝說明、使用指南、API 參考、�
 Claude Code 的官方 GitHub Actions 整合，包含在 CI/CD 管線中自動化 AI 驅動工作流程的範例和文件。
 
 
+## 🔄 與上游同步
+
+本專案與原始英文專案 [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) 保持同步。
+
+### 🤖 自動同步
+- **每日自動檢查**: 北京時間每天早上 8 點自動檢查上游更新
+- **英文版本同步**: 自動更新 `README-en.md` 檔案
+- **中文內容保護**: 不會覆蓋中文翻譯內容
+- **同步報告**: 自動建立 Issue 報告同步狀態
+
+### 🛠️ 手動同步
+```bash
+# 使用同步腳本
+./scripts/sync-upstream.sh
+
+# 強制同步
+./scripts/sync-upstream.sh --force
+```
+
+📖 **詳細說明**: 查看 [上游同步指南](docs/SYNC_UPSTREAM.md) 瞭解完整的同步流程。
+
+---
+
 ## 🤝 貢獻
 
 ### 🚀 **[在這裡提交新資源！](https://github.com/hesreallyhim/awesome-claude-code/issues/new?template=submit-resource.yml)**

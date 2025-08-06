@@ -291,6 +291,29 @@ Claude Code 的官方文档，包括安装说明、使用指南、API 参考、�
 [`Claude Code GitHub Actions`](https://github.com/anthropics/claude-code-action/tree/main/examples) &nbsp; 由 &nbsp; [Anthropic](https://github.com/anthropics) 开发 &nbsp;&nbsp;⚖️&nbsp;&nbsp;MIT  
 Claude Code 的官方 GitHub Actions 集成，包含在 CI/CD 管道中自动化 AI 驱动工作流程的示例和文档。
 
+## 🔄 与上游同步
+
+本项目与原始英文项目 [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) 保持同步。
+
+### 🤖 自动同步
+- **每日自动检查**: 北京时间每天早上 8 点自动检查上游更新
+- **英文版本同步**: 自动更新 `README-en.md` 文件
+- **中文内容保护**: 不会覆盖中文翻译内容
+- **同步报告**: 自动创建 Issue 报告同步状态
+
+### 🛠️ 手动同步
+```bash
+# 使用同步脚本
+./scripts/sync-upstream.sh
+
+# 强制同步
+./scripts/sync-upstream.sh --force
+```
+
+📖 **详细说明**: 查看 [上游同步指南](docs/SYNC_UPSTREAM.md) 了解完整的同步流程。
+
+---
+
 ## 🤝 贡献
 
 ### 🚀 **[在这里提交新资源！](https://github.com/hesreallyhim/awesome-claude-code/issues/new?template=submit-resource.yml)**
